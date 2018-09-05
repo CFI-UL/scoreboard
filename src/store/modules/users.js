@@ -23,11 +23,12 @@ export default {
       commit('setUsers', [])
       commit('setUsersError', null)
       commit('setUsersIsFetching', true)
-      api.fetchUsers()
+      return api.fetchUsers()
         .then(response => response.data)
         .then((users) => {
           commit('setUsers', users)
           commit('setUsersIsFetching', false)
+          return users
         })
         .catch((error) => {
           commit('setUsersError', error)

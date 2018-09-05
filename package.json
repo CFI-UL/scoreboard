@@ -10,11 +10,13 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "chart.js": "^2.7.2",
     "commander": "^2.17.1",
     "lodash": "^4.17.10",
     "moment": "^2.22.2",
     "moment-timezone": "^0.5.21",
     "node-sass": "^4.9.3",
+    "randomcolor": "^0.5.3",
     "sass-loader": "^7.1.0",
     "vue": "^2.5.17",
     "vuex": "^3.0.1",
