@@ -4,7 +4,6 @@ node_js:
 script:
   - npm test
 after_success:
-  - ./bin/update-data update
   - .travis/push-code
 env:
   global:
