@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+git config --global user.email "travis@travis-ci.org"
+git config --global user.name "Travis CI"
+
+./bin/update-data update
+git add data/
+git commit --message "Travis update data"
+
+git remote add travis-origin https://${GH_TOKEN}@github.com:CFI-UL/scoreboard.git > /dev/null 2>&1
+git push --quiet --set-upstream travis-origin travis

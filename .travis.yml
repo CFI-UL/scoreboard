@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - "v10.9.0"
+- v10.9.0
+script:
+  - npm test
+after_success:
+  - .travis/push-code
+env:
+  global:
+    secure: HvLeM1cQ2YB87On1cGUOv+ObZXbxYgelP9azLUr4s655wEz2FgxM3a63gQTirqtBrQLp3xmOF8RsxLPcZ4eGLeujsVk6T6jNI/nirefcs6czoOpljXguOdX25BeYKOlLzqkqu5WJo5lTBKdF2khmpZw4kAFsu3Ciz0YN8QaNJfk/0hTw3zndc1+cJRYd2X1+2zm8RQl+r9fZ18whh1addC3q/4T90D8yflWxhdNF1KN/aD68jobuB/1bMvJu/2mCy+p3wiYtonlCN2h96Zc9oRx5GvUO3ZMCIFdCBdOKszYB73LfsP4Sa4Iu4Ub3Wxyac9yzGioXnhxvpiMlzfg7pJo0Kgs2Ni4kX9mEH/hgKI8Q61bCQSjPL/y8ytn9NK+1LSY+Ac/E8m436OPes/vpAMxZfeHdkWkWOPnCrkl0dXfhYnmPgQlUaldKcU285RZ9Bi8W/ONtTeXTBaF3xaNZJ4o8YAZscWdpCaJPAKgZE9tR6p2xEh8i2W+H19L42zEkY+nppRx0YKPyotRSN6Z8isEVYp9+RlhVaFuTM25H/nme9Zgw13riaUnv5ahdHynyKblJYhlUii00xcSUcKb2AzfxWBn/ozIGbZUJ/W7VY3rWIxjUKeVopL8JKqq9LzSRExB8N7Xp41/ZC1Y8kIUQyt+ObYl7zTXBYJZKTctyiQI=
