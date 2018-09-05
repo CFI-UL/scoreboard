@@ -3872,5 +3872,106 @@
         "points": 1
       }
     ]
+  },
+  {
+    "id": "12625",
+    "challenges": [
+      {
+        "name": "Password reset",
+        "category": "Web",
+        "validationDate": "2017-08-01T20:15:13Z",
+        "points": 2
+      },
+      {
+        "name": "Admin Portal",
+        "category": "Web",
+        "validationDate": "2017-07-31T23:00:45Z",
+        "points": 2
+      },
+      {
+        "name": "XSS Challenge 2",
+        "category": "Web",
+        "validationDate": "2016-10-14T11:50:27Z",
+        "points": 2
+      },
+      {
+        "name": "Victor you're hidding me something",
+        "category": "Steganography",
+        "validationDate": "2016-09-24T21:50:56Z",
+        "points": 1
+      },
+      {
+        "name": "You're lost? Use the map",
+        "category": "Steganography",
+        "validationDate": "2016-09-24T21:32:11Z",
+        "points": 1
+      },
+      {
+        "name": "Security thru obscurity!",
+        "category": "Web",
+        "validationDate": "2016-09-18T00:36:30Z",
+        "points": 2
+      },
+      {
+        "name": "Area 51",
+        "category": "Web",
+        "validationDate": "2016-09-17T22:54:34Z",
+        "points": 1
+      },
+      {
+        "name": "Looking for password file",
+        "category": "Web",
+        "validationDate": "2016-09-17T21:48:37Z",
+        "points": 1
+      },
+      {
+        "name": "Words mean something?",
+        "category": "Web",
+        "validationDate": "2016-09-16T20:45:58Z",
+        "points": 1
+      },
+      {
+        "name": "Headache",
+        "category": "Web",
+        "validationDate": "2016-09-16T20:42:21Z",
+        "points": 1
+      },
+      {
+        "name": "Big Brother is watching",
+        "category": "Web",
+        "validationDate": "2016-09-16T19:46:25Z",
+        "points": 1
+      },
+      {
+        "name": "Why not?",
+        "category": "JavaScript",
+        "validationDate": "2016-09-13T21:26:26Z",
+        "points": 2
+      },
+      {
+        "name": "Then obfuscation is more secure",
+        "category": "JavaScript",
+        "validationDate": "2016-09-13T20:56:16Z",
+        "points": 1
+      },
+      {
+        "name": "Hashing is more secure",
+        "category": "JavaScript",
+        "validationDate": "2016-09-13T20:08:17Z",
+        "points": 1
+      },
+      {
+        "name": "Client side validation is bad!",
+        "category": "JavaScript",
+        "validationDate": "2016-09-13T20:01:04Z",
+        "points": 1
+      },
+      {
+        "name": "Some martian message",
+        "category": "Cryptography",
+        "validationDate": "2016-09-13T19:57:07Z",
+        "points": 1
+      }
+    ]
   }
 ]

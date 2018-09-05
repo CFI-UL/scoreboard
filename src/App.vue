@@ -28,10 +28,10 @@ export default {
     User
   },
 
-  data: function() {
-   return  {
-     chart: null
-   }
+  data: function () {
+    return {
+      chart: null
+    }
   },
 
   computed: {
