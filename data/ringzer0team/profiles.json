@@ -3686,6 +3686,18 @@
     "id": "19699",
     "challenges": [
       {
+        "name": "Quote of the day",
+        "category": "SQL Injection",
+        "validationDate": "2018-09-05T23:09:29Z",
+        "points": 4
+      },
+      {
+        "name": "Login portal 2",
+        "category": "SQL Injection",
+        "validationDate": "2018-09-05T22:43:53Z",
+        "points": 3
+      },
+      {
         "name": "Don't mess with Noemie; she hates admin!",
         "category": "SQL Injection",
         "validationDate": "2018-09-05T22:14:33Z",
