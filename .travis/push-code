@@ -5,13 +5,15 @@ if [ $TRAVIS_BRANCH='master' ]; then
 
     git config --global user.email "travis@travis-ci.org"
     git config --global user.name "Travis CI"
+    git remote remove origin
+    git remote add origin-travis https://${GH_TOKEN}@github.com/CFI-UL/scoreboard.git > /dev/null 2>&1
+    git checkout master
 
     ./bin/update-data update
-    git add .
+    git diff
+    git add --all
     git commit --message "Travis CI update data. [ci skip]"
 
-    git remote remove origin
-    git remote add origin https://${GH_TOKEN}@github.com/CFI-UL/scoreboard.git > /dev/null 2>&1
-    git push origin master
+    git push --quiet --set-upstream origin-travis master
   fi
 fi
