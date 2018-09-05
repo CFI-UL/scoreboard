@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "name": "Simon Thiboutôt",
+    "ringzer0team": {
+      "id": "5097",
+      "username": "LilC4T",
+      "url": "https://ringzer0team.com/profile/5097/LilC4T",
+      "points": 114
+    }
+  },
+  {
+    "name": "Ian Bouchard",
+    "ringzer0team": {
+      "id": "5258",
+      "username": "Corb3nik",
+      "url": "https://ringzer0team.com/profile/5258/Corb3nik",
+      "points": 1184
+    }
+  },
+  {
+    "name": "Guillaume Pillot",
+    "ringzer0team": {
+      "id": "253",
+      "username": "sushi",
+      "url": "https://ringzer0team.com/profile/253/sushi",
+      "points": 381
+    }
+  },
+  {
+    "name": "Christopher Guay",
+    "ringzer0team": {
+      "id": "19598",
+      "username": "f8thl3ss",
+      "url": "https://ringzer0team.com/profile/19598/f8thl3ss",
+      "points": 23
+    }
+  },
+  {
+    "name": "Félix Larose Gervais",
+    "ringzer0team": {
+      "id": "13886",
+      "username": "aiglebleu",
+      "url": "https://ringzer0team.com/profile/13886/aiglebleu",
+      "points": 219
+    }
+  }
+]
