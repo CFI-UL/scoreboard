@@ -1,11 +1,15 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
-git config --global user.email "travis@travis-ci.org"
-git config --global user.name "Travis CI"
+if [ $TRAVIS_BRANCH='master' ]; then
+  if [ $TRAVIS_EVENT_TYPE='push' ] && [ $TRAVIS_EVENT_TYPE='cron' ]; then
 
-./bin/update-data update
-git add data/
-git commit --message "Travis update data"
+    git config --global user.email "travis@travis-ci.org"
+    git config --global user.name "Travis CI"
 
-git remote add travis-origin https://${GH_TOKEN}@github.com:CFI-UL/scoreboard.git > /dev/null 2>&1
-git push --quiet --set-upstream travis-origin travis
+    git add data/
+    git commit --message "Travis CI update data."
+
+    git push --quiet https://${GH_TOKEN}@github.com/CFI-UL/scoreboard.git master > /dev/null 2>&1
+
+  fi
+fi
