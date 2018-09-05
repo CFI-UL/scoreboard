@@ -1,5 +1,7 @@
 # CFI Scoreboard
 
+[![Build Status](https://travis-ci.org/CFI-UL/scoreboard.svg?branch=master)](https://travis-ci.org/CFI-UL/scoreboard)
+
 ## Requirements
 
 - node >= v10.9.0
