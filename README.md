@@ -61,7 +61,6 @@ bin/update-data add -h
 
     -n, --name <full name>         Full name
     -z, --ringzer0team <username>  Ringzer0team username
-    -e, --exec_mode <mode>         Which exec mode to use
     -h, --help                     output usage information
 
 ```
