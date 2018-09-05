@@ -3681,5 +3681,172 @@
         "points": 1
       }
     ]
+  },
+  {
+    "id": "19699",
+    "challenges": [
+      {
+        "name": "PHP Fairy",
+        "category": "Web",
+        "validationDate": "2018-09-05T19:28:42Z",
+        "points": 2
+      },
+      {
+        "name": "Password reset reloaded",
+        "category": "Web",
+        "validationDate": "2018-09-05T19:15:04Z",
+        "points": 3
+      },
+      {
+        "name": "PHP feature or 0day?",
+        "category": "Web",
+        "validationDate": "2018-09-05T18:56:18Z",
+        "points": 3
+      },
+      {
+        "name": "Security thru obscurity!",
+        "category": "Web",
+        "validationDate": "2018-09-05T18:41:16Z",
+        "points": 2
+      },
+      {
+        "name": "Password reset",
+        "category": "Web",
+        "validationDate": "2018-09-05T18:31:24Z",
+        "points": 2
+      },
+      {
+        "name": "I hate this one",
+        "category": "Web",
+        "validationDate": "2018-09-03T20:18:50Z",
+        "points": 6
+      },
+      {
+        "name": "XSS Challenge 4",
+        "category": "Web",
+        "validationDate": "2018-09-03T18:55:11Z",
+        "points": 3
+      },
+      {
+        "name": "XSS Challenge 3",
+        "category": "Web",
+        "validationDate": "2018-09-03T18:05:37Z",
+        "points": 3
+      },
+      {
+        "name": "Looking for the flag?",
+        "category": "Web",
+        "validationDate": "2018-09-02T23:13:58Z",
+        "points": 3
+      },
+      {
+        "name": "Propaganda mail",
+        "category": "Web",
+        "validationDate": "2018-09-02T20:22:53Z",
+        "points": 4
+      },
+      {
+        "name": "XSS Challenge 1",
+        "category": "Web",
+        "validationDate": "2018-09-02T01:19:39Z",
+        "points": 2
+      },
+      {
+        "name": "XSS Challenge 2",
+        "category": "Web",
+        "validationDate": "2018-09-01T21:31:57Z",
+        "points": 2
+      },
+      {
+        "name": "Looking for password file",
+        "category": "Web",
+        "validationDate": "2018-09-01T20:16:14Z",
+        "points": 1
+      },
+      {
+        "name": "Headache",
+        "category": "Web",
+        "validationDate": "2018-09-01T20:13:14Z",
+        "points": 1
+      },
+      {
+        "name": "Words mean something?",
+        "category": "Web",
+        "validationDate": "2018-09-01T20:11:46Z",
+        "points": 1
+      },
+      {
+        "name": "Captcha I",
+        "category": "Web",
+        "validationDate": "2018-09-01T19:14:29Z",
+        "points": 2
+      },
+      {
+        "name": "Admin Portal",
+        "category": "Web",
+        "validationDate": "2018-08-17T21:01:23Z",
+        "points": 2
+      },
+      {
+        "name": "Login portal 1",
+        "category": "SQL Injection",
+        "validationDate": "2018-07-05T19:00:37Z",
+        "points": 2
+      },
+      {
+        "name": "ACL rulezzz the world.",
+        "category": "SQL Injection",
+        "validationDate": "2018-07-05T18:43:06Z",
+        "points": 2
+      },
+      {
+        "name": "Client side validation is bad!",
+        "category": "JavaScript",
+        "validationDate": "2018-06-27T18:15:22Z",
+        "points": 1
+      },
+      {
+        "name": "Area 51",
+        "category": "Web",
+        "validationDate": "2018-06-26T19:21:41Z",
+        "points": 1
+      },
+      {
+        "name": "Just another login form",
+        "category": "SQL Injection",
+        "validationDate": "2018-06-26T17:20:44Z",
+        "points": 2
+      },
+      {
+        "name": "Po po po po postgresql",
+        "category": "SQL Injection",
+        "validationDate": "2018-06-26T16:55:39Z",
+        "points": 2
+      },
+      {
+        "name": "What's the definition of NULL",
+        "category": "SQL Injection",
+        "validationDate": "2018-06-26T16:11:06Z",
+        "points": 3
+      },
+      {
+        "name": "Most basic SQLi pattern.",
+        "category": "SQL Injection",
+        "validationDate": "2017-11-22T03:06:05Z",
+        "points": 1
+      },
+      {
+        "name": "Malicious upload",
+        "category": "Web",
+        "validationDate": "2017-11-22T02:30:08Z",
+        "points": 2
+      },
+      {
+        "name": "Big Brother is watching",
+        "category": "Web",
+        "validationDate": "2017-11-22T02:23:25Z",
+        "points": 1
+      }
+    ]
   }
 ]
