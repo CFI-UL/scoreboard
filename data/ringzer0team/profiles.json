@@ -3686,6 +3686,18 @@
     "id": "19699",
     "challenges": [
       {
+        "name": "Don't mess with Noemie; she hates admin!",
+        "category": "SQL Injection",
+        "validationDate": "2018-09-05T22:14:33Z",
+        "points": 3
+      },
+      {
+        "name": "Random Login Form",
+        "category": "SQL Injection",
+        "validationDate": "2018-09-05T22:08:48Z",
+        "points": 2
+      },
+      {
         "name": "PHP Fairy",
         "category": "Web",
         "validationDate": "2018-09-05T19:28:42Z",
