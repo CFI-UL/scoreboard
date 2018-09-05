@@ -1,0 +1,45 @@
+#!/usr/bin/env node
+const _ = require('lodash')
+const program = require('commander')
+const updateData = require('../lib/update-data')
+
+function die (error, status = 1) {
+  console.error(error)
+  process.exit(status)
+}
+
+program
+  .command('update')
+  .alias('u')
+  .description('Update all data sets')
+  .action(() => {
+    try {
+      updateData.updateAll()
+        .catch((error) => {
+          die(error)
+        })
+    } catch (error) {
+      die(error)
+    }
+  })
+
+program
+  .command('add')
+  .alias('a')
+  .description('Add a user to the data sets')
+  .option('-n, --name <full name>', 'Full name')
+  .option('-z, --ringzer0team <username>', 'Ringzer0team username')
+  .action((options) => {
+    try {
+      updateData.addUser(options.name, {
+        ringzer0team: options.ringzer0team
+      })
+      .catch((error) => {
+        die(error)
+      })
+    } catch (error) {
+      die(error)
+    }
+  })
+
+program.parse(process.argv)
