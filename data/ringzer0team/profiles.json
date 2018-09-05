@@ -3686,6 +3686,12 @@
     "id": "19699",
     "challenges": [
       {
+        "name": "Thinking outside the box is the key",
+        "category": "SQL Injection",
+        "validationDate": "2018-09-05T23:18:29Z",
+        "points": 4
+      },
+      {
         "name": "Quote of the day",
         "category": "SQL Injection",
         "validationDate": "2018-09-05T23:09:29Z",
