@@ -7,10 +7,11 @@ if [ $TRAVIS_BRANCH='master' ]; then
     git config --global user.name "Travis CI"
 
     ./bin/update-data update
-    git add data/
-    git commit --message "Travis CI update data."
+    git add .
+    git commit --message "Travis CI update data. [ci skip]"
 
-    git push --quiet https://${GH_TOKEN}@github.com/CFI-UL/scoreboard.git master > /dev/null 2>&1
-
+    git remote remove origin
+    git remote add origin https://${GH_TOKEN}@github.com/CFI-UL/scoreboard.git > /dev/null 2>&1
+    git push origin master
   fi
 fi
