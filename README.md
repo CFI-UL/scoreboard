@@ -1,6 +1,6 @@
 # CFI Scoreboard
 
-[![Build Status](https://travis-ci.org/CFI-UL/scoreboard.svg?branch=master)](https://travis-ci.org/CFI-UL/scoreboard)
+[![Build Status](https://travis-ci.org/CFI-UL/scoreboard.svg?branch=master)](https://travis-ci.org/CFI-UL/scoreboard) [![Greenkeeper badge](https://badges.greenkeeper.io/CFI-UL/scoreboard.svg)](https://greenkeeper.io/)
 
 ## Requirements
 
