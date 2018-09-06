@@ -4,6 +4,7 @@
       <tr>
         <th v-for="key in columns"
           @click="sortBy(key)"
+          :key="key"
           :class="{ active: sortKey == key }">
           {{ key | humanize | capitalize }}
           <span class="arrow" :class="sortOrders[key] > 0 ? 'asc' : 'dsc'">
@@ -12,8 +13,8 @@
       </tr>
     </thead>
     <tbody>
-      <tr v-for="entry in filteredData">
-        <td v-for="key in columns">
+      <tr v-for="entry in filteredData" :key="extractKey(entry)">
+        <td v-for="key in columns" :key="`${extractKey(entry)}-${key}`">
           {{ entryValueForKey(entry, key) }}
         </td>
       </tr>
@@ -21,10 +22,10 @@
   </table>
 </template>
 <script>
-import { has, get, capitalize } from 'lodash'
+import { get, capitalize } from 'lodash'
 
 export default {
-  name: "data-table",
+  name: 'data-table',
   props: {
     data: Array,
     columns: Array,
@@ -33,6 +34,10 @@ export default {
     initialSortKeyOrder: {
       type: Number,
       default: () => 1
+    },
+    extractKey: {
+      type: Function,
+      required: true
     }
   },
   data: function () {

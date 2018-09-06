@@ -9,6 +9,7 @@
       <div class="ringzer0team-view__users">
         <data-table
           :data="ringzer0teamUsers"
+          :extractKey="(user) => user.username"
           :columns="columns"
           :filter-key="filterKey"
           :initial-sort-key="initialSortKey"
@@ -29,7 +30,7 @@ import Spinner from '@/components/Spinner'
 import DataTable from '@/components/DataTable'
 
 export default {
-  name: "ringzer0team-view",
+  name: 'ringzer0team-view',
   components: {
     Platform,
     Spinner,
@@ -43,8 +44,8 @@ export default {
         url: 'https://ringzer0team.com/',
         description: [
           "RingZer0 Team's online CTF offers you tons of challenges designed to test and improve your hacking skills through hacking challenges. Register and get a flag for every challenge.",
-          "Currently more than 200 challenges are available over 13 categories. Have fun resolving them."
-        ],
+          'Currently more than 200 challenges are available over 13 categories. Have fun resolving them.'
+        ]
       },
       columns: [
         'position',

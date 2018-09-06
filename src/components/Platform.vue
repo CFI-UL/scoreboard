@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: "platform",
+  name: 'platform',
   props: {
     name: String,
     description: Array,
