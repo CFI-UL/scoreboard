@@ -3686,6 +3686,18 @@
     "id": "19699",
     "challenges": [
       {
+        "name": "Quote of the day reloaded",
+        "category": "SQL Injection",
+        "validationDate": "2018-09-06T03:48:02Z",
+        "points": 5
+      },
+      {
+        "name": "No more hacking for me!",
+        "category": "SQL Injection",
+        "validationDate": "2018-09-06T01:11:38Z",
+        "points": 4
+      },
+      {
         "name": "Thinking outside the box is the key",
         "category": "SQL Injection",
         "validationDate": "2018-09-05T23:18:29Z",
