@@ -3991,5 +3991,76 @@
         "points": 1
       }
     ]
+  },
+  {
+    "id": "17497",
+    "challenges": [
+      {
+        "name": "Attention Dinosaure Survive",
+        "category": "Forensics",
+        "validationDate": "2018-03-25T04:44:06Z",
+        "points": 2
+      },
+      {
+        "name": "Victor reloaded",
+        "category": "Steganography",
+        "validationDate": "2018-03-17T00:26:09Z",
+        "points": 2
+      },
+      {
+        "name": "File recovery",
+        "category": "Cryptography",
+        "validationDate": "2017-11-13T21:48:38Z",
+        "points": 1
+      },
+      {
+        "name": "Martian message part 2",
+        "category": "Cryptography",
+        "validationDate": "2017-08-10T23:49:27Z",
+        "points": 2
+      },
+      {
+        "name": "Hide my ass in my home!",
+        "category": "Forensics",
+        "validationDate": "2017-07-17T13:01:17Z",
+        "points": 2
+      },
+      {
+        "name": "Dr. Pouce",
+        "category": "Forensics",
+        "validationDate": "2017-07-17T12:55:47Z",
+        "points": 2
+      },
+      {
+        "name": "I made a dd of Agent Smith usb key",
+        "category": "Forensics",
+        "validationDate": "2017-07-17T12:41:42Z",
+        "points": 1
+      },
+      {
+        "name": "Most basic SQLi pattern.",
+        "category": "SQL Injection",
+        "validationDate": "2017-06-30T21:08:31Z",
+        "points": 1
+      },
+      {
+        "name": "Some martian message",
+        "category": "Cryptography",
+        "validationDate": "2017-06-30T16:13:04Z",
+        "points": 1
+      },
+      {
+        "name": "You're lost? Use the map",
+        "category": "Steganography",
+        "validationDate": "2017-06-22T20:16:18Z",
+        "points": 1
+      },
+      {
+        "name": "Victor you're hidding me something",
+        "category": "Steganography",
+        "validationDate": "2017-06-21T22:23:55Z",
+        "points": 1
+      }
+    ]
   }
 ]
