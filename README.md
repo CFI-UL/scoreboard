@@ -1,6 +1,13 @@
-# CFI Scoreboard
+# CFI Scoreboard :trophy:
 
-[![Build Status](https://travis-ci.org/CFI-UL/scoreboard.svg?branch=master)](https://travis-ci.org/CFI-UL/scoreboard) [![Greenkeeper badge](https://badges.greenkeeper.io/CFI-UL/scoreboard.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/CFI-UL/scoreboard.svg?branch=master)](https://travis-ci.org/CFI-UL/scoreboard)
+[![Greenkeeper badge](https://badges.greenkeeper.io/CFI-UL/scoreboard.svg)](https://greenkeeper.io/)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+> Keep track of the progress you made on different wargame and programming challenge platforms.
+
+- No server needed, it's hosted using [Github Pages](https://pages.github.com/).
+- Data is updated daily using [Travis CI CRON](https://docs.travis-ci.com/user/cron-jobs/).
 
 ## Requirements
 
@@ -67,6 +74,12 @@ bin/update-data add -h
 
 ## Development
 
+It's a [Vue.js](https://vuejs.org/) application, it uses
+
+- [vuex](https://vuex.vuejs.org/) to manage the state
+- [vue-router](https://router.vuejs.org/) to manage routes
+- [chart.js](http://www.chartjs.org/) to display beautiful graphs
+
 ### Compiles and hot-reloads for development
 
 ```
@@ -84,3 +97,8 @@ npm run build
 ```
 npm run lint
 ```
+
+
+## License
+
+MIT
