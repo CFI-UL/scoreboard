@@ -5,7 +5,7 @@
       :url="platform.url"
       :description="platform.description">
       <h3>Players</h3>
-      <canvas ref="chart"></canvas>
+      <div ref="chart"></div>
       <div class="ringzer0team-view__users">
         <data-table
           :data="ringzer0teamUsers"
@@ -22,7 +22,7 @@
 
 <script>
 import randomColor from 'randomcolor'
-import Chart from 'chart.js'
+import ApexCharts from 'apexcharts'
 import { has } from 'lodash'
 import { mapState, mapActions } from 'vuex'
 import Platform from '@/components/Platform'
@@ -65,7 +65,11 @@ export default {
       'usersError'
     ]),
     sortedUsers () {
-      return this.sortUsers(this.filteredUsers)
+      return [...this.filteredUsers].sort((a, b) => {
+        if (a.ringzer0team.points < b.ringzer0team.points) return 1
+        if (a.ringzer0team.points > b.ringzer0team.points) return -1
+        return 0
+      })
     },
     filteredUsers () {
       return this.users.filter(user => has(user, 'ringzer0team.username'))
@@ -86,46 +90,51 @@ export default {
     ...mapActions('users', [
       'fetchUsers'
     ]),
-    sortUsers (users) {
-      return users.sort((a, b) => {
-        if (a.ringzer0team.points < b.ringzer0team.points) return 1
-        if (a.ringzer0team.points > b.ringzer0team.points) return -1
-        return 0
-      })
-    },
     userColor (user) {
       const seed = parseInt(2 * user.ringzer0team.id)
       return randomColor({ seed })
     },
-    createChart (users) {
-      const sortedUsers = this.sortUsers(users)
-      const context = this.$refs.chart
-      const labels = sortedUsers.map(user => user.ringzer0team.username)
-      const data = sortedUsers.map(user => user.ringzer0team.points)
-      const backgroundColor = sortedUsers.map(user => this.userColor(user))
-      this.chart = new Chart(context, {
-        type: 'bar',
-        data: {
-          labels,
-          datasets: [{
-            label: 'points',
-            data,
-            backgroundColor
-          }]
-        },
-        options: {
-          legend: {
-            display: false
-          }
-        }
+    chartOptions () {
+      const listPoints = []
+      const listColors = []
+      const listUsernames = []
+      this.sortedUsers.forEach((user) => {
+        listPoints.push(user.ringzer0team.points)
+        listColors.push(this.userColor(user))
+        listUsernames.push(user.ringzer0team.username)
       })
+      return {
+        chart: {
+          type: 'bar'
+        },
+        series: [{
+          name: 'points',
+          data: listPoints
+        }],
+        xaxis: {
+          categories: listUsernames
+        },
+        toolbar: {
+          show: false
+        }
+      }
+    },
+    createChart () {
+      this.chart = new ApexCharts(this.$refs.chart, this.chartOptions())
+      this.chart.render()
+    },
+    updateChart () {
+      this.chart.updateOptions(this.chartOptions())
     }
   },
   mounted () {
+    this.createChart()
     this.fetchUsers()
-      .then((users) => {
-        this.createChart(users)
-      })
+  },
+  watch: {
+    users () {
+      this.updateChart()
+    }
   }
 }
 </script>
