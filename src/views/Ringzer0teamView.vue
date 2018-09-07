@@ -8,6 +8,8 @@
       <div ref="chart"></div>
       <div class="ringzer0team-view__users">
         <data-table
+          className="ringzer0team-view__users-table"
+          @row-click="onRowClick"
           :data="ringzer0teamUsers"
           :extractKey="(user) => user.username"
           :columns="columns"
@@ -75,6 +77,7 @@ export default {
     ringzer0teamUsers () {
       return this.sortedUsers.map((user, index) => {
         return {
+          id: user.id,
           position: index + 1,
           name: user.name,
           username: user.ringzer0team.username,
@@ -85,6 +88,12 @@ export default {
     }
   },
   methods: {
+    onRowClick (user) {
+      this.$router.push({
+        name: 'user',
+        params: { id: user.id }
+      })
+    },
     userColor (user) {
       const seed = parseInt(2 * user.ringzer0team.id)
       return randomColor({ seed })
@@ -131,6 +140,10 @@ export default {
 .ringzer0team-view {
   &__users {
     padding: 1rem 0;
+  }
+
+  &__users-table {
+    width: 100%;
   }
 }
 </style>

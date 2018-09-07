@@ -1,5 +1,5 @@
 <template>
-  <table class="data-table">
+  <table class="data-table" :class="className">
     <thead>
       <tr>
         <th v-for="key in columns"
@@ -13,7 +13,10 @@
       </tr>
     </thead>
     <tbody>
-      <tr v-for="entry in filteredData" :key="extractKey(entry)">
+      <tr
+        v-for="entry in filteredData"
+        :key="extractKey(entry)"
+        @click="() => $emit('row-click', entry)">
         <td v-for="key in columns" :key="`${extractKey(entry)}-${key}`">
           {{ entryValueForKey(entry, key) }}
         </td>
@@ -27,6 +30,7 @@ import { get, capitalize } from 'lodash'
 export default {
   name: 'data-table',
   props: {
+    className: String,
     data: Array,
     columns: Array,
     filterKey: String,
@@ -34,6 +38,12 @@ export default {
     initialSortKeyOrder: {
       type: Number,
       default: () => 1
+    },
+    onRowClick: {
+      type: Function,
+      default: () => {
+        return () => {}
+      }
     },
     extractKey: {
       type: Function,
@@ -111,6 +121,19 @@ export default {
     }
   }
   tbody {
+    tr {
+      transition: 0.2s background;
+      cursor: pointer;
+      background: #fff;
+
+      &:nth-child(odd) {
+        background: #f5f5f5;
+      }
+
+      &:hover {
+        background: #e6e6e6;
+      }
+    }
     td {
       padding: 0.25rem;
     }
