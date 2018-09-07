@@ -55,8 +55,8 @@ export default {
     hasRingzer0team () {
       return has(this.user, 'ringzer0team.username') && !isEmpty(this.ringzer0teamProfile)
     },
+    // Sort challenges by validationDate desc.
     sortedRingzer0teamChallenges () {
-      // Sort challenges by validationDate desc.
       return get(this.ringzer0teamProfile, 'challenges', []).sort((a, b) => {
         if (a.validationDate < b.validationDate) return 1
         if (a.validationDate > b.validationDate) return -1

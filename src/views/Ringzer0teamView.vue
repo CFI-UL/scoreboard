@@ -52,7 +52,8 @@ export default {
         'position',
         'name',
         'username',
-        'points'
+        'points',
+        'challenges'
       ],
       filterKey: '',
       initialSortKey: 'position',
@@ -61,7 +62,8 @@ export default {
   },
   computed: {
     ...mapState([
-      'users'
+      'users',
+      'ringzer0teamProfiles'
     ]),
     sortedUsers () {
       return [...this.filteredUsers].sort((a, b) => {
@@ -75,12 +77,16 @@ export default {
     },
     ringzer0teamUsers () {
       return this.sortedUsers.map((user, index) => {
+        const ringzer0teamProfile = this.ringzer0teamProfiles.find((profile) => {
+          return profile.id === user.ringzer0team.id
+        })
         return {
           id: user.id,
           position: index + 1,
           name: user.name,
           username: user.ringzer0team.username,
-          points: user.ringzer0team.points
+          points: user.ringzer0team.points,
+          challenges: ringzer0teamProfile.challenges.length
         }
       })
     }

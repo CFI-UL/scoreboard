@@ -25,7 +25,7 @@
   </table>
 </template>
 <script>
-import { get, capitalize } from 'lodash'
+import { get, capitalize, startCase, includes } from 'lodash'
 
 export default {
   name: 'data-table',
@@ -89,7 +89,11 @@ export default {
   },
   filters: {
     humanize (text) {
-      return text.split('.').join(' ')
+      if (includes(text, '.')) {
+        return text.split('.').map(section => startCase(section)).join(' ')
+      } else {
+        return startCase(text)
+      }
     },
     capitalize (text) {
       return capitalize(text)
