@@ -78,7 +78,7 @@ It's a [Vue.js](https://vuejs.org/) application, it uses
 
 - [vuex](https://vuex.vuejs.org/) to manage the state
 - [vue-router](https://router.vuejs.org/) to manage routes
-- [chart.js](http://www.chartjs.org/) to display beautiful graphs
+- [apexcharts](https://apexcharts.com/) to display beautiful graphs
 
 ### Compiles and hot-reloads for development
 

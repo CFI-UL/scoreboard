@@ -5,11 +5,13 @@
       :url="platform.url"
       :description="platform.description">
       <h3>Players</h3>
-      <canvas ref="chart"></canvas>
+      <div ref="chart"></div>
       <div class="ringzer0team-view__users">
         <data-table
+          className="ringzer0team-view__users-table"
+          @row-click="onRowClick"
           :data="ringzer0teamUsers"
-          :extractKey="(user) => user.username"
+          :extractKey="(user) => user.id"
           :columns="columns"
           :filter-key="filterKey"
           :initial-sort-key="initialSortKey"
@@ -21,10 +23,9 @@
 </template>
 
 <script>
-import randomColor from 'randomcolor'
-import Chart from 'chart.js'
+import ApexCharts from 'apexcharts'
 import { has } from 'lodash'
-import { mapState, mapActions } from 'vuex'
+import { mapState } from 'vuex'
 import Platform from '@/components/Platform'
 import Spinner from '@/components/Spinner'
 import DataTable from '@/components/DataTable'
@@ -51,7 +52,8 @@ export default {
         'position',
         'name',
         'username',
-        'points'
+        'points',
+        'challenges'
       ],
       filterKey: '',
       initialSortKey: 'position',
@@ -59,73 +61,74 @@ export default {
     }
   },
   computed: {
-    ...mapState('users', [
+    ...mapState([
       'users',
-      'usersIsFetching',
-      'usersError'
+      'ringzer0teamProfiles'
     ]),
     sortedUsers () {
-      return this.sortUsers(this.filteredUsers)
+      return [...this.filteredUsers].sort((a, b) => {
+        if (a.ringzer0team.points < b.ringzer0team.points) return 1
+        if (a.ringzer0team.points > b.ringzer0team.points) return -1
+        return 0
+      })
     },
     filteredUsers () {
       return this.users.filter(user => has(user, 'ringzer0team.username'))
     },
     ringzer0teamUsers () {
       return this.sortedUsers.map((user, index) => {
+        const ringzer0teamProfile = this.ringzer0teamProfiles.find((profile) => {
+          return profile.id === user.ringzer0team.id
+        })
         return {
+          id: user.id,
           position: index + 1,
           name: user.name,
           username: user.ringzer0team.username,
           points: user.ringzer0team.points,
-          color: this.userColor(user)
+          challenges: ringzer0teamProfile.challenges.length
         }
       })
     }
   },
   methods: {
-    ...mapActions('users', [
-      'fetchUsers'
-    ]),
-    sortUsers (users) {
-      return users.sort((a, b) => {
-        if (a.ringzer0team.points < b.ringzer0team.points) return 1
-        if (a.ringzer0team.points > b.ringzer0team.points) return -1
-        return 0
+    onRowClick (user) {
+      this.$router.push({
+        name: 'user',
+        params: { id: user.id }
       })
     },
-    userColor (user) {
-      const seed = parseInt(2 * user.ringzer0team.id)
-      return randomColor({ seed })
-    },
-    createChart (users) {
-      const sortedUsers = this.sortUsers(users)
-      const context = this.$refs.chart
-      const labels = sortedUsers.map(user => user.ringzer0team.username)
-      const data = sortedUsers.map(user => user.ringzer0team.points)
-      const backgroundColor = sortedUsers.map(user => this.userColor(user))
-      this.chart = new Chart(context, {
-        type: 'bar',
-        data: {
-          labels,
-          datasets: [{
-            label: 'points',
-            data,
-            backgroundColor
-          }]
+    createChart () {
+      const listPoints = []
+      const listUsernames = []
+      this.sortedUsers.forEach((user) => {
+        listPoints.push(user.ringzer0team.points)
+        listUsernames.push(user.ringzer0team.username)
+      })
+      const options = {
+        chart: {
+          type: 'bar'
         },
-        options: {
-          legend: {
-            display: false
-          }
+        series: [{
+          name: 'points',
+          data: listPoints
+        }],
+        xaxis: {
+          categories: listUsernames
+        },
+        toolbar: {
+          show: false
         }
-      })
+      }
+      this.chart = new ApexCharts(this.$refs.chart, options)
+      this.chart.render()
     }
   },
   mounted () {
-    this.fetchUsers()
-      .then((users) => {
-        this.createChart(users)
-      })
+    this.createChart()
+  },
+  beforeDestroy () {
+    this.chart.destroy()
   }
 }
 </script>
@@ -135,6 +138,10 @@ export default {
 .ringzer0team-view {
   &__users {
     padding: 1rem 0;
+  }
+
+  &__users-table {
+    width: 100%;
   }
 }
 </style>
