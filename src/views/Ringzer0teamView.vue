@@ -11,7 +11,7 @@
           className="ringzer0team-view__users-table"
           @row-click="onRowClick"
           :data="ringzer0teamUsers"
-          :extractKey="(user) => user.username"
+          :extractKey="(user) => user.id"
           :columns="columns"
           :filter-key="filterKey"
           :initial-sort-key="initialSortKey"
