@@ -23,7 +23,6 @@
 </template>
 
 <script>
-import randomColor from 'randomcolor'
 import ApexCharts from 'apexcharts'
 import { has } from 'lodash'
 import { mapState } from 'vuex'
@@ -81,8 +80,7 @@ export default {
           position: index + 1,
           name: user.name,
           username: user.ringzer0team.username,
-          points: user.ringzer0team.points,
-          color: this.userColor(user)
+          points: user.ringzer0team.points
         }
       })
     }
@@ -94,17 +92,11 @@ export default {
         params: { id: user.id }
       })
     },
-    userColor (user) {
-      const seed = parseInt(2 * user.ringzer0team.id)
-      return randomColor({ seed })
-    },
     createChart () {
       const listPoints = []
-      const listColors = []
       const listUsernames = []
       this.sortedUsers.forEach((user) => {
         listPoints.push(user.ringzer0team.points)
-        listColors.push(this.userColor(user))
         listUsernames.push(user.ringzer0team.username)
       })
       const options = {
