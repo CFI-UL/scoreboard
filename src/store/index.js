@@ -1,12 +1,14 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import users from './modules/users'
+import users from '@/../data/users.json'
+import ringzer0teamProfiles from '@/../data/ringzer0team/profiles.json'
 
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
-  modules: {
-    users
+  state: {
+    users,
+    ringzer0teamProfiles
   }
 })
 

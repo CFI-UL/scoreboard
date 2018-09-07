@@ -24,7 +24,7 @@
 import randomColor from 'randomcolor'
 import ApexCharts from 'apexcharts'
 import { has } from 'lodash'
-import { mapState, mapActions } from 'vuex'
+import { mapState } from 'vuex'
 import Platform from '@/components/Platform'
 import Spinner from '@/components/Spinner'
 import DataTable from '@/components/DataTable'
@@ -59,10 +59,8 @@ export default {
     }
   },
   computed: {
-    ...mapState('users', [
-      'users',
-      'usersIsFetching',
-      'usersError'
+    ...mapState([
+      'users'
     ]),
     sortedUsers () {
       return [...this.filteredUsers].sort((a, b) => {
@@ -87,14 +85,11 @@ export default {
     }
   },
   methods: {
-    ...mapActions('users', [
-      'fetchUsersIfNeeded'
-    ]),
     userColor (user) {
       const seed = parseInt(2 * user.ringzer0team.id)
       return randomColor({ seed })
     },
-    chartOptions () {
+    createChart () {
       const listPoints = []
       const listColors = []
       const listUsernames = []
@@ -103,7 +98,7 @@ export default {
         listColors.push(this.userColor(user))
         listUsernames.push(user.ringzer0team.username)
       })
-      return {
+      const options = {
         chart: {
           type: 'bar'
         },
@@ -118,23 +113,15 @@ export default {
           show: false
         }
       }
-    },
-    createChart () {
-      this.chart = new ApexCharts(this.$refs.chart, this.chartOptions())
+      this.chart = new ApexCharts(this.$refs.chart, options)
       this.chart.render()
-    },
-    updateChart () {
-      this.chart.updateOptions(this.chartOptions())
     }
   },
   mounted () {
     this.createChart()
-    this.fetchUsersIfNeeded()
   },
-  watch: {
-    users () {
-      this.updateChart()
-    }
+  beforeDestroy () {
+    this.chart.destroy()
   }
 }
 </script>
