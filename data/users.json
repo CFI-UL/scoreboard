@@ -1,6 +1,7 @@
 [
   {
     "name": "Simon Thiboutôt",
+    "id": "3ce05586-5473-43d2-9505-2f58658c992e",
     "ringzer0team": {
       "id": "5097",
       "username": "LilC4T",
@@ -10,6 +11,7 @@
   },
   {
     "name": "Ian Bouchard",
+    "id": "ea21ff22-1dd8-4b23-a779-d0949df05cdd",
     "ringzer0team": {
       "id": "5258",
       "username": "Corb3nik",
@@ -19,6 +21,7 @@
   },
   {
     "name": "Guillaume Pillot",
+    "id": "388b7576-1206-408f-bb8b-e163cf965cd1",
     "ringzer0team": {
       "id": "253",
       "username": "sushi",
@@ -28,6 +31,7 @@
   },
   {
     "name": "Christopher Guay",
+    "id": "9976ca95-be0a-4976-b4f6-47ebad71bec3",
     "ringzer0team": {
       "id": "19598",
       "username": "f8thl3ss",
@@ -37,6 +41,7 @@
   },
   {
     "name": "Félix Larose Gervais",
+    "id": "6948997a-ac93-47f1-8dda-108eaa94b45c",
     "ringzer0team": {
       "id": "13886",
       "username": "aiglebleu",
@@ -46,6 +51,7 @@
   },
   {
     "name": "Jean-Alexandre Beaumont",
+    "id": "b5a58a15-2955-46db-8cef-95c15a1e9775",
     "ringzer0team": {
       "id": "13251",
       "username": "Enteris",
@@ -55,6 +61,7 @@
   },
   {
     "name": "Maxime Leblanc",
+    "id": "1cdcf391-87e9-44a3-953e-d6136847ec00",
     "ringzer0team": {
       "id": "235",
       "username": "ulaval",
@@ -64,6 +71,7 @@
   },
   {
     "name": "Félix Veillette-Potvin",
+    "id": "e1eada29-246c-4185-a96e-390b1d53e93b",
     "ringzer0team": {
       "id": "19699",
       "username": "vp",
@@ -73,6 +81,7 @@
   },
   {
     "name": "Daphnée Patenaude",
+    "id": "57381390-6197-4891-baa2-2e5f4936b0cb",
     "ringzer0team": {
       "id": "12625",
       "username": "Sagold",
@@ -82,6 +91,7 @@
   },
   {
     "name": "Katrin Schobersteiner",
+    "id": "b957c5b9-28e4-4e6a-9660-13d432d02983",
     "ringzer0team": {
       "id": "17497",
       "username": "Muemmelmoehre",
@@ -91,6 +101,7 @@
   },
   {
     "name": "Parvin Ramezani",
+    "id": "7b48d4b2-b966-4042-8e5b-3d6c51420bb2",
     "ringzer0team": {
       "id": "1886",
       "username": "parvin",
