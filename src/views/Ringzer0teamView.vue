@@ -88,7 +88,7 @@ export default {
   },
   methods: {
     ...mapActions('users', [
-      'fetchUsers'
+      'fetchUsersIfNeeded'
     ]),
     userColor (user) {
       const seed = parseInt(2 * user.ringzer0team.id)
@@ -129,7 +129,7 @@ export default {
   },
   mounted () {
     this.createChart()
-    this.fetchUsers()
+    this.fetchUsersIfNeeded()
   },
   watch: {
     users () {

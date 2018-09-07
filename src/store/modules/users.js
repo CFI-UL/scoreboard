@@ -1,3 +1,4 @@
+import { isEmpty } from 'lodash'
 import * as api from '../../api/users-api'
 
 export default {
@@ -34,6 +35,12 @@ export default {
           commit('setUsersError', error)
           commit('setUsersIsFetching', false)
         })
+    },
+    fetchUsersIfNeeded ({ state, commit, dispatch }) {
+      if (isEmpty(state.users)) {
+        return dispatch('fetchUsers')
+      }
+      return new Promise((resolve) => resolve(state.users))
     }
   }
 }
