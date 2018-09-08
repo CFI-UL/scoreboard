@@ -3,6 +3,18 @@
     "id": "5097",
     "challenges": [
       {
+        "name": "/etc/passwd",
+        "category": "SQL Injection",
+        "validationDate": "2018-09-07T23:21:38Z",
+        "points": 7
+      },
+      {
+        "name": "Groups of hacker",
+        "category": "SQL Injection",
+        "validationDate": "2018-09-07T22:05:37Z",
+        "points": 7
+      },
+      {
         "name": "Capture 1 Part 1",
         "category": "Malware Analysis",
         "validationDate": "2018-09-04T13:32:53Z",
@@ -331,6 +343,12 @@
   {
     "id": "5258",
     "challenges": [
+      {
+        "name": "I Think I forgot to take out the garbage!",
+        "category": "Reverse Engineering",
+        "validationDate": "2018-09-07T21:14:17Z",
+        "points": 6
+      },
       {
         "name": "Not just 64",
         "category": "Steganography",
