@@ -24,8 +24,9 @@
 
 <script>
 import ApexCharts from 'apexcharts'
-import { has } from 'lodash'
+import { has, first } from 'lodash'
 import { mapState } from 'vuex'
+import moment from 'moment'
 import Platform from '@/components/Platform'
 import Spinner from '@/components/Spinner'
 import DataTable from '@/components/DataTable'
@@ -53,7 +54,9 @@ export default {
         'name',
         'username',
         'points',
-        'challenges'
+        'challenges',
+        'lastSolvedAt',
+        'activePast7Days'
       ],
       filterKey: '',
       initialSortKey: 'position',
@@ -80,13 +83,24 @@ export default {
         const ringzer0teamProfile = this.ringzer0teamProfiles.find((profile) => {
           return profile.id === user.ringzer0team.id
         })
+        const sortedChallenges = this.sortChallengesDesc(ringzer0teamProfile.challenges)
+        let lastChallengeSolved = first(sortedChallenges)
+        let lastSolvedAt = null
+        let active = false
+        if (lastChallengeSolved) {
+          lastSolvedAt = moment(lastChallengeSolved.validationDate).format('YYYY-MM-DD')
+          const activeMinimumDate = moment().subtract(7, 'days').startOf('day')
+          active = moment(lastChallengeSolved.validationDate).isAfter(activeMinimumDate)
+        }
         return {
           id: user.id,
           position: index + 1,
           name: user.name,
           username: user.ringzer0team.username,
           points: user.ringzer0team.points,
-          challenges: ringzer0teamProfile.challenges.length
+          challenges: ringzer0teamProfile.challenges.length,
+          lastSolvedAt,
+          activePast7Days: (active ? '🔥' : '')
         }
       })
     }
@@ -96,6 +110,13 @@ export default {
       this.$router.push({
         name: 'user',
         params: { id: user.id }
+      })
+    },
+    sortChallengesDesc (challenges) {
+      return challenges.sort((a, b) => {
+        if (a.validationDate < b.validationDate) return 1
+        if (a.validationDate > b.validationDate) return -1
+        return 0
       })
     },
     createChart () {
