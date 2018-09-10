@@ -19,6 +19,9 @@
         <div class="user__platform-info">
           Last solve: {{ ringzer0teamLastSolveDate }} ({{ ringzer0teamLastSolveDateFromNow }})
         </div>
+        <div class="user__platform-info" v-if="isInLast7Days(lastChallengeSolved.validationDate)">
+          Active past 7 days 🔥
+        </div>
       </div>
     </div>
     <div class="user__content">
@@ -91,6 +94,11 @@ export default {
     }
   },
   methods: {
+    isInLast7Days (date) {
+      console.log('isInLast7Days', date);
+      const activeMinimumDate = moment().subtract(7, 'days').startOf('day')
+      return moment(date).isAfter(activeMinimumDate)
+    },
     chartSeries () {
       const series = []
       if (this.hasRingzer0team) {
