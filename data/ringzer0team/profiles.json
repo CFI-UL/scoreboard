@@ -3913,6 +3913,24 @@
     "id": "12625",
     "challenges": [
       {
+        "name": "I hate mathematics",
+        "category": "Coding challenges",
+        "validationDate": "2018-09-10T04:36:37Z",
+        "points": 3
+      },
+      {
+        "name": "Hash me reloaded",
+        "category": "Coding challenges",
+        "validationDate": "2018-09-10T00:18:11Z",
+        "points": 3
+      },
+      {
+        "name": "Hash me please",
+        "category": "Coding challenges",
+        "validationDate": "2018-09-09T23:48:15Z",
+        "points": 2
+      },
+      {
         "name": "Password reset",
         "category": "Web",
         "validationDate": "2017-08-01T20:15:13Z",
