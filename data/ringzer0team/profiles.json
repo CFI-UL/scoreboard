@@ -344,6 +344,12 @@
     "id": "5258",
     "challenges": [
       {
+        "name": "Crazy Cat Lady",
+        "category": "Steganography",
+        "validationDate": "2018-09-12T02:09:32Z",
+        "points": 3
+      },
+      {
         "name": "I Think I forgot to take out the garbage!",
         "category": "Reverse Engineering",
         "validationDate": "2018-09-07T21:14:17Z",
