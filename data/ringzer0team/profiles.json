@@ -3710,6 +3710,12 @@
     "id": "19699",
     "challenges": [
       {
+        "name": "XPATH of hell!",
+        "category": "Web",
+        "validationDate": "2018-09-13T01:15:17Z",
+        "points": 7
+      },
+      {
         "name": "Quote of the day reloaded",
         "category": "SQL Injection",
         "validationDate": "2018-09-06T03:48:02Z",
