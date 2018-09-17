@@ -3420,8 +3420,14 @@
       "id": "19699",
       "username": "vp",
       "url": "https://ringzer0team.com/profile/19699/vp",
-      "points": 106,
+      "points": 112,
       "challenges": [
+        {
+          "name": "When it's lite it's not necessarily easy",
+          "category": "SQL Injection",
+          "validationDate": "2018-09-17T02:44:47Z",
+          "points": 6
+        },
         {
           "name": "Hot Single Mom",
           "category": "SQL Injection",
