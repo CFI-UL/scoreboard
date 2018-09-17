@@ -30,7 +30,9 @@ if [ $TRAVIS_BRANCH='master' ]; then
     git_setup
     update_data_and_commit
     git_push
-  elif [ $TRAVIS_EVENT_TYPE='push' ] then
+  fi
+
+  if [ $TRAVIS_EVENT_TYPE='push' ]; then
     git_setup
     update_data_and_commit
     build_app_and_commit
