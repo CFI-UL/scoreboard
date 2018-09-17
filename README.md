@@ -25,9 +25,9 @@ npm install
 ## Usage
 
 ```
-$ bin/update-data -h
+$ bin/scoreboard -h
 
-  Usage: update-data [options] [command]
+  Usage: scoreboard [options] [command]
 
   Options:
 
@@ -43,7 +43,7 @@ $ bin/update-data -h
 Update all data sets:
 
 ```
-$ bin/update-data update -h
+$ bin/scoreboard update -h
 
   Usage: update|u [options]
 
@@ -58,7 +58,7 @@ $ bin/update-data update -h
 Add a user to the data sets:
 
 ```
-bin/update-data add -h
+$ bin/scoreboard add -h
 
   Usage: add|a [options]
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const _ = require('lodash')
 const program = require('commander')
-const updateData = require('../lib/update-data')
+const updateData = require('../lib')
 
 function die (error, status = 1) {
   console.error(error)

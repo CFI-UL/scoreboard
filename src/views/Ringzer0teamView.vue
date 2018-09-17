@@ -10,7 +10,7 @@
         <data-table
           className="ringzer0team-view__users-table"
           @row-click="onRowClick"
-          :data="ringzer0teamUsers"
+          :data="data"
           :extractKey="(user) => user.id"
           :columns="columns"
           :filter-key="filterKey"
@@ -24,8 +24,8 @@
 
 <script>
 import ApexCharts from 'apexcharts'
-import { has, first } from 'lodash'
-import { mapState } from 'vuex'
+import { first } from 'lodash'
+import { mapState, mapGetters } from 'vuex'
 import moment from 'moment'
 import Platform from '@/components/Platform'
 import Spinner from '@/components/Spinner'
@@ -65,8 +65,10 @@ export default {
   },
   computed: {
     ...mapState([
-      'users',
-      'ringzer0teamProfiles'
+      'users'
+    ]),
+    ...mapGetters([
+      'ringzer0teamUsers'
     ]),
     sortedUsers () {
       return [...this.filteredUsers].sort((a, b) => {
@@ -76,14 +78,11 @@ export default {
       })
     },
     filteredUsers () {
-      return this.users.filter(user => has(user, 'ringzer0team.username'))
+      return this.ringzer0teamUsers
     },
-    ringzer0teamUsers () {
+    data () {
       return this.sortedUsers.map((user, index) => {
-        const ringzer0teamProfile = this.ringzer0teamProfiles.find((profile) => {
-          return profile.id === user.ringzer0team.id
-        })
-        const sortedChallenges = this.sortChallengesDesc(ringzer0teamProfile.challenges)
+        const sortedChallenges = this.sortChallengesDesc(user.ringzer0team.challenges)
         let lastChallengeSolved = first(sortedChallenges)
         let lastSolvedAt = null
         let active = false
@@ -98,7 +97,7 @@ export default {
           name: user.name,
           username: user.ringzer0team.username,
           points: user.ringzer0team.points,
-          challenges: ringzer0teamProfile.challenges.length,
+          challenges: user.ringzer0team.challenges.length,
           lastSolvedAt,
           activePast7Days: (active ? '🔥' : '')
         }
