@@ -1,7 +1,7 @@
 <template>
   <div class="user-view">
     <template v-if="user">
-      <user :user="user" :ringzer0team-profile="ringzer0teamProfile"></user>
+      <user :user="user"></user>
     </template>
     <template v-else>
       <div class="user-view__error">
@@ -12,8 +12,7 @@
 </template>
 
 <script>
-import { get } from 'lodash'
-import { mapState } from 'vuex'
+import { mapState, mapGetters } from 'vuex'
 import User from '@/components/User'
 
 export default {
@@ -29,16 +28,13 @@ export default {
   },
   computed: {
     ...mapState([
-      'users',
-      'ringzer0teamProfiles'
+      'users'
+    ]),
+    ...mapGetters([
+      'getUserById'
     ]),
     user () {
-      return this.users.find((user) => user.id === this.id)
-    },
-    ringzer0teamProfile () {
-      return this.ringzer0teamProfiles.find((profile) => {
-        return profile.id === get(this.user, 'ringzer0team.id')
-      })
+      return this.getUserById(this.id)
     }
   }
 }

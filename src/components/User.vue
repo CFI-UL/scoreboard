@@ -11,7 +11,7 @@
           Points: {{ user.ringzer0team.points }}
         </div>
         <div class="user__platform-info">
-          Challenges: {{ ringzer0teamProfile.challenges.length }}
+          Challenges: {{ user.ringzer0team.challenges.length }}
         </div>
         <div class="user__platform-info">
           First solve: {{ ringzer0teamFirstSolveDate }} ({{ ringzer0teamFirstSolveDateFromNow }})
@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import { get, has, isEmpty, first, last } from 'lodash'
+import { get, has, first, last } from 'lodash'
 import moment from 'moment'
 import ApexCharts from 'apexcharts'
 
@@ -44,9 +44,6 @@ export default {
     user: {
       type: Object,
       required: true
-    },
-    ringzer0teamProfile: {
-      type: Object
     }
   },
   data: function () {
@@ -56,11 +53,11 @@ export default {
   },
   computed: {
     hasRingzer0team () {
-      return has(this.user, 'ringzer0team.username') && !isEmpty(this.ringzer0teamProfile)
+      return has(this.user, 'ringzer0team.username')
     },
     // Sort challenges by validationDate desc.
     sortedRingzer0teamChallenges () {
-      return get(this.ringzer0teamProfile, 'challenges', []).sort((a, b) => {
+      return get(this.user, 'ringzer0team.challenges', []).sort((a, b) => {
         if (a.validationDate < b.validationDate) return 1
         if (a.validationDate > b.validationDate) return -1
         return 0
@@ -95,7 +92,6 @@ export default {
   },
   methods: {
     isInLast7Days (date) {
-      console.log('isInLast7Days', date);
       const activeMinimumDate = moment().subtract(7, 'days').startOf('day')
       return moment(date).isAfter(activeMinimumDate)
     },
@@ -152,9 +148,6 @@ export default {
   },
   watch: {
     user () {
-      this.updateChart()
-    },
-    ringzer0teamProfile () {
       this.updateChart()
     }
   }
