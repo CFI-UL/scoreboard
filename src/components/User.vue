@@ -29,17 +29,38 @@
         <h3>Timeline</h3>
         <div ref="chart"></div>
       </div>
+      <div>
+        <h3>Challenges ({{ this.filteredData.length }})</h3>
+        <input
+          class="user__search-input"
+          type='text'
+          placeholder="Filter"
+          v-model="search"/>
+        <data-table
+          className="user__challenges-table"
+          :data="filteredData"
+          :extractKey="(user) => user.id"
+          :columns="columns"
+          :filter-key="filterKey"
+          :initial-sort-key="initialSortKey"
+          :initial-sort-key-order="initialSortKeyOrder">
+        </data-table>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import { get, has, first, last } from 'lodash'
+import { get, has, first, last, keys, isEmpty, includes } from 'lodash'
+import DataTable from '@/components/DataTable'
 import moment from 'moment'
 import ApexCharts from 'apexcharts'
 
 export default {
   name: 'user',
+  components: {
+    DataTable
+  },
   props: {
     user: {
       type: Object,
@@ -48,7 +69,18 @@ export default {
   },
   data: function () {
     return {
-      chart: null
+      chart: null,
+      search: '',
+      columns: [
+        'platform',
+        'name',
+        'category',
+        'validationDate',
+        'points'
+      ],
+      filterKey: '',
+      initialSortKey: 'validationDate',
+      initialSortKeyOrder: -1
     }
   },
   computed: {
@@ -88,6 +120,44 @@ export default {
       if (this.lastChallengeSolved) {
         return moment(this.lastChallengeSolved.validationDate).fromNow()
       }
+    },
+    data () {
+      const challengesByPlatform = {
+        'Ringzer0team': get(this.user, 'ringzer0team.challenges', [])
+      }
+      return keys(challengesByPlatform).reduce((challenges, platform) => {
+        return challenges.concat(
+          challengesByPlatform[platform].map((challenge) => {
+            // Active?
+            let validationDate = moment(challenge.validationDate)
+            const activeMinimumDate = moment().subtract(7, 'days').startOf('day')
+            const active = validationDate.isAfter(activeMinimumDate)
+
+            validationDate = validationDate.format('YYYY-MM-DD')
+            if (active) {
+              validationDate += ' 🔥'
+            }
+
+            return {
+              ...challenge,
+              validationDate,
+              platform
+            }
+          })
+        )
+      }, [])
+    },
+    filteredData () {
+      if (isEmpty(this.search)) return this.data
+      const search = this.search.toLowerCase()
+      return this.data.filter((challenge) => {
+        return this.columns.some((column) => {
+          return includes(String(challenge[column]).toLowerCase(), search)
+        })
+      })
+    },
+    extractKey (challenge) {
+      return challenge.platform + ' ' + challenge.name
     }
   },
   methods: {
@@ -165,6 +235,14 @@ export default {
   }
   &__platform-info {
     margin: 0.15rem 0;
+  }
+  &__search-input {
+    width: 200px;
+    padding: 0.3rem .3rem;
+    margin: 0.3rem 0;
+  }
+  &__challenges-table {
+    width: 100%;
   }
 }
 </style>
