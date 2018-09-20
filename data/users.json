@@ -1674,8 +1674,14 @@
       "id": "253",
       "username": "sushi",
       "url": "https://ringzer0team.com/profile/253/sushi",
-      "points": 388,
+      "points": 395,
       "challenges": [
+        {
+          "name": "/etc/passwd",
+          "category": "SQL Injection",
+          "validationDate": "2018-09-19T23:51:10Z",
+          "points": 7
+        },
         {
           "name": "Login portal 4",
           "category": "SQL Injection",
@@ -3420,8 +3426,14 @@
       "id": "19699",
       "username": "vp",
       "url": "https://ringzer0team.com/profile/19699/vp",
-      "points": 112,
+      "points": 115,
       "challenges": [
+        {
+          "name": "REST in peace",
+          "category": "Web",
+          "validationDate": "2018-09-18T20:12:51Z",
+          "points": 3
+        },
         {
           "name": "When it's lite it's not necessarily easy",
           "category": "SQL Injection",
