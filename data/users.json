@@ -4152,8 +4152,14 @@
       "id": "5097",
       "username": "LilC4T",
       "url": "https://ringzer0team.com/profile/5097/LilC4T",
-      "points": 137,
+      "points": 143,
       "challenges": [
+        {
+          "name": "Ascii Art",
+          "category": "Coding challenges",
+          "validationDate": "2018-09-23T20:24:35Z",
+          "points": 6
+        },
         {
           "name": "PHP feature or 0day?",
           "category": "Web",
