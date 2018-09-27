@@ -4158,8 +4158,14 @@
       "id": "5097",
       "username": "LilC4T",
       "url": "https://ringzer0team.com/profile/5097/LilC4T",
-      "points": 143,
+      "points": 144,
       "challenges": [
+        {
+          "name": "File recovery",
+          "category": "Cryptography",
+          "validationDate": "2018-09-26T19:08:31Z",
+          "points": 1
+        },
         {
           "name": "Ascii Art",
           "category": "Coding challenges",
