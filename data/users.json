@@ -4492,5 +4492,220 @@
         }
       ]
     }
+  },
+  {
+    "id": "fc400548-bdde-42b9-9853-33cb647ab388",
+    "name": "Simon Bouchard",
+    "ringzer0team": {
+      "id": "18835",
+      "username": "TwistedSim",
+      "url": "https://ringzer0team.com/profile/18835/TwistedSim",
+      "points": 0,
+      "challenges": []
+    }
+  },
+  {
+    "id": "9a48a04f-4ee9-4d5e-a631-ad1df3b61158",
+    "name": "Alexandre Frigon",
+    "ringzer0team": {
+      "id": "14941",
+      "username": "xehos",
+      "url": "https://ringzer0team.com/profile/14941/xehos",
+      "points": 64,
+      "challenges": [
+        {
+          "name": "Looking for password file",
+          "category": "Web",
+          "validationDate": "2018-10-03T10:52:54Z",
+          "points": 1
+        },
+        {
+          "name": "Most Secure Crypto Algo",
+          "category": "JavaScript",
+          "validationDate": "2018-10-03T10:39:20Z",
+          "points": 2
+        },
+        {
+          "name": "Dr. Pouce",
+          "category": "Forensics",
+          "validationDate": "2018-10-03T09:32:14Z",
+          "points": 2
+        },
+        {
+          "name": "Capture 1 Part 1",
+          "category": "Malware Analysis",
+          "validationDate": "2017-02-07T01:46:56Z",
+          "points": 1
+        },
+        {
+          "name": "Victor reloaded",
+          "category": "Steganography",
+          "validationDate": "2017-02-07T00:38:29Z",
+          "points": 2
+        },
+        {
+          "name": "Victor you're hidding me something",
+          "category": "Steganography",
+          "validationDate": "2017-02-07T00:29:33Z",
+          "points": 1
+        },
+        {
+          "name": "Bash Jail 5",
+          "category": "Jail Escaping",
+          "validationDate": "2017-02-07T00:15:43Z",
+          "points": 6
+        },
+        {
+          "name": "Bash Jail 4",
+          "category": "Jail Escaping",
+          "validationDate": "2017-02-07T00:02:11Z",
+          "points": 4
+        },
+        {
+          "name": "Bash Jail 3",
+          "category": "Jail Escaping",
+          "validationDate": "2017-02-06T23:58:55Z",
+          "points": 3
+        },
+        {
+          "name": "Bash Jail 2",
+          "category": "Jail Escaping",
+          "validationDate": "2017-02-06T23:40:25Z",
+          "points": 2
+        },
+        {
+          "name": "Bash Jail 1",
+          "category": "Jail Escaping",
+          "validationDate": "2017-02-06T23:12:09Z",
+          "points": 1
+        },
+        {
+          "name": "Big Brother is watching",
+          "category": "Web",
+          "validationDate": "2017-01-30T10:58:16Z",
+          "points": 1
+        },
+        {
+          "name": "Login portal 1",
+          "category": "SQL Injection",
+          "validationDate": "2017-01-30T00:32:26Z",
+          "points": 2
+        },
+        {
+          "name": "Headache",
+          "category": "Web",
+          "validationDate": "2017-01-29T05:26:35Z",
+          "points": 1
+        },
+        {
+          "name": "I Lost my password",
+          "category": "Cryptography",
+          "validationDate": "2017-01-28T02:16:15Z",
+          "points": 3
+        },
+        {
+          "name": "Martian message part 2",
+          "category": "Cryptography",
+          "validationDate": "2017-01-28T01:29:36Z",
+          "points": 2
+        },
+        {
+          "name": "Public key recovery",
+          "category": "Cryptography",
+          "validationDate": "2017-01-28T01:19:04Z",
+          "points": 2
+        },
+        {
+          "name": "Some martian message",
+          "category": "Cryptography",
+          "validationDate": "2017-01-28T01:08:23Z",
+          "points": 1
+        },
+        {
+          "name": "File recovery",
+          "category": "Cryptography",
+          "validationDate": "2017-01-28T00:55:52Z",
+          "points": 1
+        },
+        {
+          "name": "ACL rulezzz the world.",
+          "category": "SQL Injection",
+          "validationDate": "2017-01-28T00:30:49Z",
+          "points": 2
+        },
+        {
+          "name": "Most basic SQLi pattern.",
+          "category": "SQL Injection",
+          "validationDate": "2017-01-28T00:28:55Z",
+          "points": 1
+        },
+        {
+          "name": "Basics of Linux x64 shellcoding",
+          "category": "Shellcoding",
+          "validationDate": "2017-01-27T10:10:37Z",
+          "points": 2
+        },
+        {
+          "name": "I made a dd of Agent Smith usb key",
+          "category": "Forensics",
+          "validationDate": "2017-01-26T19:22:53Z",
+          "points": 1
+        },
+        {
+          "name": "Why not?",
+          "category": "JavaScript",
+          "validationDate": "2017-01-26T19:06:42Z",
+          "points": 2
+        },
+        {
+          "name": "Hashing is more secure",
+          "category": "JavaScript",
+          "validationDate": "2017-01-26T15:18:36Z",
+          "points": 1
+        },
+        {
+          "name": "Execute me if you can",
+          "category": "Coding challenges",
+          "validationDate": "2017-01-26T15:07:42Z",
+          "points": 5
+        },
+        {
+          "name": "Then obfuscation is more secure",
+          "category": "JavaScript",
+          "validationDate": "2017-01-24T11:49:36Z",
+          "points": 1
+        },
+        {
+          "name": "Client side validation is bad!",
+          "category": "JavaScript",
+          "validationDate": "2017-01-24T11:44:40Z",
+          "points": 1
+        },
+        {
+          "name": "I hate mathematics",
+          "category": "Coding challenges",
+          "validationDate": "2017-01-24T10:55:01Z",
+          "points": 3
+        },
+        {
+          "name": "Ask your grandpa!",
+          "category": "Coding challenges",
+          "validationDate": "2017-01-24T10:40:56Z",
+          "points": 2
+        },
+        {
+          "name": "Hash me reloaded",
+          "category": "Coding challenges",
+          "validationDate": "2017-01-24T10:40:15Z",
+          "points": 3
+        },
+        {
+          "name": "Hash me please",
+          "category": "Coding challenges",
+          "validationDate": "2017-01-24T09:10:56Z",
+          "points": 2
+        }
+      ]
+    }
   }
 ]
