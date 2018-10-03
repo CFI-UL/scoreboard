@@ -13,13 +13,13 @@
         <div class="user__platform-info">
           Challenges: {{ user.ringzer0team.challenges.length }}
         </div>
-        <div class="user__platform-info">
+        <div v-if="ringzer0teamFirstSolveDateFromNow" class="user__platform-info">
           First solve: {{ ringzer0teamFirstSolveDate }} ({{ ringzer0teamFirstSolveDateFromNow }})
         </div>
-        <div class="user__platform-info">
+        <div v-if="ringzer0teamLastSolveDateFromNow" class="user__platform-info">
           Last solve: {{ ringzer0teamLastSolveDate }} ({{ ringzer0teamLastSolveDateFromNow }})
         </div>
-        <div class="user__platform-info" v-if="isInLast7Days(lastChallengeSolved.validationDate)">
+        <div class="user__platform-info" v-if="lastChallengeSolved && isInLast7Days(lastChallengeSolved.validationDate)">
           Active past 7 days 🔥
         </div>
       </div>
@@ -45,6 +45,9 @@
           :initial-sort-key="initialSortKey"
           :initial-sort-key-order="initialSortKeyOrder">
         </data-table>
+        <div class="user__placeholder" v-if="sortedRingzer0teamChallenges.length === 0">
+          No solve yet!
+        </div>
       </div>
     </div>
   </div>
@@ -243,6 +246,10 @@ export default {
   }
   &__challenges-table {
     width: 100%;
+  }
+  &__placeholder {
+    margin: 1rem;
+    text-align: center;
   }
 }
 </style>
