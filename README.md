@@ -65,11 +65,12 @@ $ bin/users -h
 
   Options:
 
-    -h, --help       output usage information
+    -h, --help                  output usage information
 
   Commands:
 
-    add|a [options]  Add a data to the data sets
+    add|a [options]             Add a data to the data sets
+    search|s [options] <query>  Search users in the data sets
 
 ```
 
@@ -87,6 +88,22 @@ $ bin/users add -h
     -n, --name <full name>         Full name
     -z, --ringzer0team <username>  Ringzer0team username
     -h, --help                     output usage information
+
+```
+
+Search user:
+
+```
+$ bin/users search -h
+
+  Usage: search|s [options] <query>
+
+  Search users in the data sets
+
+  Options:
+
+    -f, --full  Display full information
+    -h, --help  output usage information
 
 ```
 
