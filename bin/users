@@ -1,0 +1,89 @@
+#!/usr/bin/env node
+const _ = require('lodash')
+const program = require('commander')
+const scoreboard = require('../lib')
+
+function die (error, status = 1) {
+  console.error(error)
+  process.exit(status)
+}
+
+function omitRecursive (data, omitKeys) {
+  return _.keys(data).reduce((newData, key) => {
+    let value = data[key]
+    // Object?
+    if (value !== null && !_.isArray(value) && _.isObject(value)) {
+      value = omitRecursive(value, omitKeys)
+    }
+    if (!omitKeys.includes(key)) {
+      newData[key] = value
+    }
+    return newData
+  }, {})
+}
+
+program
+  .command('add')
+  .alias('a')
+  .description('Add a data to the data sets')
+  .option('-n, --name <full name>', 'Full name')
+  .option('-z, --ringzer0team <username>', 'Ringzer0team username')
+  .action((options) => {
+    try {
+      scoreboard.addUser(options.name, {
+        ringzer0team: options.ringzer0team
+      })
+      .catch((error) => {
+        die(error)
+      })
+    } catch (error) {
+      die(error)
+    }
+  })
+
+program
+  .command('update <id>')
+  .alias('u')
+  .description('Update a user in the data sets')
+  .option('-n, --name <full name>', 'Full name')
+  .option('-z, --ringzer0team <username>', 'Ringzer0team username')
+  .action((id, options) => {
+    try {
+      scoreboard.updateUser(id, {
+        name: options.name,
+        ringzer0team: options.ringzer0team
+      })
+      .catch((error) => {
+        die(error)
+      })
+    } catch (error) {
+      die(error)
+    }
+  })
+
+program
+  .command('search <query>')
+  .alias('s')
+  .option('-f, --full', 'Display full information')
+  .description('Search users in the data sets')
+  .action((query, options) => {
+    try {
+      let users = scoreboard.searchUser(query)
+      if (users.length === 0) {
+        console.log('No user found.')
+      } else {
+        users = users.map((user) => {
+          if (options.full !== true) {
+            user = omitRecursive(user, ['challenges'])
+          }
+          return user
+        })
+        console.log(`${users.length} users found.`)
+        console.log(JSON.stringify(users, null, 2))
+      }
+    } catch (error) {
+      die(error)
+    }
+  })
+
+program.parse(process.argv)

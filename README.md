@@ -24,6 +24,8 @@ npm install
 
 ## Usage
 
+### Scoreboard
+
 ```
 $ bin/scoreboard -h
 
@@ -31,12 +33,11 @@ $ bin/scoreboard -h
 
   Options:
 
-    -h, --help       output usage information
+    -h, --help  output usage information
 
   Commands:
 
-    update|u         Update all data sets
-    add|a [options]  Add a user to the data sets
+    update|u    Update all data sets
 
 ```
 
@@ -55,20 +56,71 @@ $ bin/scoreboard update -h
 
 ```
 
-Add a user to the data sets:
+### Users
 
 ```
-$ bin/scoreboard add -h
+$ bin/users -h
+
+  Usage: users [options] [command]
+
+  Options:
+
+    -h, --help                  output usage information
+
+  Commands:
+
+    add|a [options]             Add a data to the data sets
+    search|s [options] <query>  Search users in the data sets
+
+```
+
+Add user:
+
+```
+$ bin/users add -h
 
   Usage: add|a [options]
 
-  Add a user to the data sets
+  Add a data to the data sets
 
   Options:
 
     -n, --name <full name>         Full name
     -z, --ringzer0team <username>  Ringzer0team username
     -h, --help                     output usage information
+
+```
+
+Update user:
+
+```
+$ bin/users update -h
+
+  Usage: update|u [options] <id>
+
+  Update a user in the data sets
+
+  Options:
+
+    -n, --name <full name>         Full name
+    -z, --ringzer0team <username>  Ringzer0team username
+    -h, --help                     output usage information
+
+```
+
+Search user:
+
+```
+$ bin/users search -h
+
+  Usage: search|s [options] <query>
+
+  Search users in the data sets
+
+  Options:
+
+    -f, --full  Display full information
+    -h, --help  output usage information
 
 ```
 
