@@ -28,10 +28,12 @@ program
   .description('Add a data to the data sets')
   .option('-n, --name <full name>', 'Full name')
   .option('-z, --ringzer0team <username>', 'Ringzer0team username')
+  .option('-r, --root-me-url <url>', 'Root-me profile url')
   .action((options) => {
     try {
       scoreboard.addUser(options.name, {
-        ringzer0team: options.ringzer0team
+        ringzer0team: options.ringzer0team,
+        rootMeUrl: options.rootMeUrl
       })
       .catch((error) => {
         die(error)
@@ -47,11 +49,13 @@ program
   .description('Update a user in the data sets')
   .option('-n, --name <full name>', 'Full name')
   .option('-z, --ringzer0team <username>', 'Ringzer0team username')
+  .option('-r, --root-me-url <url>', 'Root-me profile url')
   .action((id, options) => {
     try {
       scoreboard.updateUser(id, {
         name: options.name,
-        ringzer0team: options.ringzer0team
+        ringzer0team: options.ringzer0team,
+        rootMeUrl: options.rootMeUrl
       })
       .catch((error) => {
         die(error)
