@@ -91,6 +91,23 @@ $ bin/users add -h
 
 ```
 
+Update user:
+
+```
+$ bin/users update -h
+
+  Usage: update|u [options] <id>
+
+  Update a user in the data sets
+
+  Options:
+
+    -n, --name <full name>         Full name
+    -z, --ringzer0team <username>  Ringzer0team username
+    -h, --help                     output usage information
+
+```
+
 Search user:
 
 ```

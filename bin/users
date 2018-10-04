@@ -42,6 +42,26 @@ program
   })
 
 program
+  .command('update <id>')
+  .alias('u')
+  .description('Update a user in the data sets')
+  .option('-n, --name <full name>', 'Full name')
+  .option('-z, --ringzer0team <username>', 'Ringzer0team username')
+  .action((id, options) => {
+    try {
+      scoreboard.updateUser(id, {
+        name: options.name,
+        ringzer0team: options.ringzer0team
+      })
+      .catch((error) => {
+        die(error)
+      })
+    } catch (error) {
+      die(error)
+    }
+  })
+
+program
   .command('search <query>')
   .alias('s')
   .option('-f, --full', 'Display full information')
