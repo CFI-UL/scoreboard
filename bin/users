@@ -1,0 +1,30 @@
+#!/usr/bin/env node
+const _ = require('lodash')
+const program = require('commander')
+const scoreboard = require('../lib')
+
+function die (error, status = 1) {
+  console.error(error)
+  process.exit(status)
+}
+
+program
+  .command('add')
+  .alias('a')
+  .description('Add a data to the data sets')
+  .option('-n, --name <full name>', 'Full name')
+  .option('-z, --ringzer0team <username>', 'Ringzer0team username')
+  .action((options) => {
+    try {
+      scoreboard.addUser(options.name, {
+        ringzer0team: options.ringzer0team
+      })
+      .catch((error) => {
+        die(error)
+      })
+    } catch (error) {
+      die(error)
+    }
+  })
+
+program.parse(process.argv)
