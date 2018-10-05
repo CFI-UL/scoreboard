@@ -9,6 +9,9 @@
           <li class="menu__item">
             <router-link to="/ringzer0team">Ringzer0team</router-link>
           </li>
+          <li class="menu__item">
+            <router-link to="/root-me">Root Me</router-link>
+          </li>
         </ul>
       </nav>
     </header>
@@ -48,6 +51,7 @@ export default {
   }
   &__item {
     display: inline-block;
+    margin: 0 1rem;
   }
 }
 

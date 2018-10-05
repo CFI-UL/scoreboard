@@ -1,71 +1,35 @@
 <template>
-  <div class="user">
-    <div class="user__info">
-      <h2>{{ user.name }}</h2>
-      <div v-if="hasRingzer0team">
-        <div class="user__platform-name">Ringzer0team</div>
-        <div class="user__platform-username">
-          <a :href="user.ringzer0team.url">{{ user.ringzer0team.username }}</a>
-        </div>
-        <div class="user__platform-info">
-          Points: {{ user.ringzer0team.points }}
-        </div>
-        <div class="user__platform-info">
-          Challenges: {{ user.ringzer0team.challenges.length }}
-        </div>
-        <div v-if="ringzer0teamFirstSolveDateFromNow" class="user__platform-info">
-          First solve: {{ ringzer0teamFirstSolveDate }} ({{ ringzer0teamFirstSolveDateFromNow }})
-        </div>
-        <div v-if="ringzer0teamLastSolveDateFromNow" class="user__platform-info">
-          Last solve: {{ ringzer0teamLastSolveDate }} ({{ ringzer0teamLastSolveDateFromNow }})
-        </div>
-        <div class="user__platform-info" v-if="lastChallengeSolved && isInLast7Days(lastChallengeSolved.validationDate)">
-          Active past 7 days 🔥
-        </div>
-      </div>
-    </div>
-    <div class="user__content">
-      <div>
-        <h3>Timeline</h3>
-        <div ref="chart"></div>
-      </div>
-      <div>
-        <h3>Challenges ({{ this.filteredData.length }})</h3>
-        <input
-          class="user__search-input"
-          type='text'
-          placeholder="Filter"
-          v-model="search"/>
-        <data-table
-          className="user__challenges-table"
-          :data="filteredData"
-          :extractKey="(user) => user.id"
-          :columns="columns"
-          :filter-key="filterKey"
-          :initial-sort-key="initialSortKey"
-          :initial-sort-key-order="initialSortKeyOrder">
-        </data-table>
-        <div class="user__placeholder" v-if="sortedRingzer0teamChallenges.length === 0">
-          No solve yet!
-        </div>
-      </div>
-    </div>
+  <div class="user-platform-profile">
+    <user-platform-card
+      :user="user"
+      :userPlatformProfile="userPlatformProfile"
+      :platform="platform"/>
   </div>
 </template>
 
 <script>
 import { get, has, first, last, keys, isEmpty, includes } from 'lodash'
+import UserPlatformCard from '@/components/UserPlatformCard'
 import DataTable from '@/components/DataTable'
 import moment from 'moment'
 import ApexCharts from 'apexcharts'
 
 export default {
-  name: 'user',
+  name: 'user-platform-profile',
   components: {
+    UserPlatformCard,
     DataTable
   },
   props: {
     user: {
+      type: Object,
+      required: true
+    },
+    userPlatformProfile: {
+      type: Object,
+      required: true
+    },
+    platform: {
       type: Object,
       required: true
     }
@@ -213,22 +177,22 @@ export default {
       this.chart.render()
     }
   },
-  mounted () {
-    this.createChart()
-  },
-  beforeDestroy () {
-    this.chart.destroy()
-  },
-  watch: {
-    user () {
-      this.updateChart()
-    }
-  }
+  // mounted () {
+  //   this.createChart()
+  // },
+  // beforeDestroy () {
+  //   this.chart.destroy()
+  // },
+  // watch: {
+  //   user () {
+  //     this.updateChart()
+  //   }
+  // }
 }
 </script>
 
 <style lang="scss">
-.user {
+.user-platform-profile {
   &__platform-name {
     font-size: 1.5em;
     margin: 0.3rem 0;

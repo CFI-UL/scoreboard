@@ -1,7 +1,8 @@
 <template>
   <div class="user-view">
     <template v-if="user">
-      <user :user="user"></user>
+      <h2>{{ user.name }}</h2>
+      <router-view></router-view>
     </template>
     <template v-else>
       <div class="user-view__error">
@@ -13,13 +14,9 @@
 
 <script>
 import { mapState, mapGetters } from 'vuex'
-import User from '@/components/User'
 
 export default {
   name: 'user-view',
-  components: {
-    User
-  },
   props: {
     id: {
       type: String,
