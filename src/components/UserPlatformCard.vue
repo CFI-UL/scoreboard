@@ -10,10 +10,22 @@
     <div class="user-platform-card__info">
       Challenges: {{ sortedChallengesDesc.length }}
     </div>
+    <div class="user-platform-card__info">
+      First solve: {{ firstChallengeSolvedDate | formatDate }} ({{ firstChallengeSolvedDate | formatDateFromNow }})
+    </div>
+    <div class="user-platform-card__info">
+      Last solve: {{ lastChallengeSolvedDate | formatDate }} ({{ lastChallengeSolvedDate | formatDateFromNow }})
+    </div>
+    <div class="user-platform-card__info" v-if="isActivePastNumberDays">
+      Active past {{activePastNumberDays}} days 🔥
+    </div>
   </div>
 </template>
 
 <script>
+import { first, last, get } from 'lodash'
+import moment from 'moment'
+
 export default {
   name: 'user-platform-card',
   props: {
@@ -28,6 +40,10 @@ export default {
     platform: {
       type: Object,
       required: true
+    },
+    activePastNumberDays: {
+      type: Number,
+      required: true
     }
   },
   computed: {
@@ -41,9 +57,34 @@ export default {
     firstChallengeSolved () {
       return last(this.sortedChallengesDesc)
     },
+    firstChallengeSolvedDate () {
+      return this.firstChallengeSolved.validationDate
+    },
     lastChallengeSolved () {
       return first(this.sortedChallengesDesc)
     },
+    lastChallengeSolvedDate () {
+      return this.lastChallengeSolved.validationDate
+    },
+    isActivePastNumberDays () {
+      if (this.lastChallengeSolved) {
+        return this.isInLastDays(this.lastChallengeSolvedDate, this.activePastNumberDays)
+      }
+    }
+  },
+  methods: {
+    isInLastDays (date, numberDays) {
+      const activeMinimumDate = moment().subtract(numberDays, 'days').startOf('day')
+      return moment(date).isAfter(activeMinimumDate)
+    }
+  },
+  filters: {
+    formatDate (value, format = 'MMMM Do YYYY') {
+      return moment(value).format(format)
+    },
+    formatDateFromNow (value) {
+      return moment(value).fromNow()
+    }
   }
 }
 </script>
@@ -51,5 +92,8 @@ export default {
 <style lang="scss">
 .user-platform-card {
 
+  &__info {
+    margin: 0.15rem 0;
+  }
 }
 </style>

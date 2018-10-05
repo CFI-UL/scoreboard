@@ -107,8 +107,11 @@ export default {
   methods: {
     onRowClick (user) {
       this.$router.push({
-        name: 'user',
-        params: { id: user.id }
+        name: 'userPlatform',
+        params: {
+          id: user.id,
+          platformId: 'rootMe'
+        }
       })
     },
     sortChallengesDesc (challenges) {
