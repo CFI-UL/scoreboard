@@ -4548,8 +4548,27 @@
       "id": "18835",
       "username": "TwistedSim",
       "url": "https://ringzer0team.com/profile/18835/TwistedSim",
-      "points": 0,
-      "challenges": []
+      "points": 3,
+      "challenges": [
+        {
+          "name": "Some martian message",
+          "category": "Cryptography",
+          "validationDate": "2018-10-06T01:23:03Z",
+          "points": 1
+        },
+        {
+          "name": "Looking for password file",
+          "category": "Web",
+          "validationDate": "2018-10-06T01:10:35Z",
+          "points": 1
+        },
+        {
+          "name": "Big Brother is watching",
+          "category": "Web",
+          "validationDate": "2018-10-06T01:04:38Z",
+          "points": 1
+        }
+      ]
     }
   },
   {
