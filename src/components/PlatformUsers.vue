@@ -66,7 +66,7 @@ export default {
     },
     data () {
       return this.sortedUsers.map((user, index) => {
-        const sortedChallenges = this.sortChallengesDesc(user.ringzer0team.challenges)
+        const sortedChallenges = this.sortChallengesDesc(user[this.platform.id].challenges)
         let lastChallengeSolved = first(sortedChallenges)
         let lastSolvedAt = null
         let active = false
@@ -79,9 +79,9 @@ export default {
           id: user.id,
           position: index + 1,
           name: user.name,
-          username: user.ringzer0team.username,
-          points: user.ringzer0team.points,
-          challenges: user.ringzer0team.challenges.length,
+          username: user[this.platform.id].username,
+          points: user[this.platform.id].points,
+          challenges: user[this.platform.id].challenges.length,
           lastSolvedAt,
           activePast7Days: (active ? '🔥' : '')
         }
