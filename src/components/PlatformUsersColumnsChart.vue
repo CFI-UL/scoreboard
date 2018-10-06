@@ -80,7 +80,7 @@ export default {
     this.chart.destroy()
   },
   watch: {
-    filteredUsers () {
+    platform () {
       this.updateChart()
     }
   }
