@@ -1,4 +1,3 @@
-
 [
   {
     "name": "Ian Bouchard",
@@ -1666,6 +1665,331 @@
           "points": 1
         }
       ]
+    },
+    "rootMe": {
+      "url": "https://www.root-me.org/Corb3nik",
+      "username": "Corb3nik",
+      "points": 1035,
+      "challenges": [
+        {
+          "name": "Javascript - Authentication",
+          "category": "Web - Client",
+          "validationDate": "2016-03-15T00:06:44-04:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Source",
+          "category": "Web - Client",
+          "validationDate": "2016-03-15T00:07:46-04:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Authentication 2",
+          "category": "Web - Client",
+          "validationDate": "2016-03-15T00:09:07-04:00",
+          "points": 10
+        },
+        {
+          "name": "Javascript - Obfuscation 1",
+          "category": "Web - Client",
+          "validationDate": "2016-03-15T00:09:58-04:00",
+          "points": 10
+        },
+        {
+          "name": "Javascript - Obfuscation 2",
+          "category": "Web - Client",
+          "validationDate": "2016-03-15T00:10:51-04:00",
+          "points": 10
+        },
+        {
+          "name": "Javascript - Native code",
+          "category": "Web - Client",
+          "validationDate": "2016-03-15T00:17:50-04:00",
+          "points": 15
+        },
+        {
+          "name": "Javascript - Obfuscation 3",
+          "category": "Web - Client",
+          "validationDate": "2016-03-15T19:28:29-04:00",
+          "points": 30
+        },
+        {
+          "name": "XSS - Stored 1",
+          "category": "Web - Client",
+          "validationDate": "2016-03-15T20:24:42-04:00",
+          "points": 30
+        },
+        {
+          "name": "HTML",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T21:34:12-04:00",
+          "points": 5
+        },
+        {
+          "name": "Weak password",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T21:34:45-04:00",
+          "points": 10
+        },
+        {
+          "name": "User-agent",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T21:35:28-04:00",
+          "points": 10
+        },
+        {
+          "name": "HTTP directory indexing",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T21:41:32-04:00",
+          "points": 15
+        },
+        {
+          "name": "HTTP Headers",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T21:42:46-04:00",
+          "points": 15
+        },
+        {
+          "name": "HTTP verb tampering",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T21:43:21-04:00",
+          "points": 15
+        },
+        {
+          "name": "Improper redirect",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T21:46:33-04:00",
+          "points": 15
+        },
+        {
+          "name": "CRLF",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T21:51:36-04:00",
+          "points": 20
+        },
+        {
+          "name": "File upload - double extensions",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T22:17:21-04:00",
+          "points": 20
+        },
+        {
+          "name": "File upload - MIME type",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T22:20:05-04:00",
+          "points": 20
+        },
+        {
+          "name": "HTTP cookies",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T22:21:01-04:00",
+          "points": 20
+        },
+        {
+          "name": "Directory traversal",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T22:36:47-04:00",
+          "points": 25
+        },
+        {
+          "name": "File upload - null byte",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T22:48:45-04:00",
+          "points": 25
+        },
+        {
+          "name": "PHP filters",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T22:51:31-04:00",
+          "points": 25
+        },
+        {
+          "name": "Local File Inclusion",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T22:54:56-04:00",
+          "points": 30
+        },
+        {
+          "name": "Local File Inclusion - Double encoding",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T23:04:41-04:00",
+          "points": 30
+        },
+        {
+          "name": "PHP type juggling",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T23:09:35-04:00",
+          "points": 30
+        },
+        {
+          "name": "PHP preg_replace()",
+          "category": "Web - Server",
+          "validationDate": "2016-10-22T23:14:38-04:00",
+          "points": 30
+        },
+        {
+          "name": "Remote File Inclusion",
+          "category": "Web - Server",
+          "validationDate": "2016-10-23T00:21:02-04:00",
+          "points": 30
+        },
+        {
+          "name": "MALab",
+          "category": "Realist",
+          "validationDate": "2016-10-24T01:18:30-04:00",
+          "points": 50
+        },
+        {
+          "name": "It happens, sometimes",
+          "category": "Realist",
+          "validationDate": "2016-12-08T18:49:24-05:00",
+          "points": 10
+        },
+        {
+          "name": "The h@ckers l4b",
+          "category": "Realist",
+          "validationDate": "2016-12-08T19:56:10-05:00",
+          "points": 25
+        },
+        {
+          "name": "PyRat Auction",
+          "category": "Realist",
+          "validationDate": "2016-12-08T20:35:38-05:00",
+          "points": 40
+        },
+        {
+          "name": "Root-We",
+          "category": "Realist",
+          "validationDate": "2016-12-08T20:47:26-05:00",
+          "points": 45
+        },
+        {
+          "name": "PHP assert()",
+          "category": "Web - Server",
+          "validationDate": "2016-12-09T00:02:46-05:00",
+          "points": 25
+        },
+        {
+          "name": "PHP register globals",
+          "category": "Web - Server",
+          "validationDate": "2016-12-09T03:57:17-05:00",
+          "points": 25
+        },
+        {
+          "name": "Server-side Template Injection",
+          "category": "Web - Server",
+          "validationDate": "2016-12-09T04:08:52-05:00",
+          "points": 30
+        },
+        {
+          "name": "SQL injection - authentication",
+          "category": "Web - Server",
+          "validationDate": "2016-12-09T04:11:26-05:00",
+          "points": 30
+        },
+        {
+          "name": "SQL injection - string",
+          "category": "Web - Server",
+          "validationDate": "2016-12-09T04:23:37-05:00",
+          "points": 30
+        },
+        {
+          "name": "PHP Serialization",
+          "category": "Web - Server",
+          "validationDate": "2016-12-15T06:52:16-05:00",
+          "points": 35
+        },
+        {
+          "name": "SQL Truncation",
+          "category": "Web - Server",
+          "validationDate": "2016-12-15T07:31:56-05:00",
+          "points": 35
+        },
+        {
+          "name": "NoSQL injection - authentication",
+          "category": "Web - Server",
+          "validationDate": "2016-12-15T08:21:08-05:00",
+          "points": 35
+        },
+        {
+          "name": "ELF x86 - Stack buffer overflow basic 1",
+          "category": "App - System",
+          "validationDate": "2016-12-15T08:33:45-05:00",
+          "points": 5
+        },
+        {
+          "name": "ELF x86 - Stack buffer overflow basic 2\t",
+          "category": "App - System",
+          "validationDate": "2016-12-15T08:35:57-05:00",
+          "points": 10
+        },
+        {
+          "name": "Bash - System 1",
+          "category": "App - Script",
+          "validationDate": "2016-12-15T08:55:06-05:00",
+          "points": 5
+        },
+        {
+          "name": "sudo - weak configuration",
+          "category": "App - Script",
+          "validationDate": "2016-12-15T09:00:57-05:00",
+          "points": 5
+        },
+        {
+          "name": "Bash - System 2",
+          "category": "App - Script",
+          "validationDate": "2016-12-15T09:02:56-05:00",
+          "points": 10
+        },
+        {
+          "name": "Encoding - ASCII",
+          "category": "Cryptanalysis",
+          "validationDate": "2016-12-15T09:19:57-05:00",
+          "points": 5
+        },
+        {
+          "name": "FTP - authentication",
+          "category": "Network",
+          "validationDate": "2016-12-15T16:36:43-05:00",
+          "points": 5
+        },
+        {
+          "name": "TELNET - authentication",
+          "category": "Network",
+          "validationDate": "2016-12-15T16:38:24-05:00",
+          "points": 5
+        },
+        {
+          "name": "ETHERNET - frame",
+          "category": "Network",
+          "validationDate": "2016-12-15T16:39:21-05:00",
+          "points": 10
+        },
+        {
+          "name": "Twitter authentication",
+          "category": "Network",
+          "validationDate": "2016-12-15T16:39:55-05:00",
+          "points": 15
+        },
+        {
+          "name": "Encoding - UU",
+          "category": "Cryptanalysis",
+          "validationDate": "2016-12-15T16:41:51-05:00",
+          "points": 5
+        },
+        {
+          "name": "IP - Time To Live",
+          "category": "Network",
+          "validationDate": "2016-12-15T17:19:12-05:00",
+          "points": 15
+        },
+        {
+          "name": "SIP - authentication",
+          "category": "Network",
+          "validationDate": "2016-12-15T17:21:28-05:00",
+          "points": 20
+        }
+      ]
     }
   },
   {
@@ -2536,6 +2860,637 @@
           "points": 1
         }
       ]
+    },
+    "rootMe": {
+      "url": "https://www.root-me.org/sushi",
+      "username": "sushi",
+      "points": 2220,
+      "challenges": [
+        {
+          "name": "HTML",
+          "category": "Web - Server",
+          "validationDate": "2015-10-15T21:25:05-04:00",
+          "points": 5
+        },
+        {
+          "name": "sudo - weak configuration",
+          "category": "App - Script",
+          "validationDate": "2016-05-01T00:52:42-04:00",
+          "points": 5
+        },
+        {
+          "name": "ELF x86 - Stack buffer overflow basic 1",
+          "category": "App - System",
+          "validationDate": "2016-05-01T01:20:55-04:00",
+          "points": 5
+        },
+        {
+          "name": "ELF x86 - Stack buffer overflow basic 2\t",
+          "category": "App - System",
+          "validationDate": "2016-05-01T01:34:12-04:00",
+          "points": 10
+        },
+        {
+          "name": "ELF - 0 protection",
+          "category": "Cracking",
+          "validationDate": "2016-05-01T03:19:04-04:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Authentication",
+          "category": "Web - Client",
+          "validationDate": "2016-10-22T21:24:39-04:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Source",
+          "category": "Web - Client",
+          "validationDate": "2016-10-22T21:25:12-04:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Authentication 2",
+          "category": "Web - Client",
+          "validationDate": "2016-10-22T21:26:59-04:00",
+          "points": 10
+        },
+        {
+          "name": "Javascript - Obfuscation 1",
+          "category": "Web - Client",
+          "validationDate": "2016-10-22T22:18:29-04:00",
+          "points": 10
+        },
+        {
+          "name": "Javascript - Obfuscation 2",
+          "category": "Web - Client",
+          "validationDate": "2016-10-22T22:22:23-04:00",
+          "points": 10
+        },
+        {
+          "name": "Javascript - Native code",
+          "category": "Web - Client",
+          "validationDate": "2016-10-22T23:21:03-04:00",
+          "points": 15
+        },
+        {
+          "name": "Javascript - Obfuscation 3",
+          "category": "Web - Client",
+          "validationDate": "2016-10-23T00:06:36-04:00",
+          "points": 30
+        },
+        {
+          "name": "XSS - Stored 1",
+          "category": "Web - Client",
+          "validationDate": "2016-10-23T01:08:01-04:00",
+          "points": 30
+        },
+        {
+          "name": "CSRF - 0 protection",
+          "category": "Web - Client",
+          "validationDate": "2016-10-23T02:48:36-04:00",
+          "points": 35
+        },
+        {
+          "name": "Weak password",
+          "category": "Web - Server",
+          "validationDate": "2016-10-23T06:49:13-04:00",
+          "points": 10
+        },
+        {
+          "name": "User-agent",
+          "category": "Web - Server",
+          "validationDate": "2016-10-23T06:56:03-04:00",
+          "points": 10
+        },
+        {
+          "name": "Backup file",
+          "category": "Web - Server",
+          "validationDate": "2016-10-23T07:29:38-04:00",
+          "points": 15
+        },
+        {
+          "name": "HTTP directory indexing",
+          "category": "Web - Server",
+          "validationDate": "2016-10-23T07:33:54-04:00",
+          "points": 15
+        },
+        {
+          "name": "HTTP Headers",
+          "category": "Web - Server",
+          "validationDate": "2016-10-23T07:35:36-04:00",
+          "points": 15
+        },
+        {
+          "name": "HTTP verb tampering",
+          "category": "Web - Server",
+          "validationDate": "2016-10-23T07:50:18-04:00",
+          "points": 15
+        },
+        {
+          "name": "Improper redirect",
+          "category": "Web - Server",
+          "validationDate": "2016-10-23T07:58:20-04:00",
+          "points": 15
+        },
+        {
+          "name": "FTP - authentication",
+          "category": "Network",
+          "validationDate": "2016-10-28T23:13:31-04:00",
+          "points": 5
+        },
+        {
+          "name": "TELNET - authentication",
+          "category": "Network",
+          "validationDate": "2016-10-28T23:20:34-04:00",
+          "points": 5
+        },
+        {
+          "name": "ETHERNET - frame",
+          "category": "Network",
+          "validationDate": "2016-10-28T23:23:48-04:00",
+          "points": 10
+        },
+        {
+          "name": "Twitter authentication",
+          "category": "Network",
+          "validationDate": "2016-10-28T23:25:36-04:00",
+          "points": 15
+        },
+        {
+          "name": "IP - Time To Live",
+          "category": "Network",
+          "validationDate": "2016-10-29T05:29:37-04:00",
+          "points": 15
+        },
+        {
+          "name": "Install files",
+          "category": "Web - Server",
+          "validationDate": "2016-10-29T17:53:25-04:00",
+          "points": 15
+        },
+        {
+          "name": "SQL injection - authentication",
+          "category": "Web - Server",
+          "validationDate": "2016-10-31T23:34:13-04:00",
+          "points": 30
+        },
+        {
+          "name": "HTTP cookies",
+          "category": "Web - Server",
+          "validationDate": "2016-10-31T23:35:51-04:00",
+          "points": 20
+        },
+        {
+          "name": "File upload - double extensions",
+          "category": "Web - Server",
+          "validationDate": "2016-10-31T23:42:43-04:00",
+          "points": 20
+        },
+        {
+          "name": "Directory traversal",
+          "category": "Web - Server",
+          "validationDate": "2016-10-31T23:46:17-04:00",
+          "points": 25
+        },
+        {
+          "name": "Local File Inclusion",
+          "category": "Web - Server",
+          "validationDate": "2016-10-31T23:52:38-04:00",
+          "points": 30
+        },
+        {
+          "name": "File upload - MIME type",
+          "category": "Web - Server",
+          "validationDate": "2016-10-31T23:55:55-04:00",
+          "points": 20
+        },
+        {
+          "name": "CRLF",
+          "category": "Web - Server",
+          "validationDate": "2016-11-01T02:28:16-04:00",
+          "points": 20
+        },
+        {
+          "name": "File upload - null byte",
+          "category": "Web - Server",
+          "validationDate": "2016-11-02T01:09:51-04:00",
+          "points": 25
+        },
+        {
+          "name": "PHP filters",
+          "category": "Web - Server",
+          "validationDate": "2016-11-02T01:30:23-04:00",
+          "points": 25
+        },
+        {
+          "name": "SQL injection - string",
+          "category": "Web - Server",
+          "validationDate": "2016-11-02T03:11:26-04:00",
+          "points": 30
+        },
+        {
+          "name": "PHP register globals",
+          "category": "Web - Server",
+          "validationDate": "2016-11-04T00:27:37-04:00",
+          "points": 25
+        },
+        {
+          "name": "LDAP injection - authentication",
+          "category": "Web - Server",
+          "validationDate": "2016-11-04T02:17:46-04:00",
+          "points": 35
+        },
+        {
+          "name": "SQL injection - numeric",
+          "category": "Web - Server",
+          "validationDate": "2016-11-04T02:53:45-04:00",
+          "points": 35
+        },
+        {
+          "name": "Local File Inclusion - Double encoding",
+          "category": "Web - Server",
+          "validationDate": "2016-11-04T07:09:26-04:00",
+          "points": 30
+        },
+        {
+          "name": "XPath injection - authentication",
+          "category": "Web - Server",
+          "validationDate": "2016-11-04T09:59:42-04:00",
+          "points": 35
+        },
+        {
+          "name": "DNS - zone transfert",
+          "category": "Network",
+          "validationDate": "2017-01-08T22:42:02-05:00",
+          "points": 15
+        },
+        {
+          "name": "Bash - System 1",
+          "category": "App - Script",
+          "validationDate": "2017-01-29T07:24:44-05:00",
+          "points": 5
+        },
+        {
+          "name": "ELF - x86 Basic",
+          "category": "Cracking",
+          "validationDate": "2017-01-30T06:52:42-05:00",
+          "points": 5
+        },
+        {
+          "name": "Encoding - ASCII",
+          "category": "Cryptanalysis",
+          "validationDate": "2017-02-06T07:46:11-05:00",
+          "points": 5
+        },
+        {
+          "name": "Encoding - UU",
+          "category": "Cryptanalysis",
+          "validationDate": "2017-02-06T07:48:39-05:00",
+          "points": 5
+        },
+        {
+          "name": "Hash - Message Digest 5",
+          "category": "Cryptanalysis",
+          "validationDate": "2017-02-06T07:49:19-05:00",
+          "points": 5
+        },
+        {
+          "name": "Hash - SHA-2",
+          "category": "Cryptanalysis",
+          "validationDate": "2017-02-06T07:52:23-05:00",
+          "points": 5
+        },
+        {
+          "name": "Go back to college",
+          "category": "Programming",
+          "validationDate": "2017-02-08T09:39:28-05:00",
+          "points": 5
+        },
+        {
+          "name": "It happens, sometimes",
+          "category": "Realist",
+          "validationDate": "2017-02-09T06:00:28-05:00",
+          "points": 10
+        },
+        {
+          "name": "Gunnm",
+          "category": "Steganography",
+          "validationDate": "2017-02-10T00:47:05-05:00",
+          "points": 5
+        },
+        {
+          "name": "Squared",
+          "category": "Steganography",
+          "validationDate": "2017-02-10T00:50:56-05:00",
+          "points": 5
+        },
+        {
+          "name": "PE - 0 protection",
+          "category": "Cracking",
+          "validationDate": "2017-02-12T02:48:12-05:00",
+          "points": 5
+        },
+        {
+          "name": "SQL injection - authentication - GBK",
+          "category": "Web - Server",
+          "validationDate": "2017-06-09T19:51:28-04:00",
+          "points": 30
+        },
+        {
+          "name": "SQL Truncation",
+          "category": "Web - Server",
+          "validationDate": "2017-06-09T20:17:12-04:00",
+          "points": 35
+        },
+        {
+          "name": "ELF C++ - 0 protection",
+          "category": "Cracking",
+          "validationDate": "2017-07-31T20:17:30-04:00",
+          "points": 10
+        },
+        {
+          "name": "PE DotNet - 0 protection",
+          "category": "Cracking",
+          "validationDate": "2017-07-31T20:25:25-04:00",
+          "points": 10
+        },
+        {
+          "name": "HTML - disabled buttons",
+          "category": "Web - Client",
+          "validationDate": "2017-08-01T09:27:16-04:00",
+          "points": 5
+        },
+        {
+          "name": "ELF - Fake Instructions",
+          "category": "Cracking",
+          "validationDate": "2017-08-02T01:23:15-04:00",
+          "points": 15
+        },
+        {
+          "name": "ELF - Ptrace",
+          "category": "Cracking",
+          "validationDate": "2017-08-02T01:57:37-04:00",
+          "points": 15
+        },
+        {
+          "name": "HTTP - Open redirect",
+          "category": "Web - Server",
+          "validationDate": "2017-08-14T05:29:35-04:00",
+          "points": 10
+        },
+        {
+          "name": "Encoded string",
+          "category": "Programming",
+          "validationDate": "2017-08-14T05:58:28-04:00",
+          "points": 10
+        },
+        {
+          "name": "Remote File Inclusion",
+          "category": "Web - Server",
+          "validationDate": "2017-08-27T08:21:50-04:00",
+          "points": 30
+        },
+        {
+          "name": "The Roman&#8217;s wheel",
+          "category": "Programming",
+          "validationDate": "2017-08-28T08:54:29-04:00",
+          "points": 10
+        },
+        {
+          "name": "SQL injection - blind",
+          "category": "Web - Server",
+          "validationDate": "2017-09-03T04:51:21-04:00",
+          "points": 50
+        },
+        {
+          "name": "Server-side Template Injection",
+          "category": "Web - Server",
+          "validationDate": "2017-09-03T07:15:16-04:00",
+          "points": 30
+        },
+        {
+          "name": "George and Alfred",
+          "category": "Steganography",
+          "validationDate": "2017-09-04T02:38:10-04:00",
+          "points": 15
+        },
+        {
+          "name": "Uncompress me",
+          "category": "Programming",
+          "validationDate": "2017-09-04T06:41:57-04:00",
+          "points": 10
+        },
+        {
+          "name": "Steganomobile",
+          "category": "Steganography",
+          "validationDate": "2017-09-04T07:17:37-04:00",
+          "points": 10
+        },
+        {
+          "name": "Some noise",
+          "category": "Steganography",
+          "validationDate": "2017-09-04T07:44:27-04:00",
+          "points": 15
+        },
+        {
+          "name": "Audio stegano",
+          "category": "Steganography",
+          "validationDate": "2017-09-04T08:17:27-04:00",
+          "points": 25
+        },
+        {
+          "name": "We need to go deeper",
+          "category": "Steganography",
+          "validationDate": "2017-09-05T08:43:00-04:00",
+          "points": 25
+        },
+        {
+          "name": "Arithmetic progression",
+          "category": "Programming",
+          "validationDate": "2017-09-06T06:32:54-04:00",
+          "points": 20
+        },
+        {
+          "name": "Command injection",
+          "category": "Web - Server",
+          "validationDate": "2017-09-24T02:04:18-04:00",
+          "points": 10
+        },
+        {
+          "name": "PHP type juggling",
+          "category": "Web - Server",
+          "validationDate": "2017-09-24T06:14:17-04:00",
+          "points": 30
+        },
+        {
+          "name": "PHP preg_replace()",
+          "category": "Web - Server",
+          "validationDate": "2017-09-24T08:30:47-04:00",
+          "points": 30
+        },
+        {
+          "name": "PHP Serialization",
+          "category": "Web - Server",
+          "validationDate": "2017-09-25T08:17:52-04:00",
+          "points": 35
+        },
+        {
+          "name": "PyRat Auction",
+          "category": "Realist",
+          "validationDate": "2017-09-25T09:20:53-04:00",
+          "points": 40
+        },
+        {
+          "name": "PHP assert()",
+          "category": "Web - Server",
+          "validationDate": "2017-09-26T06:25:17-04:00",
+          "points": 25
+        },
+        {
+          "name": "NoSQL injection - authentication",
+          "category": "Web - Server",
+          "validationDate": "2017-09-26T07:40:38-04:00",
+          "points": 35
+        },
+        {
+          "name": "SQL injection - Error",
+          "category": "Web - Server",
+          "validationDate": "2017-09-27T08:00:59-04:00",
+          "points": 40
+        },
+        {
+          "name": "XPath injection - string",
+          "category": "Web - Server",
+          "validationDate": "2017-09-28T09:32:24-04:00",
+          "points": 40
+        },
+        {
+          "name": "Path Truncation",
+          "category": "Web - Server",
+          "validationDate": "2017-10-01T09:53:37-04:00",
+          "points": 35
+        },
+        {
+          "name": "SQL injection - file reading",
+          "category": "Web - Server",
+          "validationDate": "2017-10-02T09:53:23-04:00",
+          "points": 40
+        },
+        {
+          "name": "XML External Entity",
+          "category": "Web - Server",
+          "validationDate": "2017-10-03T07:15:48-04:00",
+          "points": 35
+        },
+        {
+          "name": "XSS - Stored 2",
+          "category": "Web - Client",
+          "validationDate": "2017-10-03T21:52:20-04:00",
+          "points": 50
+        },
+        {
+          "name": "Neonazi inside",
+          "category": "Realist",
+          "validationDate": "2017-10-08T14:24:05-04:00",
+          "points": 30
+        },
+        {
+          "name": "Root-We",
+          "category": "Realist",
+          "validationDate": "2017-10-08T19:46:53-04:00",
+          "points": 45
+        },
+        {
+          "name": "The h@ckers l4b",
+          "category": "Realist",
+          "validationDate": "2017-10-11T04:48:09-04:00",
+          "points": 25
+        },
+        {
+          "name": "LDAP injection - blind",
+          "category": "Web - Server",
+          "validationDate": "2017-10-27T01:21:21-04:00",
+          "points": 55
+        },
+        {
+          "name": "SQL injection - Insert",
+          "category": "Web - Server",
+          "validationDate": "2017-10-27T21:30:11-04:00",
+          "points": 40
+        },
+        {
+          "name": "Local File Inclusion - Wrappers",
+          "category": "Web - Server",
+          "validationDate": "2017-10-29T07:57:10-04:00",
+          "points": 40
+        },
+        {
+          "name": "P0wn3d",
+          "category": "Realist",
+          "validationDate": "2017-10-31T08:52:11-04:00",
+          "points": 20
+        },
+        {
+          "name": "SQL Injection - Routed",
+          "category": "Web - Server",
+          "validationDate": "2017-11-01T20:33:24-04:00",
+          "points": 35
+        },
+        {
+          "name": "CSRF - token bypass",
+          "category": "Web - Client",
+          "validationDate": "2017-11-17T07:36:29-05:00",
+          "points": 45
+        },
+        {
+          "name": "Marabout",
+          "category": "Realist",
+          "validationDate": "2017-11-24T09:58:22-05:00",
+          "points": 45
+        },
+        {
+          "name": "Root them",
+          "category": "Realist",
+          "validationDate": "2017-11-24T10:56:45-05:00",
+          "points": 40
+        },
+        {
+          "name": "Starbug Bounty",
+          "category": "Realist",
+          "validationDate": "2017-12-09T08:11:13-05:00",
+          "points": 45
+        },
+        {
+          "name": "ELF x64 - Stack buffer overflow - basic",
+          "category": "App - System",
+          "validationDate": "2017-12-14T03:03:21-05:00",
+          "points": 20
+        },
+        {
+          "name": "ELF x86 - Stack buffer overflow basic 3\t",
+          "category": "App - System",
+          "validationDate": "2017-12-18T12:02:14-05:00",
+          "points": 25
+        },
+        {
+          "name": "ELF x86 - Stack buffer overflow basic 6",
+          "category": "App - System",
+          "validationDate": "2018-01-29T05:15:56-05:00",
+          "points": 30
+        },
+        {
+          "name": "ELF x86 - Format string bug basic 1",
+          "category": "App - System",
+          "validationDate": "2018-02-03T02:53:30-05:00",
+          "points": 15
+        },
+        {
+          "name": "ELF x86 - Format string bug basic 2",
+          "category": "App - System",
+          "validationDate": "2018-02-08T01:13:08-05:00",
+          "points": 20
+        }
+      ]
     }
   },
   {
@@ -3098,6 +4053,115 @@
           "category": "Coding challenges",
           "validationDate": "2016-11-13T01:19:17Z",
           "points": 2
+        }
+      ]
+    },
+    "rootMe": {
+      "url": "https://www.root-me.org/filedesless",
+      "username": "filedesless",
+      "points": 185,
+      "challenges": [
+        {
+          "name": "Squared",
+          "category": "Steganography",
+          "validationDate": "2018-02-03T02:48:50-05:00",
+          "points": 5
+        },
+        {
+          "name": "Gunnm",
+          "category": "Steganography",
+          "validationDate": "2018-02-03T02:49:24-05:00",
+          "points": 5
+        },
+        {
+          "name": "Dot and next line",
+          "category": "Steganography",
+          "validationDate": "2018-02-03T03:19:52-05:00",
+          "points": 10
+        },
+        {
+          "name": "Steganomobile",
+          "category": "Steganography",
+          "validationDate": "2018-02-03T04:00:43-05:00",
+          "points": 10
+        },
+        {
+          "name": "Twitter Secret Messages",
+          "category": "Steganography",
+          "validationDate": "2018-02-03T05:50:59-05:00",
+          "points": 10
+        },
+        {
+          "name": "Some noise",
+          "category": "Steganography",
+          "validationDate": "2018-02-03T06:14:11-05:00",
+          "points": 15
+        },
+        {
+          "name": "George and Alfred",
+          "category": "Steganography",
+          "validationDate": "2018-02-03T06:18:06-05:00",
+          "points": 15
+        },
+        {
+          "name": "Audio stegano",
+          "category": "Steganography",
+          "validationDate": "2018-02-03T06:24:21-05:00",
+          "points": 25
+        },
+        {
+          "name": "Encoding - ASCII",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-16T22:42:17-04:00",
+          "points": 5
+        },
+        {
+          "name": "Encoding - UU",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-16T22:45:21-04:00",
+          "points": 5
+        },
+        {
+          "name": "Hash - Message Digest 5",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-16T22:45:41-04:00",
+          "points": 5
+        },
+        {
+          "name": "Hash - SHA-2",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-16T22:49:10-04:00",
+          "points": 5
+        },
+        {
+          "name": "Shift cipher",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-16T23:19:57-04:00",
+          "points": 10
+        },
+        {
+          "name": "Pixel Madness",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-16T23:41:34-04:00",
+          "points": 15
+        },
+        {
+          "name": "ELF32 - PID encryption",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-17T00:08:35-04:00",
+          "points": 15
+        },
+        {
+          "name": "File - PKZIP",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-17T00:14:35-04:00",
+          "points": 15
+        },
+        {
+          "name": "Monoalphabetic substitution - Caesar",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-17T00:30:02-04:00",
+          "points": 15
         }
       ]
     }
@@ -4540,6 +5604,367 @@
           "points": 1
         }
       ]
+    },
+    "rootMe": {
+      "url": "https://www.root-me.org/Simon-Thiboutot",
+      "username": "lilc4t",
+      "points": 1070,
+      "challenges": [
+        {
+          "name": "HTML",
+          "category": "Web - Server",
+          "validationDate": "2016-11-02T23:16:53-04:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Authentication",
+          "category": "Web - Client",
+          "validationDate": "2016-11-02T23:21:13-04:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Authentication 2",
+          "category": "Web - Client",
+          "validationDate": "2016-11-02T23:23:00-04:00",
+          "points": 10
+        },
+        {
+          "name": "Javascript - Obfuscation 1",
+          "category": "Web - Client",
+          "validationDate": "2016-11-03T00:01:12-04:00",
+          "points": 10
+        },
+        {
+          "name": "Javascript - Obfuscation 2",
+          "category": "Web - Client",
+          "validationDate": "2016-11-03T00:03:02-04:00",
+          "points": 10
+        },
+        {
+          "name": "HTTP Headers",
+          "category": "Web - Server",
+          "validationDate": "2016-11-03T01:09:16-04:00",
+          "points": 15
+        },
+        {
+          "name": "XSS - Stored 1",
+          "category": "Web - Client",
+          "validationDate": "2016-11-30T21:09:46-05:00",
+          "points": 30
+        },
+        {
+          "name": "Weak password",
+          "category": "Web - Server",
+          "validationDate": "2016-12-07T14:29:39-05:00",
+          "points": 10
+        },
+        {
+          "name": "User-agent",
+          "category": "Web - Server",
+          "validationDate": "2016-12-07T14:35:22-05:00",
+          "points": 10
+        },
+        {
+          "name": "HTTP directory indexing",
+          "category": "Web - Server",
+          "validationDate": "2016-12-07T14:39:03-05:00",
+          "points": 15
+        },
+        {
+          "name": "Install files",
+          "category": "Web - Server",
+          "validationDate": "2016-12-07T14:59:09-05:00",
+          "points": 15
+        },
+        {
+          "name": "File upload - double extensions",
+          "category": "Web - Server",
+          "validationDate": "2016-12-07T15:10:41-05:00",
+          "points": 20
+        },
+        {
+          "name": "File upload - MIME type",
+          "category": "Web - Server",
+          "validationDate": "2016-12-07T15:27:29-05:00",
+          "points": 20
+        },
+        {
+          "name": "Directory traversal",
+          "category": "Web - Server",
+          "validationDate": "2016-12-07T16:22:07-05:00",
+          "points": 25
+        },
+        {
+          "name": "SQL injection - authentication",
+          "category": "Web - Server",
+          "validationDate": "2016-12-08T18:28:20-05:00",
+          "points": 30
+        },
+        {
+          "name": "Local File Inclusion",
+          "category": "Web - Server",
+          "validationDate": "2016-12-08T18:36:33-05:00",
+          "points": 30
+        },
+        {
+          "name": "It happens, sometimes",
+          "category": "Realist",
+          "validationDate": "2016-12-08T18:57:55-05:00",
+          "points": 10
+        },
+        {
+          "name": "The h@ckers l4b",
+          "category": "Realist",
+          "validationDate": "2016-12-08T19:59:25-05:00",
+          "points": 25
+        },
+        {
+          "name": "HTTP verb tampering",
+          "category": "Web - Server",
+          "validationDate": "2016-12-09T22:54:12-05:00",
+          "points": 15
+        },
+        {
+          "name": "HTTP cookies",
+          "category": "Web - Server",
+          "validationDate": "2016-12-12T04:52:10-05:00",
+          "points": 20
+        },
+        {
+          "name": "PHP filters",
+          "category": "Web - Server",
+          "validationDate": "2016-12-13T15:39:43-05:00",
+          "points": 25
+        },
+        {
+          "name": "SQL injection - string",
+          "category": "Web - Server",
+          "validationDate": "2016-12-13T16:36:54-05:00",
+          "points": 30
+        },
+        {
+          "name": "Improper redirect",
+          "category": "Web - Server",
+          "validationDate": "2016-12-14T05:11:42-05:00",
+          "points": 15
+        },
+        {
+          "name": "PHP preg_replace()",
+          "category": "Web - Server",
+          "validationDate": "2016-12-14T05:54:33-05:00",
+          "points": 30
+        },
+        {
+          "name": "PHP Serialization",
+          "category": "Web - Server",
+          "validationDate": "2016-12-15T16:41:14-05:00",
+          "points": 35
+        },
+        {
+          "name": "SQL injection - numeric",
+          "category": "Web - Server",
+          "validationDate": "2016-12-16T16:05:34-05:00",
+          "points": 35
+        },
+        {
+          "name": "PHP type juggling",
+          "category": "Web - Server",
+          "validationDate": "2016-12-16T17:15:52-05:00",
+          "points": 30
+        },
+        {
+          "name": "Javascript - Source",
+          "category": "Web - Client",
+          "validationDate": "2016-12-17T18:35:36-05:00",
+          "points": 5
+        },
+        {
+          "name": "FTP - authentication",
+          "category": "Network",
+          "validationDate": "2017-02-01T22:47:42-05:00",
+          "points": 5
+        },
+        {
+          "name": "Twitter authentication",
+          "category": "Network",
+          "validationDate": "2017-02-11T05:05:06-05:00",
+          "points": 15
+        },
+        {
+          "name": "ETHERNET - frame",
+          "category": "Network",
+          "validationDate": "2017-02-11T05:09:05-05:00",
+          "points": 10
+        },
+        {
+          "name": "TELNET - authentication",
+          "category": "Network",
+          "validationDate": "2017-02-11T06:40:07-05:00",
+          "points": 5
+        },
+        {
+          "name": "ELF - 0 protection",
+          "category": "Cracking",
+          "validationDate": "2017-03-15T22:49:46-04:00",
+          "points": 5
+        },
+        {
+          "name": "ELF - x86 Basic",
+          "category": "Cracking",
+          "validationDate": "2017-03-15T22:55:01-04:00",
+          "points": 5
+        },
+        {
+          "name": "HTTP - Open redirect",
+          "category": "Web - Server",
+          "validationDate": "2017-08-20T15:12:32-04:00",
+          "points": 10
+        },
+        {
+          "name": "Some noise",
+          "category": "Steganography",
+          "validationDate": "2017-08-29T05:40:13-04:00",
+          "points": 15
+        },
+        {
+          "name": "Audio stegano",
+          "category": "Steganography",
+          "validationDate": "2017-08-30T14:12:22-04:00",
+          "points": 25
+        },
+        {
+          "name": "Root-We",
+          "category": "Realist",
+          "validationDate": "2017-10-27T05:57:20-04:00",
+          "points": 45
+        },
+        {
+          "name": "Marabout",
+          "category": "Realist",
+          "validationDate": "2017-10-27T06:51:52-04:00",
+          "points": 45
+        },
+        {
+          "name": "Gunnm",
+          "category": "Steganography",
+          "validationDate": "2017-10-27T14:37:58-04:00",
+          "points": 5
+        },
+        {
+          "name": "We need to go deeper",
+          "category": "Steganography",
+          "validationDate": "2017-10-27T14:47:43-04:00",
+          "points": 25
+        },
+        {
+          "name": "HTML - disabled buttons",
+          "category": "Web - Client",
+          "validationDate": "2017-10-27T14:56:37-04:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Native code",
+          "category": "Web - Client",
+          "validationDate": "2017-10-27T14:57:28-04:00",
+          "points": 15
+        },
+        {
+          "name": "CSRF - 0 protection",
+          "category": "Web - Client",
+          "validationDate": "2017-10-27T16:15:24-04:00",
+          "points": 35
+        },
+        {
+          "name": "CSRF - token bypass",
+          "category": "Web - Client",
+          "validationDate": "2017-10-27T16:27:49-04:00",
+          "points": 45
+        },
+        {
+          "name": "Encoding - ASCII",
+          "category": "Cryptanalysis",
+          "validationDate": "2017-10-27T20:12:48-04:00",
+          "points": 5
+        },
+        {
+          "name": "Hash - Message Digest 5",
+          "category": "Cryptanalysis",
+          "validationDate": "2017-10-27T20:13:47-04:00",
+          "points": 5
+        },
+        {
+          "name": "Encoding - UU",
+          "category": "Cryptanalysis",
+          "validationDate": "2017-10-27T20:29:29-04:00",
+          "points": 5
+        },
+        {
+          "name": "SQL injection - blind",
+          "category": "Web - Server",
+          "validationDate": "2017-11-14T05:03:47-05:00",
+          "points": 50
+        },
+        {
+          "name": "Hash - SHA-2",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-16T22:50:59-04:00",
+          "points": 5
+        },
+        {
+          "name": "Shift cipher",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-16T23:01:57-04:00",
+          "points": 10
+        },
+        {
+          "name": "Pixel Madness",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-16T23:29:35-04:00",
+          "points": 15
+        },
+        {
+          "name": "ELF32 - PID encryption",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-17T00:08:56-04:00",
+          "points": 15
+        },
+        {
+          "name": "File - PKZIP",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-17T00:24:45-04:00",
+          "points": 15
+        },
+        {
+          "name": "Monoalphabetic substitution - Caesar",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-17T00:31:03-04:00",
+          "points": 15
+        },
+        {
+          "name": "System - Android lock pattern",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-17T02:20:25-04:00",
+          "points": 20
+        },
+        {
+          "name": "File - Insecure storage 1",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-17T02:57:56-04:00",
+          "points": 20
+        },
+        {
+          "name": "Known plaintext - XOR",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-20T11:59:20-04:00",
+          "points": 20
+        },
+        {
+          "name": "Polyalphabetic substitution - Vigenère",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-03-21T18:27:24-04:00",
+          "points": 20
+        }
+      ]
     }
   },
   {
@@ -4807,6 +6232,79 @@
           "category": "JavaScript",
           "validationDate": "2017-09-08T21:38:24Z",
           "points": 1
+        }
+      ]
+    },
+    "rootMe": {
+      "url": "https://www.root-me.org/Vionik",
+      "username": "Vionik",
+      "points": 70,
+      "challenges": [
+        {
+          "name": "Encoding - ASCII",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-04T16:45:27-04:00",
+          "points": 5
+        },
+        {
+          "name": "Encoding - UU",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-04T16:48:48-04:00",
+          "points": 5
+        },
+        {
+          "name": "Hash - Message Digest 5",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-04T16:51:19-04:00",
+          "points": 5
+        },
+        {
+          "name": "Hash - SHA-2",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-04T17:03:11-04:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Authentication",
+          "category": "Web - Client",
+          "validationDate": "2018-10-04T17:13:40-04:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Source",
+          "category": "Web - Client",
+          "validationDate": "2018-10-04T17:14:43-04:00",
+          "points": 5
+        },
+        {
+          "name": "HTML - disabled buttons",
+          "category": "Web - Client",
+          "validationDate": "2018-10-04T17:19:29-04:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Authentication 2",
+          "category": "Web - Client",
+          "validationDate": "2018-10-04T17:21:45-04:00",
+          "points": 10
+        },
+        {
+          "name": "Javascript - Obfuscation 1",
+          "category": "Web - Client",
+          "validationDate": "2018-10-04T17:22:33-04:00",
+          "points": 10
+        },
+        {
+          "name": "Javascript - Obfuscation 2",
+          "category": "Web - Client",
+          "validationDate": "2018-10-04T17:30:04-04:00",
+          "points": 10
+        },
+        {
+          "name": "HTML",
+          "category": "Web - Server",
+          "validationDate": "2018-10-04T17:38:00-04:00",
+          "points": 5
         }
       ]
     }
@@ -5139,6 +6637,12 @@
           "points": 1
         }
       ]
+    },
+    "rootMe": {
+      "url": "https://www.root-me.org/overmindz",
+      "username": "overmindz",
+      "points": 0,
+      "challenges": []
     }
   }
 ]
