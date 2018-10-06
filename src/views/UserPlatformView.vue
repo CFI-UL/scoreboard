@@ -7,9 +7,9 @@
         :platform="platform"/>
     </template>
     <template v-else>
-      <div class="user-platform-view__error">
+      <error-message>
         Platform not found.
-      </div>
+      </error-message>
     </template>
   </div>
 </template>
@@ -17,11 +17,13 @@
 <script>
 import { mapState, mapGetters } from 'vuex'
 import { get } from 'lodash'
+import ErrorMessage from '@/components/ErrorMessage'
 import UserPlatformProfile from '@/components/UserPlatformProfile'
 
 export default {
   name: 'user-platform-view',
   components: {
+    ErrorMessage,
     UserPlatformProfile
   },
   props: {
@@ -59,12 +61,5 @@ export default {
 <style lang="scss">
 .user-platform-view {
 
-  &__error {
-    display: flex;
-    justify-content: center;
-    margin-top: 5rem;
-    font-size: 1em;
-    color: red;
-  }
 }
 </style>

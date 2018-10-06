@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="user-platform-card">
-    <h3>{{ platform.name }}</h3>
+    <h2>{{ platform.name }}</h2>
     <div class="user-platform-card__info">
       <a :href="userPlatformProfile.url">{{ userPlatformProfile.username }}</a>
     </div>

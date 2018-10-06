@@ -6,11 +6,13 @@
       </router-link>
       <nav>
         <ul class="menu__navigation">
-          <li class="menu__item">
-            <router-link to="/ringzer0team">Ringzer0team</router-link>
-          </li>
-          <li class="menu__item">
-            <router-link to="/root-me">Root Me</router-link>
+          <li
+            v-for="platform in platforms"
+            :key="platform.id"
+            class="menu__item">
+            <router-link :to="platformRoute(platform)">
+              {{ platform.name }}
+            </router-link>
           </li>
         </ul>
       </nav>
@@ -20,8 +22,25 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
+
 export default {
-  name: 'app'
+  name: 'app',
+  computed: {
+    ...mapState([
+      'platforms'
+    ])
+  },
+  methods: {
+    platformRoute (platform) {
+      return {
+        name: 'platform',
+        params: {
+          platformId: platform.id
+        }
+      }
+    }
+  }
 }
 </script>
 

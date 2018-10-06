@@ -26,6 +26,11 @@ export default {
       required: true
     }
   },
+  data: function () {
+    return {
+      chart: null
+    }
+  },
   computed: {
     sortedChallengesDesc () {
       return this.userPlatformProfile.challenges.sort((a, b) => {
@@ -36,22 +41,6 @@ export default {
     }
   },
   methods: {
-    createChart () {
-      const options = {
-        chart: {
-          type: 'line'
-        },
-        series: this.chartSeries(),
-        xaxis: {
-          type: 'datetime'
-        },
-        toolbar: {
-          show: true
-        }
-      }
-      this.chart = new ApexCharts(this.$refs.chart, options)
-      this.chart.render()
-    },
     chartSeries () {
       const series = []
       const data = []
@@ -76,6 +65,29 @@ export default {
         data
       })
       return series
+    },
+    chartOptions () {
+      return {
+        chart: {
+          type: 'line'
+        },
+        series: this.chartSeries(),
+        xaxis: {
+          type: 'datetime'
+        },
+        toolbar: {
+          show: true
+        }
+      }
+    },
+    updateChart () {
+      const options = this.chartOptions()
+      this.chart.updateOptions(options)
+    },
+    createChart () {
+      const options = this.chartOptions()
+      this.chart = new ApexCharts(this.$refs.chart, options)
+      this.chart.render()
     }
   },
   mounted () {

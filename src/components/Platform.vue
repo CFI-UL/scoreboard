@@ -1,25 +1,35 @@
 <template>
   <div class="platform">
-    <div class="platform__info">
-      <h2>{{ name }}</h2>
-      <p v-for="(text, index) in description" :key="index">
-        {{text}}
-      </p>
-      <a :href="url">{{ url }}</a>
-    </div>
+    <platform-card :platform="platform" />
     <div class="platform__content">
-      <slot></slot>
+      <h3>Players</h3>
+      <platform-users-columns-chart :platform="platform" :users="users"/>
+      <platform-users :platform="platform" :users="users"/>
     </div>
   </div>
 </template>
 
 <script>
+import PlatformCard from '@/components/PlatformCard'
+import PlatformUsers from '@/components/PlatformUsers'
+import PlatformUsersColumnsChart from '@/components/PlatformUsersColumnsChart'
+
 export default {
   name: 'platform',
+  components: {
+    PlatformCard,
+    PlatformUsers,
+    PlatformUsersColumnsChart
+  },
   props: {
-    name: String,
-    description: Array,
-    url: String
+    platform: {
+      type: Object,
+      required: true
+    },
+    users: {
+      type: Array,
+      required: true
+    }
   }
 }
 </script>

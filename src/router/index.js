@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import MainView from '@/views/MainView'
-import Ringzer0teamView from '@/views/Ringzer0teamView'
-import RootMeView from '@/views/RootMeView'
+import PlatformsView from '@/views/PlatformsView'
+import PlatformView from '@/views/PlatformView'
 import UserView from '@/views/UserView'
 import UserProfileView from '@/views/UserProfileView'
 import UserPlatformView from '@/views/UserPlatformView'
@@ -17,18 +17,19 @@ const router = new VueRouter({
     {
       path: '/',
       name: 'root',
-      redirect: '/ringzer0team',
+      redirect: '/platforms',
       component: MainView
     },
     {
-      path: '/ringzer0team',
-      name: 'ringzer0team',
-      component: Ringzer0teamView
+      path: '/platforms',
+      name: 'platforms',
+      component: PlatformsView
     },
     {
-      path: '/root-me',
-      name: 'rootMe',
-      component: RootMeView
+      path: '/platforms/:platformId',
+      name: 'platform',
+      props: true,
+      component: PlatformView
     },
     {
       path: '/users/:id',
