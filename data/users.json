@@ -5223,7 +5223,387 @@
       "id": "5097",
       "username": "LilC4T",
       "url": "https://ringzer0team.com/profile/5097/LilC4T",
-      "points": 153
+      "points": 153,
+      "challenges": [
+        {
+          "name": "PHP Jail 2",
+          "category": "Jail Escaping",
+          "validationDate": "2018-10-02T05:52:36Z",
+          "points": 2
+        },
+        {
+          "name": "PHP Jail 1",
+          "category": "Jail Escaping",
+          "validationDate": "2018-10-01T04:22:20Z",
+          "points": 1
+        },
+        {
+          "name": "Orao's factory",
+          "category": "Web",
+          "validationDate": "2018-10-01T03:49:55Z",
+          "points": 6
+        },
+        {
+          "name": "File recovery",
+          "category": "Cryptography",
+          "validationDate": "2018-09-26T19:08:31Z",
+          "points": 1
+        },
+        {
+          "name": "Ascii Art",
+          "category": "Coding challenges",
+          "validationDate": "2018-09-23T20:24:35Z",
+          "points": 6
+        },
+        {
+          "name": "PHP feature or 0day?",
+          "category": "Web",
+          "validationDate": "2018-09-14T20:27:03Z",
+          "points": 3
+        },
+        {
+          "name": "Serial killer part 2",
+          "category": "Web",
+          "validationDate": "2018-09-14T19:46:38Z",
+          "points": 6
+        },
+        {
+          "name": "/etc/passwd",
+          "category": "SQL Injection",
+          "validationDate": "2018-09-07T23:21:38Z",
+          "points": 7
+        },
+        {
+          "name": "Groups of hacker",
+          "category": "SQL Injection",
+          "validationDate": "2018-09-07T22:05:37Z",
+          "points": 7
+        },
+        {
+          "name": "Capture 1 Part 1",
+          "category": "Malware Analysis",
+          "validationDate": "2018-09-04T13:32:53Z",
+          "points": 1
+        },
+        {
+          "name": "XSS Challenge 3",
+          "category": "Web",
+          "validationDate": "2018-09-04T01:22:43Z",
+          "points": 3
+        },
+        {
+          "name": "Po po po po postgresql",
+          "category": "SQL Injection",
+          "validationDate": "2018-06-21T03:23:09Z",
+          "points": 2
+        },
+        {
+          "name": "Thinking outside the box is the key",
+          "category": "SQL Injection",
+          "validationDate": "2018-06-19T01:24:41Z",
+          "points": 4
+        },
+        {
+          "name": "Quote of the day",
+          "category": "SQL Injection",
+          "validationDate": "2018-05-27T21:40:20Z",
+          "points": 4
+        },
+        {
+          "name": "What's the definition of NULL",
+          "category": "SQL Injection",
+          "validationDate": "2018-05-27T15:14:35Z",
+          "points": 3
+        },
+        {
+          "name": "stackoverflow.com lied to me... again",
+          "category": "SQL Injection",
+          "validationDate": "2018-05-27T14:05:19Z",
+          "points": 9
+        },
+        {
+          "name": "You're Drunk!",
+          "category": "Cryptography",
+          "validationDate": "2018-05-26T14:19:32Z",
+          "points": 1
+        },
+        {
+          "name": "Martian message part 2",
+          "category": "Cryptography",
+          "validationDate": "2018-05-26T07:02:33Z",
+          "points": 2
+        },
+        {
+          "name": "Brainsick",
+          "category": "Steganography",
+          "validationDate": "2017-08-29T22:05:38Z",
+          "points": 2
+        },
+        {
+          "name": "Missing Pieces",
+          "category": "Steganography",
+          "validationDate": "2017-08-29T21:07:14Z",
+          "points": 2
+        },
+        {
+          "name": "You're lost? Use the map",
+          "category": "Steganography",
+          "validationDate": "2017-08-29T20:52:13Z",
+          "points": 1
+        },
+        {
+          "name": "A ghost sound",
+          "category": "Steganography",
+          "validationDate": "2017-08-25T10:02:28Z",
+          "points": 2
+        },
+        {
+          "name": "Attention Dinosaure Survive",
+          "category": "Forensics",
+          "validationDate": "2017-08-25T08:59:32Z",
+          "points": 2
+        },
+        {
+          "name": "SigID Level 1",
+          "category": "Steganography",
+          "validationDate": "2017-08-19T12:03:25Z",
+          "points": 1
+        },
+        {
+          "name": "Your old friend Orloge Simard",
+          "category": "Steganography",
+          "validationDate": "2017-08-19T10:33:33Z",
+          "points": 3
+        },
+        {
+          "name": "REST in peace",
+          "category": "Web",
+          "validationDate": "2017-08-19T08:46:10Z",
+          "points": 3
+        },
+        {
+          "name": "Freedom Firewall",
+          "category": "Web",
+          "validationDate": "2017-05-30T07:54:30Z",
+          "points": 5
+        },
+        {
+          "name": "Malicious upload",
+          "category": "Web",
+          "validationDate": "2017-05-16T23:07:21Z",
+          "points": 2
+        },
+        {
+          "name": "PHP Fairy",
+          "category": "Web",
+          "validationDate": "2017-05-15T09:59:13Z",
+          "points": 2
+        },
+        {
+          "name": "XSS Challenge 4",
+          "category": "Web",
+          "validationDate": "2017-05-14T14:08:47Z",
+          "points": 3
+        },
+        {
+          "name": "Hash me reloaded",
+          "category": "Coding challenges",
+          "validationDate": "2017-05-14T09:11:44Z",
+          "points": 3
+        },
+        {
+          "name": "Bash Jail 1",
+          "category": "Jail Escaping",
+          "validationDate": "2017-05-11T21:13:18Z",
+          "points": 1
+        },
+        {
+          "name": "Password reset",
+          "category": "Web",
+          "validationDate": "2017-05-08T17:07:53Z",
+          "points": 2
+        },
+        {
+          "name": "Admin Portal",
+          "category": "Web",
+          "validationDate": "2017-05-08T09:31:59Z",
+          "points": 2
+        },
+        {
+          "name": "Security thru obscurity!",
+          "category": "Web",
+          "validationDate": "2017-05-08T07:23:30Z",
+          "points": 2
+        },
+        {
+          "name": "Who I am?",
+          "category": "Forensics",
+          "validationDate": "2016-12-14T16:57:02Z",
+          "points": 2
+        },
+        {
+          "name": "XSS Challenge 2",
+          "category": "Web",
+          "validationDate": "2016-12-14T15:08:28Z",
+          "points": 2
+        },
+        {
+          "name": "XSS Challenge 1",
+          "category": "Web",
+          "validationDate": "2016-12-14T15:02:44Z",
+          "points": 2
+        },
+        {
+          "name": "Some martian message",
+          "category": "Cryptography",
+          "validationDate": "2016-12-14T11:38:54Z",
+          "points": 1
+        },
+        {
+          "name": "Captcha I",
+          "category": "Web",
+          "validationDate": "2016-12-14T11:07:47Z",
+          "points": 2
+        },
+        {
+          "name": "Serial killer!",
+          "category": "Web",
+          "validationDate": "2016-12-14T09:32:09Z",
+          "points": 3
+        },
+        {
+          "name": "Looking for the flag?",
+          "category": "Web",
+          "validationDate": "2016-12-14T00:16:43Z",
+          "points": 3
+        },
+        {
+          "name": "Area 51",
+          "category": "Web",
+          "validationDate": "2016-12-11T01:22:23Z",
+          "points": 1
+        },
+        {
+          "name": "Looking for password file",
+          "category": "Web",
+          "validationDate": "2016-12-11T01:19:34Z",
+          "points": 1
+        },
+        {
+          "name": "Words mean something?",
+          "category": "Web",
+          "validationDate": "2016-11-02T20:09:06Z",
+          "points": 1
+        },
+        {
+          "name": "Hey Chuck where is the flag?",
+          "category": "Forensics",
+          "validationDate": "2016-10-22T01:10:51Z",
+          "points": 2
+        },
+        {
+          "name": "Hide my ass in my home!",
+          "category": "Forensics",
+          "validationDate": "2016-10-22T00:50:45Z",
+          "points": 2
+        },
+        {
+          "name": "I made a dd of Agent Smith usb key",
+          "category": "Forensics",
+          "validationDate": "2016-10-22T00:33:01Z",
+          "points": 1
+        },
+        {
+          "name": "Dr. Pouce",
+          "category": "Forensics",
+          "validationDate": "2016-10-22T00:30:18Z",
+          "points": 2
+        },
+        {
+          "name": "Ask your grandpa!",
+          "category": "Coding challenges",
+          "validationDate": "2016-10-16T20:38:46Z",
+          "points": 2
+        },
+        {
+          "name": "Valid key required",
+          "category": "JavaScript",
+          "validationDate": "2016-09-19T01:16:24Z",
+          "points": 2
+        },
+        {
+          "name": "Big Brother is watching",
+          "category": "Web",
+          "validationDate": "2016-06-26T18:14:52Z",
+          "points": 1
+        },
+        {
+          "name": "I hate mathematics",
+          "category": "Coding challenges",
+          "validationDate": "2015-11-09T20:37:00Z",
+          "points": 3
+        },
+        {
+          "name": "Victor you're hidding me something",
+          "category": "Steganography",
+          "validationDate": "2015-11-09T19:45:26Z",
+          "points": 1
+        },
+        {
+          "name": "Headache",
+          "category": "Web",
+          "validationDate": "2015-11-06T18:27:18Z",
+          "points": 1
+        },
+        {
+          "name": "Most Secure Crypto Algo",
+          "category": "JavaScript",
+          "validationDate": "2015-11-04T08:34:32Z",
+          "points": 2
+        },
+        {
+          "name": "Hash me please",
+          "category": "Coding challenges",
+          "validationDate": "2015-11-04T08:11:48Z",
+          "points": 2
+        },
+        {
+          "name": "Then obfuscation is more secure",
+          "category": "JavaScript",
+          "validationDate": "2015-11-03T22:13:50Z",
+          "points": 1
+        },
+        {
+          "name": "Why not?",
+          "category": "JavaScript",
+          "validationDate": "2015-11-02T00:03:24Z",
+          "points": 2
+        },
+        {
+          "name": "Hashing is more secure",
+          "category": "JavaScript",
+          "validationDate": "2015-11-01T23:49:00Z",
+          "points": 1
+        },
+        {
+          "name": "Client side validation is bad!",
+          "category": "JavaScript",
+          "validationDate": "2015-11-01T23:13:11Z",
+          "points": 1
+        },
+        {
+          "name": "ACL rulezzz the world.",
+          "category": "SQL Injection",
+          "validationDate": "2015-11-01T22:59:27Z",
+          "points": 2
+        },
+        {
+          "name": "Most basic SQLi pattern.",
+          "category": "SQL Injection",
+          "validationDate": "2015-11-01T22:55:49Z",
+          "points": 1
+        }
+      ]
     },
     "rootMe": {
       "url": "https://www.root-me.org/Simon-Thiboutot",
