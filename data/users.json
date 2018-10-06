@@ -4956,6 +4956,127 @@
           "points": 1
         }
       ]
+    },
+    "rootMe": {
+      "url": "https://www.root-me.org/Muemmelmoehre",
+      "username": "Muemmelmoehre",
+      "points": 215,
+      "challenges": [
+        {
+          "name": "Gunnm",
+          "category": "Steganography",
+          "validationDate": "2017-07-17T19:31:07-04:00",
+          "points": 5
+        },
+        {
+          "name": "Hash - Message Digest 5",
+          "category": "Cryptanalysis",
+          "validationDate": "2017-08-10T07:59:07-04:00",
+          "points": 5
+        },
+        {
+          "name": "Encoding - UU",
+          "category": "Cryptanalysis",
+          "validationDate": "2017-08-10T08:08:13-04:00",
+          "points": 5
+        },
+        {
+          "name": "Encoding - ASCII",
+          "category": "Cryptanalysis",
+          "validationDate": "2017-08-10T08:16:17-04:00",
+          "points": 5
+        },
+        {
+          "name": "Monoalphabetic substitution - Caesar",
+          "category": "Cryptanalysis",
+          "validationDate": "2017-08-13T05:56:34-04:00",
+          "points": 15
+        },
+        {
+          "name": "TELNET - authentication",
+          "category": "Network",
+          "validationDate": "2017-10-14T21:31:55-04:00",
+          "points": 5
+        },
+        {
+          "name": "FTP - authentication",
+          "category": "Network",
+          "validationDate": "2017-10-14T21:33:45-04:00",
+          "points": 5
+        },
+        {
+          "name": "Twitter authentication",
+          "category": "Network",
+          "validationDate": "2017-10-14T22:12:59-04:00",
+          "points": 15
+        },
+        {
+          "name": "IP - Time To Live",
+          "category": "Network",
+          "validationDate": "2017-10-16T06:45:27-04:00",
+          "points": 15
+        },
+        {
+          "name": "ETHERNET - frame",
+          "category": "Network",
+          "validationDate": "2017-10-16T06:59:48-04:00",
+          "points": 10
+        },
+        {
+          "name": "Squared",
+          "category": "Steganography",
+          "validationDate": "2018-01-26T22:29:38-05:00",
+          "points": 5
+        },
+        {
+          "name": "Steganomobile",
+          "category": "Steganography",
+          "validationDate": "2018-02-02T23:13:52-05:00",
+          "points": 10
+        },
+        {
+          "name": "Twitter Secret Messages",
+          "category": "Steganography",
+          "validationDate": "2018-02-03T05:50:52-05:00",
+          "points": 10
+        },
+        {
+          "name": "Some noise",
+          "category": "Steganography",
+          "validationDate": "2018-02-03T06:14:15-05:00",
+          "points": 15
+        },
+        {
+          "name": "George and Alfred",
+          "category": "Steganography",
+          "validationDate": "2018-02-03T06:18:14-05:00",
+          "points": 15
+        },
+        {
+          "name": "Audio stegano",
+          "category": "Steganography",
+          "validationDate": "2018-02-03T06:28:15-05:00",
+          "points": 25
+        },
+        {
+          "name": "Dot and next line",
+          "category": "Steganography",
+          "validationDate": "2018-02-03T06:50:31-05:00",
+          "points": 10
+        },
+        {
+          "name": "Command &amp; Control - level 2",
+          "category": "Forensic",
+          "validationDate": "2018-03-17T19:09:23-04:00",
+          "points": 15
+        },
+        {
+          "name": "Command &amp; Control - level 5",
+          "category": "Forensic",
+          "validationDate": "2018-03-17T20:11:43-04:00",
+          "points": 25
+        }
+      ]
     }
   },
   {
@@ -5993,6 +6114,205 @@
           "category": "Web",
           "validationDate": "2018-10-06T01:04:38Z",
           "points": 1
+        }
+      ]
+    },
+    "rootMe": {
+      "url": "https://www.root-me.org/TwistedSim",
+      "username": "TwistedSim",
+      "points": 595,
+      "challenges": [
+        {
+          "name": "HTML - disabled buttons",
+          "category": "Web - Client",
+          "validationDate": "2017-09-14T19:32:47-04:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Authentication",
+          "category": "Web - Client",
+          "validationDate": "2017-09-14T19:48:26-04:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Source",
+          "category": "Web - Client",
+          "validationDate": "2017-09-14T19:50:45-04:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Authentication 2",
+          "category": "Web - Client",
+          "validationDate": "2017-09-14T19:53:23-04:00",
+          "points": 10
+        },
+        {
+          "name": "Javascript - Obfuscation 1",
+          "category": "Web - Client",
+          "validationDate": "2017-09-14T19:55:39-04:00",
+          "points": 10
+        },
+        {
+          "name": "Javascript - Obfuscation 2",
+          "category": "Web - Client",
+          "validationDate": "2017-09-14T19:56:42-04:00",
+          "points": 10
+        },
+        {
+          "name": "Javascript - Native code",
+          "category": "Web - Client",
+          "validationDate": "2017-09-14T20:04:20-04:00",
+          "points": 15
+        },
+        {
+          "name": "Javascript - Obfuscation 3",
+          "category": "Web - Client",
+          "validationDate": "2017-09-14T20:14:51-04:00",
+          "points": 30
+        },
+        {
+          "name": "XSS - Stored 1",
+          "category": "Web - Client",
+          "validationDate": "2017-09-16T00:01:53-04:00",
+          "points": 30
+        },
+        {
+          "name": "CSRF - 0 protection",
+          "category": "Web - Client",
+          "validationDate": "2017-09-16T00:41:37-04:00",
+          "points": 35
+        },
+        {
+          "name": "Flash - Authentication",
+          "category": "Web - Client",
+          "validationDate": "2017-09-16T01:16:34-04:00",
+          "points": 40
+        },
+        {
+          "name": "HTML",
+          "category": "Web - Server",
+          "validationDate": "2017-09-16T16:11:41-04:00",
+          "points": 5
+        },
+        {
+          "name": "HTTP - Open redirect",
+          "category": "Web - Server",
+          "validationDate": "2017-09-16T16:26:58-04:00",
+          "points": 10
+        },
+        {
+          "name": "Weak password",
+          "category": "Web - Server",
+          "validationDate": "2017-09-16T17:51:52-04:00",
+          "points": 10
+        },
+        {
+          "name": "User-agent",
+          "category": "Web - Server",
+          "validationDate": "2017-09-16T17:58:43-04:00",
+          "points": 10
+        },
+        {
+          "name": "Backup file",
+          "category": "Web - Server",
+          "validationDate": "2017-09-16T18:44:49-04:00",
+          "points": 15
+        },
+        {
+          "name": "HTTP directory indexing",
+          "category": "Web - Server",
+          "validationDate": "2017-09-16T18:54:59-04:00",
+          "points": 15
+        },
+        {
+          "name": "HTTP Headers",
+          "category": "Web - Server",
+          "validationDate": "2017-09-16T19:05:10-04:00",
+          "points": 15
+        },
+        {
+          "name": "HTTP verb tampering",
+          "category": "Web - Server",
+          "validationDate": "2017-09-16T20:00:22-04:00",
+          "points": 15
+        },
+        {
+          "name": "Install files",
+          "category": "Web - Server",
+          "validationDate": "2017-09-16T20:14:23-04:00",
+          "points": 15
+        },
+        {
+          "name": "Improper redirect",
+          "category": "Web - Server",
+          "validationDate": "2017-09-16T20:19:18-04:00",
+          "points": 15
+        },
+        {
+          "name": "CRLF",
+          "category": "Web - Server",
+          "validationDate": "2017-09-16T20:34:27-04:00",
+          "points": 20
+        },
+        {
+          "name": "File upload - double extensions",
+          "category": "Web - Server",
+          "validationDate": "2017-09-16T20:58:49-04:00",
+          "points": 20
+        },
+        {
+          "name": "HTTP cookies",
+          "category": "Web - Server",
+          "validationDate": "2017-09-16T21:49:49-04:00",
+          "points": 20
+        },
+        {
+          "name": "Directory traversal",
+          "category": "Web - Server",
+          "validationDate": "2017-09-16T22:05:35-04:00",
+          "points": 25
+        },
+        {
+          "name": "PHP assert()",
+          "category": "Web - Server",
+          "validationDate": "2017-09-16T22:36:12-04:00",
+          "points": 25
+        },
+        {
+          "name": "It happens, sometimes",
+          "category": "Realist",
+          "validationDate": "2017-09-19T01:02:43-04:00",
+          "points": 10
+        },
+        {
+          "name": "P0wn3d",
+          "category": "Realist",
+          "validationDate": "2017-09-19T02:27:29-04:00",
+          "points": 20
+        },
+        {
+          "name": "The h@ckers l4b",
+          "category": "Realist",
+          "validationDate": "2017-09-19T04:16:08-04:00",
+          "points": 25
+        },
+        {
+          "name": "Neonazi inside",
+          "category": "Realist",
+          "validationDate": "2017-09-19T05:30:10-04:00",
+          "points": 30
+        },
+        {
+          "name": "PyRat Auction",
+          "category": "Realist",
+          "validationDate": "2017-09-19T06:09:40-04:00",
+          "points": 40
+        },
+        {
+          "name": "Root them",
+          "category": "Realist",
+          "validationDate": "2017-09-19T18:09:25-04:00",
+          "points": 40
         }
       ]
     }
