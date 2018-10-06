@@ -87,6 +87,7 @@ $ bin/users add -h
 
     -n, --name <full name>         Full name
     -z, --ringzer0team <username>  Ringzer0team username
+    -r, --root-me-url <url>        Root-me profile url
     -h, --help                     output usage information
 
 ```
@@ -104,6 +105,7 @@ $ bin/users update -h
 
     -n, --name <full name>         Full name
     -z, --ringzer0team <username>  Ringzer0team username
+    -r, --root-me-url <url>        Root-me profile url
     -h, --help                     output usage information
 
 ```

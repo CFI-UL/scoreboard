@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ringzer0team",
+    "name": "Ringzer0team",
+    "url": "https://ringzer0team.com/",
+    "description": [
+      "RingZer0 Team's online CTF offers you tons of challenges designed to test and improve your hacking skills through hacking challenges. Register and get a flag for every challenge.",
+      "Currently more than 200 challenges are available over 13 categories. Have fun resolving them."
+    ]
+  },
+  {
+    "id": "rootMe",
+    "name": "Root Me",
+    "url": "https://www.root-me.org",
+    "description": [
+      "Root Me allows everyone to test and improve their knowledge in computer security and hacking. Legal. Free. Realistic.",
+      "Hundreds of challenges are available to train yourself in different and not simulated environments, offering you a way to learn a lot of hacking technics!"
+    ]
+  }
+]
