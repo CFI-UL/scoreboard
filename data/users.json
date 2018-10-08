@@ -5729,7 +5729,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/Simon-Thiboutot",
       "username": "lilc4t",
-      "points": 1070,
+      "points": 1155,
       "challenges": [
         {
           "name": "HTML",
@@ -6084,6 +6084,30 @@
           "category": "Cryptanalysis",
           "validationDate": "2018-03-21T18:27:24+00:00",
           "points": 20
+        },
+        {
+          "name": "HTTP - POST",
+          "category": "Web - Server",
+          "validationDate": "2018-10-06T21:49:03+00:00",
+          "points": 15
+        },
+        {
+          "name": "Javascript - Obfuscation 3",
+          "category": "Web - Client",
+          "validationDate": "2018-10-08T14:12:35+00:00",
+          "points": 30
+        },
+        {
+          "name": "Command injection",
+          "category": "Web - Server",
+          "validationDate": "2018-10-08T14:27:39+00:00",
+          "points": 10
+        },
+        {
+          "name": "PHP - Loose Comparison",
+          "category": "Web - Server",
+          "validationDate": "2018-10-08T14:47:44+00:00",
+          "points": 30
         }
       ]
     }
@@ -6095,8 +6119,50 @@
       "id": "18835",
       "username": "TwistedSim",
       "url": "https://ringzer0team.com/profile/18835/TwistedSim",
-      "points": 3,
+      "points": 13,
       "challenges": [
+        {
+          "name": "You're Drunk!",
+          "category": "Cryptography",
+          "validationDate": "2018-10-07T20:42:35Z",
+          "points": 1
+        },
+        {
+          "name": "Fashion Victim",
+          "category": "Cryptography",
+          "validationDate": "2018-10-07T20:19:25Z",
+          "points": 2
+        },
+        {
+          "name": "Martian message part 2",
+          "category": "Cryptography",
+          "validationDate": "2018-10-07T19:46:38Z",
+          "points": 2
+        },
+        {
+          "name": "File recovery",
+          "category": "Cryptography",
+          "validationDate": "2018-10-07T19:31:09Z",
+          "points": 1
+        },
+        {
+          "name": "Admin Portal",
+          "category": "Web",
+          "validationDate": "2018-10-07T17:17:38Z",
+          "points": 2
+        },
+        {
+          "name": "Words mean something?",
+          "category": "Web",
+          "validationDate": "2018-10-07T16:26:11Z",
+          "points": 1
+        },
+        {
+          "name": "Headache",
+          "category": "Web",
+          "validationDate": "2018-10-07T16:23:53Z",
+          "points": 1
+        },
         {
           "name": "Some martian message",
           "category": "Cryptography",
