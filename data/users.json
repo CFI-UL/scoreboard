@@ -6119,8 +6119,62 @@
       "id": "18835",
       "username": "TwistedSim",
       "url": "https://ringzer0team.com/profile/18835/TwistedSim",
-      "points": 13,
+      "points": 35,
       "challenges": [
+        {
+          "name": "WTF Lol!",
+          "category": "JavaScript",
+          "validationDate": "2018-10-09T07:25:29Z",
+          "points": 6
+        },
+        {
+          "name": "Why not be more secure?",
+          "category": "JavaScript",
+          "validationDate": "2018-10-08T21:55:25Z",
+          "points": 5
+        },
+        {
+          "name": "Why not?",
+          "category": "JavaScript",
+          "validationDate": "2018-10-08T20:28:37Z",
+          "points": 2
+        },
+        {
+          "name": "Valid key required",
+          "category": "JavaScript",
+          "validationDate": "2018-10-08T20:19:32Z",
+          "points": 2
+        },
+        {
+          "name": "Most Secure Crypto Algo",
+          "category": "JavaScript",
+          "validationDate": "2018-10-08T18:48:50Z",
+          "points": 2
+        },
+        {
+          "name": "Then obfuscation is more secure",
+          "category": "JavaScript",
+          "validationDate": "2018-10-08T18:28:47Z",
+          "points": 1
+        },
+        {
+          "name": "Ask your grandpa!",
+          "category": "Coding challenges",
+          "validationDate": "2018-10-08T17:00:52Z",
+          "points": 2
+        },
+        {
+          "name": "Hashing is more secure",
+          "category": "JavaScript",
+          "validationDate": "2018-10-08T16:22:24Z",
+          "points": 1
+        },
+        {
+          "name": "Client side validation is bad!",
+          "category": "JavaScript",
+          "validationDate": "2018-10-08T16:19:27Z",
+          "points": 1
+        },
         {
           "name": "You're Drunk!",
           "category": "Cryptography",
