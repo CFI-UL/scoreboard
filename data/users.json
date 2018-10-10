@@ -4497,8 +4497,14 @@
       "id": "19699",
       "username": "vp",
       "url": "https://ringzer0team.com/profile/19699/vp",
-      "points": 115,
+      "points": 118,
       "challenges": [
+        {
+          "name": "Serial killer!",
+          "category": "Web",
+          "validationDate": "2018-10-09T20:38:42Z",
+          "points": 3
+        },
         {
           "name": "REST in peace",
           "category": "Web",
@@ -5344,8 +5350,14 @@
       "id": "5097",
       "username": "LilC4T",
       "url": "https://ringzer0team.com/profile/5097/LilC4T",
-      "points": 153,
+      "points": 155,
       "challenges": [
+        {
+          "name": "Login portal 1",
+          "category": "SQL Injection",
+          "validationDate": "2018-10-09T18:22:57Z",
+          "points": 2
+        },
         {
           "name": "PHP Jail 2",
           "category": "Jail Escaping",
@@ -6119,8 +6131,26 @@
       "id": "18835",
       "username": "TwistedSim",
       "url": "https://ringzer0team.com/profile/18835/TwistedSim",
-      "points": 35,
+      "points": 41,
       "challenges": [
+        {
+          "name": "Bash Jail 3",
+          "category": "Jail Escaping",
+          "validationDate": "2018-10-10T01:49:18Z",
+          "points": 3
+        },
+        {
+          "name": "Bash Jail 2",
+          "category": "Jail Escaping",
+          "validationDate": "2018-10-09T21:41:54Z",
+          "points": 2
+        },
+        {
+          "name": "Bash Jail 1",
+          "category": "Jail Escaping",
+          "validationDate": "2018-10-09T15:53:07Z",
+          "points": 1
+        },
         {
           "name": "WTF Lol!",
           "category": "JavaScript",
