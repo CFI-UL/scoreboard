@@ -44,7 +44,8 @@ export default {
         'username',
         'points',
         'challenges',
-        'lastSolvedAt'
+        'lastSolvedAt',
+        'activePast7Days'
       ],
       filterKey: '',
       initialSortKey: 'position',
