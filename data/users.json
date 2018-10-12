@@ -1770,7 +1770,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 595,
+      "points": 645,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -1963,6 +1963,12 @@
           "category": "Realist",
           "validationDate": "2017-09-19T18:09:25+00:00",
           "points": 40
+        },
+        {
+          "name": "Javascript - Obfuscation 4",
+          "category": "Web - Client",
+          "validationDate": "2018-10-12T16:23:33+00:00",
+          "points": 50
         }
       ]
     }
