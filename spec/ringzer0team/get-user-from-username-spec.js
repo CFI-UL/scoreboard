@@ -25,7 +25,7 @@ describe('ringzer0team', () => {
           expect(error).toBeNull()
           expect(user.id).toEqual('5097')
           expect(user.username).toEqual(username)
-          expect(user.url).toEqual('https://ringzer0team.com/profile/5097/LilC4T')
+          expect(user.url).toEqual('https://ringzer0ctf.com/profile/5097/LilC4T')
           expect(user.points).toBeGreaterThanOrEqual(114)
           done()
         })
