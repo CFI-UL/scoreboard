@@ -7258,5 +7258,149 @@
         }
       ]
     }
+  },
+  {
+    "id": "2382fc16-0880-479b-a2ca-fda7dd2e0019",
+    "name": "Philippe Babin",
+    "ringzer0team": {
+      "id": "24533",
+      "username": "kafka",
+      "url": "https://ringzer0ctf.com/profile/24533/kafka",
+      "points": 40,
+      "challenges": [
+        {
+          "name": "Bash Jail 4",
+          "category": "Jail Escaping",
+          "validationDate": "2018-10-09T04:03:48Z",
+          "points": 4
+        },
+        {
+          "name": "Bash Jail 3",
+          "category": "Jail Escaping",
+          "validationDate": "2018-10-08T23:19:50Z",
+          "points": 3
+        },
+        {
+          "name": "Bash Jail 2",
+          "category": "Jail Escaping",
+          "validationDate": "2018-10-08T22:46:52Z",
+          "points": 2
+        },
+        {
+          "name": "Bash Jail 1",
+          "category": "Jail Escaping",
+          "validationDate": "2018-10-08T22:31:59Z",
+          "points": 1
+        },
+        {
+          "name": "Ask your grandpa!",
+          "category": "Coding challenges",
+          "validationDate": "2018-10-08T17:37:34Z",
+          "points": 2
+        },
+        {
+          "name": "Hash me please",
+          "category": "Coding challenges",
+          "validationDate": "2018-10-08T16:20:23Z",
+          "points": 2
+        },
+        {
+          "name": "Some martian message",
+          "category": "Cryptography",
+          "validationDate": "2018-10-08T03:17:54Z",
+          "points": 1
+        },
+        {
+          "name": "Admin Portal",
+          "category": "Web",
+          "validationDate": "2018-10-08T03:16:42Z",
+          "points": 2
+        },
+        {
+          "name": "Fashion Victim",
+          "category": "Cryptography",
+          "validationDate": "2018-10-08T03:08:48Z",
+          "points": 2
+        },
+        {
+          "name": "Why not be more secure?",
+          "category": "JavaScript",
+          "validationDate": "2018-10-08T02:02:38Z",
+          "points": 5
+        },
+        {
+          "name": "Why not?",
+          "category": "JavaScript",
+          "validationDate": "2018-10-07T21:45:21Z",
+          "points": 2
+        },
+        {
+          "name": "Valid key required",
+          "category": "JavaScript",
+          "validationDate": "2018-10-07T21:39:46Z",
+          "points": 2
+        },
+        {
+          "name": "Most Secure Crypto Algo",
+          "category": "JavaScript",
+          "validationDate": "2018-10-07T21:02:25Z",
+          "points": 2
+        },
+        {
+          "name": "Then obfuscation is more secure",
+          "category": "JavaScript",
+          "validationDate": "2018-10-07T20:25:29Z",
+          "points": 1
+        },
+        {
+          "name": "Hashing is more secure",
+          "category": "JavaScript",
+          "validationDate": "2018-10-07T20:17:03Z",
+          "points": 1
+        },
+        {
+          "name": "Client side validation is bad!",
+          "category": "JavaScript",
+          "validationDate": "2018-10-07T20:16:25Z",
+          "points": 1
+        },
+        {
+          "name": "SysAdmin Part 4",
+          "category": "SysAdmin Linux",
+          "validationDate": "2018-10-07T19:54:15Z",
+          "points": 2
+        },
+        {
+          "name": "SysAdmin Part 1",
+          "category": "SysAdmin Linux",
+          "validationDate": "2018-10-07T19:22:33Z",
+          "points": 1
+        },
+        {
+          "name": "Words mean something?",
+          "category": "Web",
+          "validationDate": "2018-10-07T17:33:22Z",
+          "points": 1
+        },
+        {
+          "name": "Headache",
+          "category": "Web",
+          "validationDate": "2018-10-07T17:31:06Z",
+          "points": 1
+        },
+        {
+          "name": "Looking for password file",
+          "category": "Web",
+          "validationDate": "2018-10-07T17:22:43Z",
+          "points": 1
+        },
+        {
+          "name": "Big Brother is watching",
+          "category": "Web",
+          "validationDate": "2018-10-07T17:20:13Z",
+          "points": 1
+        }
+      ]
+    }
   }
 ]
