@@ -7266,8 +7266,20 @@
       "id": "24533",
       "username": "kafka",
       "url": "https://ringzer0ctf.com/profile/24533/kafka",
-      "points": 40,
+      "points": 46,
       "challenges": [
+        {
+          "name": "I hate mathematics",
+          "category": "Coding challenges",
+          "validationDate": "2018-10-13T01:29:23Z",
+          "points": 3
+        },
+        {
+          "name": "Hash me reloaded",
+          "category": "Coding challenges",
+          "validationDate": "2018-10-13T01:22:13Z",
+          "points": 3
+        },
         {
           "name": "Bash Jail 4",
           "category": "Jail Escaping",
