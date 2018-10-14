@@ -5428,8 +5428,26 @@
       "id": "5097",
       "username": "LilC4T",
       "url": "https://ringzer0ctf.com/profile/5097/LilC4T",
-      "points": 161,
+      "points": 177,
       "challenges": [
+        {
+          "name": "When it's lite it's not necessarily easy",
+          "category": "SQL Injection",
+          "validationDate": "2018-10-13T18:12:29Z",
+          "points": 6
+        },
+        {
+          "name": "Login portal 3",
+          "category": "SQL Injection",
+          "validationDate": "2018-10-13T17:41:18Z",
+          "points": 6
+        },
+        {
+          "name": "No more hacking for me!",
+          "category": "SQL Injection",
+          "validationDate": "2018-10-13T16:34:59Z",
+          "points": 4
+        },
         {
           "name": "Don't mess with Noemie; she hates admin!",
           "category": "SQL Injection",
@@ -6366,7 +6384,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 645,
+      "points": 830,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -6565,6 +6583,42 @@
           "category": "Web - Client",
           "validationDate": "2018-10-12T16:23:33+00:00",
           "points": 50
+        },
+        {
+          "name": "Javascript - Obfuscation 5",
+          "category": "Web - Client",
+          "validationDate": "2018-10-13T17:22:31+00:00",
+          "points": 70
+        },
+        {
+          "name": "Command injection",
+          "category": "Web - Server",
+          "validationDate": "2018-10-14T00:34:14+00:00",
+          "points": 10
+        },
+        {
+          "name": "HTTP - POST",
+          "category": "Web - Server",
+          "validationDate": "2018-10-14T00:47:24+00:00",
+          "points": 15
+        },
+        {
+          "name": "SQL injection - authentication",
+          "category": "Web - Server",
+          "validationDate": "2018-10-14T04:04:07+00:00",
+          "points": 30
+        },
+        {
+          "name": "PHP filters",
+          "category": "Web - Server",
+          "validationDate": "2018-10-14T04:34:38+00:00",
+          "points": 25
+        },
+        {
+          "name": "Path Truncation",
+          "category": "Web - Server",
+          "validationDate": "2018-10-14T04:48:35+00:00",
+          "points": 35
         }
       ]
     }
