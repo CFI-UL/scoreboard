@@ -5849,7 +5849,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/Simon-Thiboutot",
       "username": "lilc4t",
-      "points": 1155,
+      "points": 1180,
       "challenges": [
         {
           "name": "HTML",
@@ -6228,6 +6228,12 @@
           "category": "Web - Server",
           "validationDate": "2018-10-08T14:47:44+00:00",
           "points": 30
+        },
+        {
+          "name": "PHP register globals",
+          "category": "Web - Server",
+          "validationDate": "2018-10-15T04:15:44+00:00",
+          "points": 25
         }
       ]
     }
@@ -6239,8 +6245,14 @@
       "id": "18835",
       "username": "TwistedSim",
       "url": "https://ringzer0ctf.com/profile/18835/TwistedSim",
-      "points": 45,
+      "points": 46,
       "challenges": [
+        {
+          "name": "I made a dd of Agent Smith usb key",
+          "category": "Forensics",
+          "validationDate": "2018-10-15T06:28:02Z",
+          "points": 1
+        },
         {
           "name": "Bash Jail 4",
           "category": "Jail Escaping",
@@ -6384,7 +6396,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 830,
+      "points": 1100,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -6618,6 +6630,60 @@
           "name": "Path Truncation",
           "category": "Web - Server",
           "validationDate": "2018-10-14T04:48:35+00:00",
+          "points": 35
+        },
+        {
+          "name": "PHP register globals",
+          "category": "Web - Server",
+          "validationDate": "2018-10-14T20:00:34+00:00",
+          "points": 25
+        },
+        {
+          "name": "File upload - ZIP",
+          "category": "Web - Server",
+          "validationDate": "2018-10-14T22:00:46+00:00",
+          "points": 30
+        },
+        {
+          "name": "Local File Inclusion",
+          "category": "Web - Server",
+          "validationDate": "2018-10-14T23:03:32+00:00",
+          "points": 30
+        },
+        {
+          "name": "Local File Inclusion - Double encoding",
+          "category": "Web - Server",
+          "validationDate": "2018-10-15T00:07:42+00:00",
+          "points": 30
+        },
+        {
+          "name": "PHP - Loose Comparison",
+          "category": "Web - Server",
+          "validationDate": "2018-10-15T03:01:22+00:00",
+          "points": 30
+        },
+        {
+          "name": "PHP preg_replace()",
+          "category": "Web - Server",
+          "validationDate": "2018-10-15T04:13:10+00:00",
+          "points": 30
+        },
+        {
+          "name": "PHP type juggling",
+          "category": "Web - Server",
+          "validationDate": "2018-10-15T04:26:17+00:00",
+          "points": 30
+        },
+        {
+          "name": "Server-side Template Injection",
+          "category": "Web - Server",
+          "validationDate": "2018-10-15T05:24:23+00:00",
+          "points": 30
+        },
+        {
+          "name": "PHP Serialization",
+          "category": "Web - Server",
+          "validationDate": "2018-10-15T06:18:41+00:00",
           "points": 35
         }
       ]
