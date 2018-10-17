@@ -6426,7 +6426,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 1130,
+      "points": 1140,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -6721,6 +6721,18 @@
           "category": "Web - Server",
           "validationDate": "2018-10-16T02:27:21+00:00",
           "points": 30
+        },
+        {
+          "name": "Bash - System 1",
+          "category": "App - Script",
+          "validationDate": "2018-10-17T04:25:42+00:00",
+          "points": 5
+        },
+        {
+          "name": "sudo - weak configuration",
+          "category": "App - Script",
+          "validationDate": "2018-10-17T05:19:58+00:00",
+          "points": 5
         }
       ]
     }
