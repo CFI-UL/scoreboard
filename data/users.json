@@ -6426,7 +6426,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 1140,
+      "points": 1225,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -6733,6 +6733,60 @@
           "category": "App - Script",
           "validationDate": "2018-10-17T05:19:58+00:00",
           "points": 5
+        },
+        {
+          "name": "Bash - System 2",
+          "category": "App - Script",
+          "validationDate": "2018-10-18T02:27:16+00:00",
+          "points": 10
+        },
+        {
+          "name": "Encoding - ASCII",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-18T02:39:47+00:00",
+          "points": 5
+        },
+        {
+          "name": "Encoding - UU",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-18T02:40:51+00:00",
+          "points": 5
+        },
+        {
+          "name": "Hash - Message Digest 5",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-18T02:43:29+00:00",
+          "points": 5
+        },
+        {
+          "name": "Hash - SHA-2",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-18T03:15:05+00:00",
+          "points": 5
+        },
+        {
+          "name": "Shift cipher",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-18T03:24:35+00:00",
+          "points": 10
+        },
+        {
+          "name": "Pixel Madness",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-18T03:42:14+00:00",
+          "points": 15
+        },
+        {
+          "name": "ELF32 - PID encryption",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-18T04:14:32+00:00",
+          "points": 15
+        },
+        {
+          "name": "File - PKZIP",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-18T04:58:01+00:00",
+          "points": 15
         }
       ]
     }
