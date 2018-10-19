@@ -6,8 +6,14 @@
       "id": "5258",
       "username": "Corb3nik",
       "url": "https://ringzer0ctf.com/profile/5258/Corb3nik",
-      "points": 1193,
+      "points": 1203,
       "challenges": [
+        {
+          "name": "Trolling the troll",
+          "category": "Reverse Engineering",
+          "validationDate": "2018-10-19T03:14:50Z",
+          "points": 10
+        },
         {
           "name": "Crazy Cat Lady",
           "category": "Steganography",
@@ -6426,7 +6432,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 1225,
+      "points": 1385,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -6787,6 +6793,54 @@
           "category": "Cryptanalysis",
           "validationDate": "2018-10-18T04:58:01+00:00",
           "points": 15
+        },
+        {
+          "name": "Monoalphabetic substitution - Caesar",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-18T16:06:36+00:00",
+          "points": 15
+        },
+        {
+          "name": "Known plaintext - XOR",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-18T17:10:49+00:00",
+          "points": 20
+        },
+        {
+          "name": "Code - Pseudo Random Number Generator",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-18T19:28:18+00:00",
+          "points": 20
+        },
+        {
+          "name": "File - Insecure storage 1",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-18T20:21:19+00:00",
+          "points": 20
+        },
+        {
+          "name": "Polyalphabetic substitution - Vigenère",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-18T20:25:50+00:00",
+          "points": 20
+        },
+        {
+          "name": "System - Android lock pattern",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-18T20:49:15+00:00",
+          "points": 20
+        },
+        {
+          "name": "Transposition - Rail Fence",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-18T20:55:24+00:00",
+          "points": 20
+        },
+        {
+          "name": "RSA - Factorisation",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-18T21:44:22+00:00",
+          "points": 25
         }
       ]
     }
