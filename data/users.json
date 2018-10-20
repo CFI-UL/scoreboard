@@ -5464,8 +5464,20 @@
       "id": "5097",
       "username": "LilC4T",
       "url": "https://ringzer0ctf.com/profile/5097/LilC4T",
-      "points": 177,
+      "points": 183,
       "challenges": [
+        {
+          "name": "Hash breaker",
+          "category": "Coding challenges",
+          "validationDate": "2018-10-19T19:54:37Z",
+          "points": 4
+        },
+        {
+          "name": "Just another login form",
+          "category": "SQL Injection",
+          "validationDate": "2018-10-19T16:03:48Z",
+          "points": 2
+        },
         {
           "name": "When it's lite it's not necessarily easy",
           "category": "SQL Injection",
@@ -6432,7 +6444,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 1385,
+      "points": 1460,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -6840,6 +6852,24 @@
           "name": "RSA - Factorisation",
           "category": "Cryptanalysis",
           "validationDate": "2018-10-18T21:44:22+00:00",
+          "points": 25
+        },
+        {
+          "name": "AES - CBC - Bit-Flipping Attack",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-19T21:28:56+00:00",
+          "points": 25
+        },
+        {
+          "name": "RSA - Decipher Oracle",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-19T23:26:41+00:00",
+          "points": 25
+        },
+        {
+          "name": "Service - Timing attack",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-20T14:40:03+00:00",
           "points": 25
         }
       ]
