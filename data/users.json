@@ -1675,7 +1675,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/Corb3nik",
       "username": "Corb3nik",
-      "points": 1500,
+      "points": 1550,
       "challenges": [
         {
           "name": "Javascript - Authentication",
@@ -2090,6 +2090,18 @@
           "category": "App - Script",
           "validationDate": "2018-10-16T06:54:49+00:00",
           "points": 40
+        },
+        {
+          "name": "ELF ARM - Basic Crackme",
+          "category": "Cracking",
+          "validationDate": "2018-10-22T05:17:49+00:00",
+          "points": 20
+        },
+        {
+          "name": "ELF ARM - crackme 1337",
+          "category": "Cracking",
+          "validationDate": "2018-10-22T06:37:16+00:00",
+          "points": 30
         }
       ]
     }
@@ -2101,8 +2113,14 @@
       "id": "253",
       "username": "sushi",
       "url": "https://ringzer0ctf.com/profile/253/sushi",
-      "points": 402,
+      "points": 409,
       "challenges": [
+        {
+          "name": "Internet As A Service",
+          "category": "SQL Injection",
+          "validationDate": "2018-10-22T05:05:59Z",
+          "points": 7
+        },
         {
           "name": "Size DOES matter",
           "category": "SQL Injection",
@@ -6444,7 +6462,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 1590,
+      "points": 1630,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -6901,6 +6919,12 @@
           "category": "Cryptanalysis",
           "validationDate": "2018-10-21T21:52:46+00:00",
           "points": 25
+        },
+        {
+          "name": "RSA - Multiple recipients",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-22T04:59:05+00:00",
+          "points": 40
         }
       ]
     }
