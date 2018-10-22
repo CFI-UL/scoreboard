@@ -7762,5 +7762,94 @@
         }
       ]
     }
+  },
+  {
+    "id": "79360440-9dc2-4ff0-9c63-604216b5b7a7",
+    "name": "Alex Raymond",
+    "rootMe": {
+      "url": "https://www.root-me.org/R0b0t-215911",
+      "username": "R0b0t",
+      "points": 125,
+      "challenges": [
+        {
+          "name": "FTP - authentication",
+          "category": "Network",
+          "validationDate": "2018-07-30T00:56:06-04:00",
+          "points": 5
+        },
+        {
+          "name": "TELNET - authentication",
+          "category": "Network",
+          "validationDate": "2018-07-30T01:06:03-04:00",
+          "points": 5
+        },
+        {
+          "name": "ETHERNET - frame",
+          "category": "Network",
+          "validationDate": "2018-07-30T22:46:42-04:00",
+          "points": 10
+        },
+        {
+          "name": "Twitter authentication",
+          "category": "Network",
+          "validationDate": "2018-07-30T22:58:32-04:00",
+          "points": 15
+        },
+        {
+          "name": "CISCO - password",
+          "category": "Network",
+          "validationDate": "2018-07-30T23:37:22-04:00",
+          "points": 15
+        },
+        {
+          "name": "IP - Time To Live",
+          "category": "Network",
+          "validationDate": "2018-07-31T00:53:43-04:00",
+          "points": 15
+        },
+        {
+          "name": "SIP - authentication",
+          "category": "Network",
+          "validationDate": "2018-07-31T00:58:32-04:00",
+          "points": 20
+        },
+        {
+          "name": "HTML",
+          "category": "Web - Server",
+          "validationDate": "2018-08-09T21:45:31-04:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Authentication",
+          "category": "Web - Client",
+          "validationDate": "2018-08-10T00:03:46-04:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Source",
+          "category": "Web - Client",
+          "validationDate": "2018-08-10T00:04:47-04:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Authentication 2",
+          "category": "Web - Client",
+          "validationDate": "2018-08-10T00:07:32-04:00",
+          "points": 10
+        },
+        {
+          "name": "Javascript - Obfuscation 1",
+          "category": "Web - Client",
+          "validationDate": "2018-08-10T00:24:51-04:00",
+          "points": 10
+        },
+        {
+          "name": "Hash - Message Digest 5",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-21T18:47:38-04:00",
+          "points": 5
+        }
+      ]
+    }
   }
 ]
