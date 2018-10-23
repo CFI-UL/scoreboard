@@ -7811,7 +7811,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/R0b0t-215911",
       "username": "R0b0t",
-      "points": 125,
+      "points": 160,
       "challenges": [
         {
           "name": "FTP - authentication",
@@ -7890,6 +7890,30 @@
           "category": "Cryptanalysis",
           "validationDate": "2018-10-21T18:47:38+00:00",
           "points": 5
+        },
+        {
+          "name": "Encoding - ASCII",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-22T17:05:24+00:00",
+          "points": 5
+        },
+        {
+          "name": "Encoding - UU",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-22T17:11:52+00:00",
+          "points": 5
+        },
+        {
+          "name": "Weak password",
+          "category": "Web - Server",
+          "validationDate": "2018-10-22T19:12:37+00:00",
+          "points": 10
+        },
+        {
+          "name": "HTTP directory indexing",
+          "category": "Web - Server",
+          "validationDate": "2018-10-22T19:23:28+00:00",
+          "points": 15
         }
       ]
     }
