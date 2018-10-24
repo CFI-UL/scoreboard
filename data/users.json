@@ -5482,8 +5482,14 @@
       "id": "5097",
       "username": "LilC4T",
       "url": "https://ringzer0ctf.com/profile/5097/LilC4T",
-      "points": 183,
+      "points": 185,
       "challenges": [
+        {
+          "name": "Random Login Form",
+          "category": "SQL Injection",
+          "validationDate": "2018-10-24T00:33:45Z",
+          "points": 2
+        },
         {
           "name": "Hash breaker",
           "category": "Coding challenges",
@@ -7811,7 +7817,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/R0b0t-215911",
       "username": "R0b0t",
-      "points": 160,
+      "points": 175,
       "challenges": [
         {
           "name": "FTP - authentication",
@@ -7914,6 +7920,18 @@
           "category": "Web - Server",
           "validationDate": "2018-10-22T19:23:28+00:00",
           "points": 15
+        },
+        {
+          "name": "HTML - disabled buttons",
+          "category": "Web - Client",
+          "validationDate": "2018-10-23T23:48:28+00:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Obfuscation 2",
+          "category": "Web - Client",
+          "validationDate": "2018-10-24T00:42:25+00:00",
+          "points": 10
         }
       ]
     }
