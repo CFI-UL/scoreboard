@@ -7817,7 +7817,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/R0b0t-215911",
       "username": "R0b0t",
-      "points": 175,
+      "points": 190,
       "challenges": [
         {
           "name": "FTP - authentication",
@@ -7932,6 +7932,18 @@
           "category": "Web - Client",
           "validationDate": "2018-10-24T00:42:25+00:00",
           "points": 10
+        },
+        {
+          "name": "User-agent",
+          "category": "Web - Server",
+          "validationDate": "2018-10-24T23:19:32+00:00",
+          "points": 10
+        },
+        {
+          "name": "Hash - SHA-2",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-25T06:17:35+00:00",
+          "points": 5
         }
       ]
     }
