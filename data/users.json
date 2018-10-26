@@ -6468,7 +6468,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 1630,
+      "points": 1670,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -6930,6 +6930,12 @@
           "name": "RSA - Multiple recipients",
           "category": "Cryptanalysis",
           "validationDate": "2018-10-22T04:59:05+00:00",
+          "points": 40
+        },
+        {
+          "name": "AES128 - CTR",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-25T20:20:55+00:00",
           "points": 40
         }
       ]
