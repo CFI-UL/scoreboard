@@ -7823,7 +7823,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/R0b0t-215911",
       "username": "R0b0t",
-      "points": 190,
+      "points": 195,
       "challenges": [
         {
           "name": "FTP - authentication",
@@ -7949,6 +7949,12 @@
           "name": "Hash - SHA-2",
           "category": "Cryptanalysis",
           "validationDate": "2018-10-25T06:17:35+00:00",
+          "points": 5
+        },
+        {
+          "name": "Gunnm",
+          "category": "Steganography",
+          "validationDate": "2018-10-26T16:20:44+00:00",
           "points": 5
         }
       ]
