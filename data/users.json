@@ -2113,8 +2113,14 @@
       "id": "253",
       "username": "sushi",
       "url": "https://ringzer0ctf.com/profile/253/sushi",
-      "points": 409,
+      "points": 417,
       "challenges": [
+        {
+          "name": "The useless search tool",
+          "category": "SQL Injection",
+          "validationDate": "2018-10-28T12:19:54Z",
+          "points": 8
+        },
         {
           "name": "Internet As A Service",
           "category": "SQL Injection",
@@ -3620,8 +3626,44 @@
       "id": "19598",
       "username": "f8thl3ss",
       "url": "https://ringzer0ctf.com/profile/19598/f8thl3ss",
-      "points": 27,
+      "points": 33,
       "challenges": [
+        {
+          "name": "File recovery",
+          "category": "Cryptography",
+          "validationDate": "2018-10-28T07:29:47Z",
+          "points": 1
+        },
+        {
+          "name": "Some martian message",
+          "category": "Cryptography",
+          "validationDate": "2018-10-28T07:22:35Z",
+          "points": 1
+        },
+        {
+          "name": "Big Brother is watching",
+          "category": "Web",
+          "validationDate": "2018-10-28T07:18:28Z",
+          "points": 1
+        },
+        {
+          "name": "Then obfuscation is more secure",
+          "category": "JavaScript",
+          "validationDate": "2018-10-28T07:16:44Z",
+          "points": 1
+        },
+        {
+          "name": "Hashing is more secure",
+          "category": "JavaScript",
+          "validationDate": "2018-10-28T07:09:51Z",
+          "points": 1
+        },
+        {
+          "name": "Client side validation is bad!",
+          "category": "JavaScript",
+          "validationDate": "2018-10-28T07:06:59Z",
+          "points": 1
+        },
         {
           "name": "SysAdmin Part 5",
           "category": "SysAdmin Linux",
