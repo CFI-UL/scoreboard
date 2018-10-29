@@ -6510,7 +6510,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 1670,
+      "points": 1700,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -6979,6 +6979,12 @@
           "category": "Cryptanalysis",
           "validationDate": "2018-10-25T20:20:55+00:00",
           "points": 40
+        },
+        {
+          "name": "RSA - Common modulus",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-28T16:21:25+00:00",
+          "points": 30
         }
       ]
     }
