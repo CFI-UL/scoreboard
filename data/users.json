@@ -6510,7 +6510,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 1700,
+      "points": 1730,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -6984,6 +6984,12 @@
           "name": "RSA - Common modulus",
           "category": "Cryptanalysis",
           "validationDate": "2018-10-28T16:21:25+00:00",
+          "points": 30
+        },
+        {
+          "name": "RSA - Continued fractions",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-10-29T15:14:11+00:00",
           "points": 30
         }
       ]
@@ -7871,7 +7877,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/R0b0t-215911",
       "username": "R0b0t",
-      "points": 195,
+      "points": 205,
       "challenges": [
         {
           "name": "FTP - authentication",
@@ -8003,6 +8009,18 @@
           "name": "Gunnm",
           "category": "Steganography",
           "validationDate": "2018-10-26T16:20:44+00:00",
+          "points": 5
+        },
+        {
+          "name": "ELF - 0 protection",
+          "category": "Cracking",
+          "validationDate": "2018-10-30T05:34:45+00:00",
+          "points": 5
+        },
+        {
+          "name": "ELF - x86 Basic",
+          "category": "Cracking",
+          "validationDate": "2018-10-30T14:48:55+00:00",
           "points": 5
         }
       ]
