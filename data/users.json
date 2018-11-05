@@ -6510,7 +6510,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 1730,
+      "points": 1765,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -6991,6 +6991,12 @@
           "category": "Cryptanalysis",
           "validationDate": "2018-10-29T15:14:11+00:00",
           "points": 30
+        },
+        {
+          "name": "RSA - Padding",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-11-04T21:52:36+00:00",
+          "points": 35
         }
       ]
     }
@@ -7200,7 +7206,7 @@
     },
     "rootMe": {
       "url": "https://www.root-me.org/Xehos",
-      "username": "",
+      "username": "Xehos",
       "points": 0,
       "challenges": []
     }
@@ -7673,16 +7679,9 @@
     "name": "Raphaël Grignon",
     "rootMe": {
       "url": "https://www.root-me.org/Deziar27",
-      "username": "Deziar27",
-      "points": 5,
-      "challenges": [
-        {
-          "name": "HTML",
-          "category": "Web - Server",
-          "validationDate": "2018-10-12T01:13:06+00:00",
-          "points": 5
-        }
-      ]
+      "username": "",
+      "points": 0,
+      "challenges": []
     }
   },
   {
