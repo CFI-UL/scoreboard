@@ -7679,9 +7679,16 @@
     "name": "Raphaël Grignon",
     "rootMe": {
       "url": "https://www.root-me.org/Deziar27",
-      "username": "",
-      "points": 0,
-      "challenges": []
+      "username": "Deziar27",
+      "points": 5,
+      "challenges": [
+        {
+          "name": "HTML",
+          "category": "Web - Server",
+          "validationDate": "2018-10-12T01:13:06+00:00",
+          "points": 5
+        }
+      ]
     }
   },
   {
