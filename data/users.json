@@ -4320,7 +4320,7 @@
           "points": 15
         },
         {
-          "name": "ELF32 - PID encryption",
+          "name": "ELF64 - PID encryption",
           "category": "Cryptanalysis",
           "validationDate": "2018-03-17T00:08:35+00:00",
           "points": 15
@@ -6278,7 +6278,7 @@
           "points": 15
         },
         {
-          "name": "ELF32 - PID encryption",
+          "name": "ELF64 - PID encryption",
           "category": "Cryptanalysis",
           "validationDate": "2018-03-17T00:08:56+00:00",
           "points": 15
@@ -6861,7 +6861,7 @@
           "points": 15
         },
         {
-          "name": "ELF32 - PID encryption",
+          "name": "ELF64 - PID encryption",
           "category": "Cryptanalysis",
           "validationDate": "2018-10-18T04:14:32+00:00",
           "points": 15
