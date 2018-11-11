@@ -2113,8 +2113,14 @@
       "id": "253",
       "username": "sushi",
       "url": "https://ringzer0ctf.com/profile/253/sushi",
-      "points": 417,
+      "points": 425,
       "challenges": [
+        {
+          "name": "Login portal 5",
+          "category": "SQL Injection",
+          "validationDate": "2018-11-11T08:00:45Z",
+          "points": 8
+        },
         {
           "name": "The useless search tool",
           "category": "SQL Injection",
@@ -5524,8 +5530,20 @@
       "id": "5097",
       "username": "LilC4T",
       "url": "https://ringzer0ctf.com/profile/5097/LilC4T",
-      "points": 185,
+      "points": 192,
       "challenges": [
+        {
+          "name": "PHP Jail 4",
+          "category": "Jail Escaping",
+          "validationDate": "2018-11-11T00:22:33Z",
+          "points": 4
+        },
+        {
+          "name": "PHP Jail 3",
+          "category": "Jail Escaping",
+          "validationDate": "2018-11-10T23:59:14Z",
+          "points": 3
+        },
         {
           "name": "Random Login Form",
           "category": "SQL Injection",
@@ -6510,7 +6528,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 1765,
+      "points": 1805,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -6997,6 +7015,12 @@
           "category": "Cryptanalysis",
           "validationDate": "2018-11-04T21:52:36+00:00",
           "points": 35
+        },
+        {
+          "name": "PHP - Eval",
+          "category": "Web - Server",
+          "validationDate": "2018-11-10T17:08:47+00:00",
+          "points": 40
         }
       ]
     }
