@@ -3632,8 +3632,44 @@
       "id": "19598",
       "username": "f8thl3ss",
       "url": "https://ringzer0ctf.com/profile/19598/f8thl3ss",
-      "points": 33,
+      "points": 40,
       "challenges": [
+        {
+          "name": "Bash Jail 2",
+          "category": "Jail Escaping",
+          "validationDate": "2018-11-12T03:32:12Z",
+          "points": 2
+        },
+        {
+          "name": "Bash Jail 1",
+          "category": "Jail Escaping",
+          "validationDate": "2018-11-12T03:08:24Z",
+          "points": 1
+        },
+        {
+          "name": "Words mean something?",
+          "category": "Web",
+          "validationDate": "2018-11-12T02:50:38Z",
+          "points": 1
+        },
+        {
+          "name": "Headache",
+          "category": "Web",
+          "validationDate": "2018-11-12T02:47:14Z",
+          "points": 1
+        },
+        {
+          "name": "Area 51",
+          "category": "Web",
+          "validationDate": "2018-11-12T02:16:59Z",
+          "points": 1
+        },
+        {
+          "name": "Looking for password file",
+          "category": "Web",
+          "validationDate": "2018-11-12T01:44:17Z",
+          "points": 1
+        },
         {
           "name": "File recovery",
           "category": "Cryptography",
@@ -6377,8 +6413,14 @@
       "id": "18835",
       "username": "TwistedSim",
       "url": "https://ringzer0ctf.com/profile/18835/TwistedSim",
-      "points": 46,
+      "points": 47,
       "challenges": [
+        {
+          "name": "Most basic SQLi pattern.",
+          "category": "SQL Injection",
+          "validationDate": "2018-11-11T14:40:13Z",
+          "points": 1
+        },
         {
           "name": "I made a dd of Agent Smith usb key",
           "category": "Forensics",
@@ -6528,7 +6570,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 1805,
+      "points": 1820,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -7021,6 +7063,18 @@
           "category": "Web - Server",
           "validationDate": "2018-11-10T17:08:47+00:00",
           "points": 40
+        },
+        {
+          "name": "ELF x86 - Stack buffer overflow basic 1",
+          "category": "App - System",
+          "validationDate": "2018-11-11T19:27:05+00:00",
+          "points": 5
+        },
+        {
+          "name": "ELF x86 - Stack buffer overflow basic 2\t",
+          "category": "App - System",
+          "validationDate": "2018-11-11T22:02:01+00:00",
+          "points": 10
         }
       ]
     }
