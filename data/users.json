@@ -6570,7 +6570,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 1820,
+      "points": 1830,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -7075,6 +7075,18 @@
           "category": "App - System",
           "validationDate": "2018-11-11T22:02:01+00:00",
           "points": 10
+        },
+        {
+          "name": "ELF - 0 protection",
+          "category": "Cracking",
+          "validationDate": "2018-11-12T23:34:36+00:00",
+          "points": 5
+        },
+        {
+          "name": "ELF - x86 Basic",
+          "category": "Cracking",
+          "validationDate": "2018-11-12T23:37:21+00:00",
+          "points": 5
         }
       ]
     }
