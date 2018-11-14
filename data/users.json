@@ -7788,8 +7788,26 @@
       "id": "24533",
       "username": "kafka",
       "url": "https://ringzer0ctf.com/profile/24533/kafka",
-      "points": 55,
+      "points": 60,
       "challenges": [
+        {
+          "name": "Hidden In Plain Sight",
+          "category": "Steganography",
+          "validationDate": "2018-11-14T01:47:37Z",
+          "points": 2
+        },
+        {
+          "name": "Victor you're hidding me something",
+          "category": "Steganography",
+          "validationDate": "2018-11-14T01:17:55Z",
+          "points": 1
+        },
+        {
+          "name": "Time to learn x86 ASM & gdb",
+          "category": "Reverse Engineering",
+          "validationDate": "2018-11-14T01:12:03Z",
+          "points": 2
+        },
         {
           "name": "Hey Chuck where is the flag?",
           "category": "Forensics",
