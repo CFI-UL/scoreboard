@@ -2113,8 +2113,14 @@
       "id": "253",
       "username": "sushi",
       "url": "https://ringzer0ctf.com/profile/253/sushi",
-      "points": 425,
+      "points": 429,
       "challenges": [
+        {
+          "name": "Linux x64 shellcoding level 2",
+          "category": "Shellcoding",
+          "validationDate": "2018-11-16T08:42:45Z",
+          "points": 4
+        },
         {
           "name": "Login portal 5",
           "category": "SQL Injection",
