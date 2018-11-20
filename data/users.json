@@ -6,8 +6,14 @@
       "id": "5258",
       "username": "Corb3nik",
       "url": "https://ringzer0ctf.com/profile/5258/Corb3nik",
-      "points": 1203,
+      "points": 1217,
       "challenges": [
+        {
+          "name": "C Jail 6",
+          "category": "Jail Escaping",
+          "validationDate": "2018-11-20T03:49:40Z",
+          "points": 14
+        },
         {
           "name": "Trolling the troll",
           "category": "Reverse Engineering",
@@ -3638,8 +3644,26 @@
       "id": "19598",
       "username": "f8thl3ss",
       "url": "https://ringzer0ctf.com/profile/19598/f8thl3ss",
-      "points": 40,
+      "points": 48,
       "challenges": [
+        {
+          "name": "SysAdmin Part 7",
+          "category": "SysAdmin Linux",
+          "validationDate": "2018-11-20T03:03:29Z",
+          "points": 4
+        },
+        {
+          "name": "SysAdmin Part 6",
+          "category": "SysAdmin Linux",
+          "validationDate": "2018-11-20T02:28:16Z",
+          "points": 3
+        },
+        {
+          "name": "SysAdmin Part 3",
+          "category": "SysAdmin Linux",
+          "validationDate": "2018-11-20T01:57:11Z",
+          "points": 1
+        },
         {
           "name": "Bash Jail 2",
           "category": "Jail Escaping",
