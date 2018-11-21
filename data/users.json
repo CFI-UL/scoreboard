@@ -6600,7 +6600,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 1830,
+      "points": 1890,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -7117,6 +7117,12 @@
           "category": "Cracking",
           "validationDate": "2018-11-12T23:37:21+00:00",
           "points": 5
+        },
+        {
+          "name": "Service - CBC Padding",
+          "category": "Cryptanalysis",
+          "validationDate": "2018-11-21T03:57:33+00:00",
+          "points": 60
         }
       ]
     }
