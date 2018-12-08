@@ -6,8 +6,14 @@
       "id": "5258",
       "username": "Corb3nik",
       "url": "https://ringzer0ctf.com/profile/5258/Corb3nik",
-      "points": 1217,
+      "points": 1218,
       "challenges": [
+        {
+          "name": "Hacking skill are optional",
+          "category": "Web",
+          "validationDate": "2018-12-07T22:51:59Z",
+          "points": 1
+        },
         {
           "name": "C Jail 6",
           "category": "Jail Escaping",
