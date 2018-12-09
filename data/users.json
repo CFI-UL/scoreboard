@@ -2125,8 +2125,14 @@
       "id": "253",
       "username": "sushi",
       "url": "https://ringzer0ctf.com/profile/253/sushi",
-      "points": 429,
+      "points": 430,
       "challenges": [
+        {
+          "name": "Hacking skill are optional",
+          "category": "Web",
+          "validationDate": "2018-12-09T01:41:25Z",
+          "points": 1
+        },
         {
           "name": "Linux x64 shellcoding level 2",
           "category": "Shellcoding",
