@@ -7480,8 +7480,26 @@
       "id": "17938",
       "username": "OvermindZ",
       "url": "https://ringzer0ctf.com/profile/17938/OvermindZ",
-      "points": 112,
+      "points": 118,
       "challenges": [
+        {
+          "name": "Who I am?",
+          "category": "Forensics",
+          "validationDate": "2018-12-10T23:00:12Z",
+          "points": 2
+        },
+        {
+          "name": "Password reset",
+          "category": "Web",
+          "validationDate": "2018-12-10T21:37:47Z",
+          "points": 2
+        },
+        {
+          "name": "PHP Fairy",
+          "category": "Web",
+          "validationDate": "2018-12-10T20:53:03Z",
+          "points": 2
+        },
         {
           "name": "You're Drunk!",
           "category": "Cryptography",
