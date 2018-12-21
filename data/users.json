@@ -7823,8 +7823,105 @@
     "rootMe": {
       "url": "https://www.root-me.org/overmindz",
       "username": "overmindz",
-      "points": 0,
-      "challenges": []
+      "points": 190,
+      "challenges": [
+        {
+          "name": "FTP - authentication",
+          "category": "Network",
+          "validationDate": "2018-12-20T17:54:02+00:00",
+          "points": 5
+        },
+        {
+          "name": "TELNET - authentication",
+          "category": "Network",
+          "validationDate": "2018-12-20T17:55:52+00:00",
+          "points": 5
+        },
+        {
+          "name": "ETHERNET - frame",
+          "category": "Network",
+          "validationDate": "2018-12-20T17:57:24+00:00",
+          "points": 10
+        },
+        {
+          "name": "Twitter authentication",
+          "category": "Network",
+          "validationDate": "2018-12-20T18:00:15+00:00",
+          "points": 15
+        },
+        {
+          "name": "CISCO - password",
+          "category": "Network",
+          "validationDate": "2018-12-20T18:23:37+00:00",
+          "points": 15
+        },
+        {
+          "name": "DNS - zone transfert",
+          "category": "Network",
+          "validationDate": "2018-12-20T18:38:41+00:00",
+          "points": 15
+        },
+        {
+          "name": "IP - Time To Live",
+          "category": "Network",
+          "validationDate": "2018-12-20T18:41:42+00:00",
+          "points": 15
+        },
+        {
+          "name": "SIP - authentication",
+          "category": "Network",
+          "validationDate": "2018-12-20T18:53:03+00:00",
+          "points": 20
+        },
+        {
+          "name": "HTML - disabled buttons",
+          "category": "Web - Client",
+          "validationDate": "2018-12-20T20:00:50+00:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Authentication",
+          "category": "Web - Client",
+          "validationDate": "2018-12-20T20:10:02+00:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Source",
+          "category": "Web - Client",
+          "validationDate": "2018-12-20T20:11:11+00:00",
+          "points": 5
+        },
+        {
+          "name": "Javascript - Authentication 2",
+          "category": "Web - Client",
+          "validationDate": "2018-12-20T20:12:14+00:00",
+          "points": 10
+        },
+        {
+          "name": "Javascript - Obfuscation 1",
+          "category": "Web - Client",
+          "validationDate": "2018-12-20T20:13:18+00:00",
+          "points": 10
+        },
+        {
+          "name": "Javascript - Obfuscation 2",
+          "category": "Web - Client",
+          "validationDate": "2018-12-20T20:34:57+00:00",
+          "points": 10
+        },
+        {
+          "name": "Javascript - Native code",
+          "category": "Web - Client",
+          "validationDate": "2018-12-20T20:39:33+00:00",
+          "points": 15
+        },
+        {
+          "name": "Javascript - Obfuscation 3",
+          "category": "Web - Client",
+          "validationDate": "2018-12-20T20:40:57+00:00",
+          "points": 30
+        }
+      ]
     }
   },
   {
