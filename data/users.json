@@ -4755,8 +4755,56 @@
       "id": "19699",
       "username": "vp",
       "url": "https://ringzer0ctf.com/profile/19699/vp",
-      "points": 118,
+      "points": 134,
       "challenges": [
+        {
+          "name": "Bash Jail 4",
+          "category": "Jail Escaping",
+          "validationDate": "2018-12-27T07:15:46Z",
+          "points": 4
+        },
+        {
+          "name": "Bash Jail 3",
+          "category": "Jail Escaping",
+          "validationDate": "2018-12-27T07:02:09Z",
+          "points": 3
+        },
+        {
+          "name": "Bash Jail 2",
+          "category": "Jail Escaping",
+          "validationDate": "2018-12-27T06:25:54Z",
+          "points": 2
+        },
+        {
+          "name": "Bash Jail 1",
+          "category": "Jail Escaping",
+          "validationDate": "2018-12-27T06:16:53Z",
+          "points": 1
+        },
+        {
+          "name": "Why not?",
+          "category": "JavaScript",
+          "validationDate": "2018-12-27T05:56:43Z",
+          "points": 2
+        },
+        {
+          "name": "Most Secure Crypto Algo",
+          "category": "JavaScript",
+          "validationDate": "2018-12-27T05:27:43Z",
+          "points": 2
+        },
+        {
+          "name": "Then obfuscation is more secure",
+          "category": "JavaScript",
+          "validationDate": "2018-12-27T05:05:20Z",
+          "points": 1
+        },
+        {
+          "name": "Hashing is more secure",
+          "category": "JavaScript",
+          "validationDate": "2018-12-27T05:01:27Z",
+          "points": 1
+        },
         {
           "name": "Serial killer!",
           "category": "Web",
