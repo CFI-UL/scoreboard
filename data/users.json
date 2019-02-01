@@ -7174,8 +7174,50 @@
       "id": "18664",
       "username": "Vionik",
       "url": "https://ringzer0ctf.com/profile/18664/Vionik",
-      "points": 9,
+      "points": 18,
       "challenges": [
+        {
+          "name": "Words mean something?",
+          "category": "Web",
+          "validationDate": "2019-01-31T22:03:46Z",
+          "points": 1
+        },
+        {
+          "name": "Headache",
+          "category": "Web",
+          "validationDate": "2019-01-31T21:44:30Z",
+          "points": 1
+        },
+        {
+          "name": "Hidden In Plain Sight",
+          "category": "Steganography",
+          "validationDate": "2019-01-31T21:05:24Z",
+          "points": 2
+        },
+        {
+          "name": "You're lost? Use the map",
+          "category": "Steganography",
+          "validationDate": "2019-01-31T20:42:20Z",
+          "points": 1
+        },
+        {
+          "name": "Big Brother is watching",
+          "category": "Web",
+          "validationDate": "2019-01-31T20:00:33Z",
+          "points": 1
+        },
+        {
+          "name": "Victor reloaded",
+          "category": "Steganography",
+          "validationDate": "2019-01-31T19:40:41Z",
+          "points": 2
+        },
+        {
+          "name": "You're Drunk!",
+          "category": "Cryptography",
+          "validationDate": "2019-01-31T19:22:55Z",
+          "points": 1
+        },
         {
           "name": "Victor you're hidding me something",
           "category": "Steganography",
