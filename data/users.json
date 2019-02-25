@@ -6967,8 +6967,14 @@
       "id": "14941",
       "username": "xehos",
       "url": "https://ringzer0ctf.com/profile/14941/xehos",
-      "points": 64,
+      "points": 66,
       "challenges": [
+        {
+          "name": "Time to learn x86 ASM & gdb",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-02-23T17:04:51Z",
+          "points": 2
+        },
         {
           "name": "Looking for password file",
           "category": "Web",
@@ -7641,8 +7647,14 @@
       "id": "24533",
       "username": "kafka",
       "url": "https://ringzer0ctf.com/profile/24533/kafka",
-      "points": 60,
+      "points": 61,
       "challenges": [
+        {
+          "name": "File recovery",
+          "category": "Cryptography",
+          "validationDate": "2019-02-24T00:18:13Z",
+          "points": 1
+        },
         {
           "name": "Hidden In Plain Sight",
           "category": "Steganography",
