@@ -4649,8 +4649,20 @@
       "id": "19699",
       "username": "vp",
       "url": "https://ringzer0ctf.com/profile/19699/vp",
-      "points": 134,
+      "points": 148,
       "challenges": [
+        {
+          "name": "/etc/passwd",
+          "category": "SQL Injection",
+          "validationDate": "2019-02-25T13:56:00Z",
+          "points": 7
+        },
+        {
+          "name": "Login portal 4",
+          "category": "SQL Injection",
+          "validationDate": "2019-02-25T13:10:20Z",
+          "points": 7
+        },
         {
           "name": "Bash Jail 4",
           "category": "Jail Escaping",
@@ -7647,8 +7659,20 @@
       "id": "24533",
       "username": "kafka",
       "url": "https://ringzer0ctf.com/profile/24533/kafka",
-      "points": 61,
+      "points": 67,
       "challenges": [
+        {
+          "name": "Introduction to MIPS",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-02-25T23:01:18Z",
+          "points": 3
+        },
+        {
+          "name": "I never forget the Nintendo 64",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-02-25T22:45:14Z",
+          "points": 3
+        },
         {
           "name": "File recovery",
           "category": "Cryptography",
