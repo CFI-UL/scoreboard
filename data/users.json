@@ -7659,8 +7659,20 @@
       "id": "24533",
       "username": "kafka",
       "url": "https://ringzer0ctf.com/profile/24533/kafka",
-      "points": 67,
+      "points": 76,
       "challenges": [
+        {
+          "name": "WASM Part 1",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-03-02T12:36:49Z",
+          "points": 5
+        },
+        {
+          "name": "Wrong byte!",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-03-02T10:25:34Z",
+          "points": 4
+        },
         {
           "name": "Introduction to MIPS",
           "category": "Reverse Engineering",
