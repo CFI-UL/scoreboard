@@ -7659,8 +7659,14 @@
       "id": "24533",
       "username": "kafka",
       "url": "https://ringzer0ctf.com/profile/24533/kafka",
-      "points": 85,
+      "points": 90,
       "challenges": [
+        {
+          "name": "Can I speak with the kernel?",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-03-04T20:13:05Z",
+          "points": 5
+        },
         {
           "name": "Introduction to ARM",
           "category": "Reverse Engineering",
