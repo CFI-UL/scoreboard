@@ -7659,8 +7659,14 @@
       "id": "24533",
       "username": "kafka",
       "url": "https://ringzer0ctf.com/profile/24533/kafka",
-      "points": 90,
+      "points": 97,
       "challenges": [
+        {
+          "name": "The supreme bash",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-03-05T15:17:05Z",
+          "points": 7
+        },
         {
           "name": "Can I speak with the kernel?",
           "category": "Reverse Engineering",
