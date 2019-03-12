@@ -3020,7 +3020,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/sushi",
       "username": "sushi",
-      "points": 2220,
+      "points": 2265,
       "challenges": [
         {
           "name": "HTML",
@@ -3645,6 +3645,18 @@
           "category": "App - System",
           "validationDate": "2018-02-08T01:13:08+00:00",
           "points": 20
+        },
+        {
+          "name": "HTTP - POST",
+          "category": "Web - Server",
+          "validationDate": "2019-03-11T17:44:20+00:00",
+          "points": 15
+        },
+        {
+          "name": "File upload - ZIP",
+          "category": "Web - Server",
+          "validationDate": "2019-03-11T19:22:54+00:00",
+          "points": 30
         }
       ]
     }
@@ -6979,8 +6991,14 @@
       "id": "14941",
       "username": "xehos",
       "url": "https://ringzer0ctf.com/profile/14941/xehos",
-      "points": 66,
+      "points": 70,
       "challenges": [
+        {
+          "name": "Introduction to ARM",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-03-11T00:39:26Z",
+          "points": 4
+        },
         {
           "name": "Time to learn x86 ASM & gdb",
           "category": "Reverse Engineering",
