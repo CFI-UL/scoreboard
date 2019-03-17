@@ -3020,7 +3020,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/sushi",
       "username": "sushi",
-      "points": 2310,
+      "points": 2355,
       "challenges": [
         {
           "name": "HTML",
@@ -3662,6 +3662,12 @@
           "name": "XSS - Reflected",
           "category": "Web - Client",
           "validationDate": "2019-03-15T19:50:14+00:00",
+          "points": 45
+        },
+        {
+          "name": "Ultra Upload",
+          "category": "Realist",
+          "validationDate": "2019-03-17T07:37:17+00:00",
           "points": 45
         }
       ]
