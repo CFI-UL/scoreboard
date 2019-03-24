@@ -2125,8 +2125,14 @@
       "id": "253",
       "username": "sushi",
       "url": "https://ringzer0ctf.com/profile/253/sushi",
-      "points": 430,
+      "points": 435,
       "challenges": [
+        {
+          "name": "Super Lottery",
+          "category": "Web",
+          "validationDate": "2019-03-24T01:07:08Z",
+          "points": 5
+        },
         {
           "name": "Hacking skill are optional",
           "category": "Web",
