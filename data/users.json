@@ -7009,8 +7009,14 @@
       "id": "14941",
       "username": "xehos",
       "url": "https://ringzer0ctf.com/profile/14941/xehos",
-      "points": 70,
+      "points": 71,
       "challenges": [
+        {
+          "name": "You're lost? Use the map",
+          "category": "Steganography",
+          "validationDate": "2019-03-26T23:28:54Z",
+          "points": 1
+        },
         {
           "name": "Introduction to ARM",
           "category": "Reverse Engineering",
