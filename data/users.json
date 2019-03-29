@@ -3686,8 +3686,20 @@
       "id": "19598",
       "username": "f8thl3ss",
       "url": "https://ringzer0ctf.com/profile/19598/f8thl3ss",
-      "points": 48,
+      "points": 51,
       "challenges": [
+        {
+          "name": "ACL rulezzz the world.",
+          "category": "SQL Injection",
+          "validationDate": "2019-03-29T16:28:10Z",
+          "points": 2
+        },
+        {
+          "name": "Most basic SQLi pattern.",
+          "category": "SQL Injection",
+          "validationDate": "2019-03-29T16:22:01Z",
+          "points": 1
+        },
         {
           "name": "SysAdmin Part 7",
           "category": "SysAdmin Linux",
@@ -5103,8 +5115,14 @@
       "id": "12625",
       "username": "Sagold",
       "url": "https://ringzer0ctf.com/profile/12625/Sagold",
-      "points": 38,
+      "points": 39,
       "challenges": [
+        {
+          "name": "Most basic SQLi pattern.",
+          "category": "SQL Injection",
+          "validationDate": "2019-03-29T16:27:29Z",
+          "points": 1
+        },
         {
           "name": "Hash breaker reloaded",
           "category": "Coding challenges",
