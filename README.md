@@ -13,8 +13,6 @@
 
 Open [an issue](https://github.com/CFI-UL/scoreboard/issues/new?assignees=masterT&labels=&template=add-user.md&title=Add+user+%7B%7B+your+name+%7D%7D) and we'll add you!
 
----
-
 ## Requirements
 
 - node >= v10.9.0
