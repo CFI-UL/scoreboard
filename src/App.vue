@@ -71,7 +71,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -96,6 +96,7 @@ export default {
 }
 
 .footer {
+  margin: 1em 0;
   display: flex;
   justify-content: center;
 
