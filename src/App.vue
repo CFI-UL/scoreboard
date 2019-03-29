@@ -18,10 +18,22 @@
       </nav>
     </header>
     <router-view/>
+    <footer class="footer">
+      <div class="footer__item">
+        <a :href="addMeUrl">Add me</a>
+      </div>
+      <div class="footer__item">
+        <a :href="repositoryUrl">Source code</a>
+      </div>
+      <div class="footer__item">
+        © CFIUL {{ currentYear }}
+      </div>
+    </footer>
   </div>
 </template>
 
 <script>
+import moment from 'moment'
 import { mapState } from 'vuex'
 
 export default {
@@ -29,7 +41,16 @@ export default {
   computed: {
     ...mapState([
       'platforms'
-    ])
+    ]),
+    addMeUrl () {
+      return 'https://github.com/CFI-UL/scoreboard/issues/new?assignees=masterT&labels=&template=add-user.md&title=Add+user+%7B%7B+your+name+%7D%7D'
+    },
+    repositoryUrl () {
+      return 'https://github.com/CFI-UL/scoreboard/'
+    },
+    currentYear () {
+      return moment().format('YYYY')
+    }
   },
   methods: {
     platformRoute (platform) {
@@ -71,6 +92,15 @@ export default {
   &__item {
     display: inline-block;
     margin: 0 1rem;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    margin: 0 1em;
   }
 }
 
