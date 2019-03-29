@@ -9,6 +9,12 @@
 - No server needed, it's hosted using [Github Pages](https://pages.github.com/).
 - Data is updated daily using [Travis CI CRON](https://docs.travis-ci.com/user/cron-jobs/).
 
+## You are not in the list? 😱
+
+Open [an issue](https://github.com/CFI-UL/scoreboard/issues/new?assignees=masterT&labels=&template=add-user.md&title=Add+user+%7B%7B+your+name+%7D%7D) and we'll add you!
+
+---
+
 ## Requirements
 
 - node >= v10.9.0
