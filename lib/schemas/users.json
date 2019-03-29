@@ -1,0 +1,56 @@
+{
+  "type": "array",
+  "item": {
+    "type": "object",
+    "properties": {
+      "name": { "type": "string" },
+      "id": { "type": "string" },
+      "ringzer0team": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "username": { "type": "string" },
+          "points": { "type": "integer" },
+          "challenges": {
+            "type": "array",
+            "item": {
+              "type": "object",
+              "properties": {
+                "name": { "type": "string" },
+                "category": { "type": "string" },
+                "validationDate": { "type": "string", "format": "date" },
+                "points": { "type": "integer" }
+              },
+              "required": ["name", "category", "validationDate", "points"]
+            }
+          }
+        },
+        "required": ["id", "url", "username", "points", "challenges"]
+      },
+      "rootMe": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "username": { "type": "string" },
+          "points": { "type": "integer" },
+          "challenges": {
+            "type": "array",
+            "item": {
+              "type": "object",
+              "properties": {
+                "name": { "type": "string" },
+                "category": { "type": "string" },
+                "validationDate": { "type": "string", "format": "date" },
+                "points": { "type": "integer" }
+              },
+              "required": ["name", "category", "validationDate", "points"]
+            }
+          }
+        },
+        "required": ["url", "username", "points", "challenges"]
+      }
+    },
+    "required": ["id", "name"]
+  }
+}
