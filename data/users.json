@@ -7651,8 +7651,14 @@
       "id": "17938",
       "username": "OvermindZ",
       "url": "https://ringzer0ctf.com/profile/17938/OvermindZ",
-      "points": 118,
+      "points": 121,
       "challenges": [
+        {
+          "name": "Serial killer!",
+          "category": "Web",
+          "validationDate": "2019-04-12T14:30:35Z",
+          "points": 3
+        },
         {
           "name": "Who I am?",
           "category": "Forensics",
