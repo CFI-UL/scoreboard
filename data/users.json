@@ -7651,8 +7651,20 @@
       "id": "17938",
       "username": "OvermindZ",
       "url": "https://ringzer0ctf.com/profile/17938/OvermindZ",
-      "points": 121,
+      "points": 123,
       "challenges": [
+        {
+          "name": "SysAdmin Part 2",
+          "category": "SysAdmin Linux",
+          "validationDate": "2019-04-15T18:36:12Z",
+          "points": 1
+        },
+        {
+          "name": "SysAdmin Part 1",
+          "category": "SysAdmin Linux",
+          "validationDate": "2019-04-15T18:28:53Z",
+          "points": 1
+        },
         {
           "name": "Serial killer!",
           "category": "Web",
