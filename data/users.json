@@ -6,8 +6,14 @@
       "id": "5258",
       "username": "Corb3nik",
       "url": "https://ringzer0ctf.com/profile/5258/Corb3nik",
-      "points": 1218,
+      "points": 1223,
       "challenges": [
+        {
+          "name": "Super Lottery",
+          "category": "Web",
+          "validationDate": "2019-04-23T00:09:23Z",
+          "points": 5
+        },
         {
           "name": "Hacking skill are optional",
           "category": "Web",
