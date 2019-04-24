@@ -5722,8 +5722,20 @@
       "id": "5097",
       "username": "LilC4T",
       "url": "https://ringzer0ctf.com/profile/5097/LilC4T",
-      "points": 192,
+      "points": 199,
       "challenges": [
+        {
+          "name": "Unreadable captcha",
+          "category": "Web",
+          "validationDate": "2019-04-24T10:52:43Z",
+          "points": 2
+        },
+        {
+          "name": "Super Lottery",
+          "category": "Web",
+          "validationDate": "2019-04-24T10:17:43Z",
+          "points": 5
+        },
         {
           "name": "PHP Jail 4",
           "category": "Jail Escaping",
