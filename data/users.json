@@ -5722,8 +5722,14 @@
       "id": "5097",
       "username": "LilC4T",
       "url": "https://ringzer0ctf.com/profile/5097/LilC4T",
-      "points": 199,
+      "points": 204,
       "challenges": [
+        {
+          "name": "Read the unreadable",
+          "category": "Web",
+          "validationDate": "2019-04-24T12:22:25Z",
+          "points": 5
+        },
         {
           "name": "Unreadable captcha",
           "category": "Web",
