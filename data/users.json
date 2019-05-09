@@ -6,8 +6,14 @@
       "id": "5258",
       "username": "Corb3nik",
       "url": "https://ringzer0ctf.com/profile/5258/Corb3nik",
-      "points": 1223,
+      "points": 1230,
       "challenges": [
+        {
+          "name": "Buggy Bunny",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-05-08T15:55:38Z",
+          "points": 7
+        },
         {
           "name": "Super Lottery",
           "category": "Web",
