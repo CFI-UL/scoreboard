@@ -1750,7 +1750,7 @@
           "points": 30
         },
         {
-          "name": "HTML",
+          "name": "HTML - source code",
           "category": "Web - Server",
           "validationDate": "2016-10-22T21:34:12+00:00",
           "points": 5
@@ -1762,31 +1762,31 @@
           "points": 10
         },
         {
-          "name": "User-agent",
+          "name": "HTTP - User-agent",
           "category": "Web - Server",
           "validationDate": "2016-10-22T21:35:28+00:00",
           "points": 10
         },
         {
-          "name": "HTTP directory indexing",
+          "name": "HTTP - directory indexing",
           "category": "Web - Server",
           "validationDate": "2016-10-22T21:41:32+00:00",
           "points": 15
         },
         {
-          "name": "HTTP Headers",
+          "name": "HTTP - Headers",
           "category": "Web - Server",
           "validationDate": "2016-10-22T21:42:46+00:00",
           "points": 15
         },
         {
-          "name": "HTTP verb tampering",
+          "name": "HTTP - verb tampering",
           "category": "Web - Server",
           "validationDate": "2016-10-22T21:43:21+00:00",
           "points": 15
         },
         {
-          "name": "Improper redirect",
+          "name": "HTTP - Improper redirect",
           "category": "Web - Server",
           "validationDate": "2016-10-22T21:46:33+00:00",
           "points": 15
@@ -1810,7 +1810,7 @@
           "points": 20
         },
         {
-          "name": "HTTP cookies",
+          "name": "HTTP - cookies",
           "category": "Web - Server",
           "validationDate": "2016-10-22T22:21:01+00:00",
           "points": 20
@@ -1828,7 +1828,7 @@
           "points": 25
         },
         {
-          "name": "PHP filters",
+          "name": "PHP - filters",
           "category": "Web - Server",
           "validationDate": "2016-10-22T22:51:31+00:00",
           "points": 25
@@ -1846,13 +1846,13 @@
           "points": 30
         },
         {
-          "name": "PHP type juggling",
+          "name": "PHP - type juggling",
           "category": "Web - Server",
           "validationDate": "2016-10-22T23:09:35+00:00",
           "points": 30
         },
         {
-          "name": "PHP preg_replace()",
+          "name": "PHP - preg_replace()",
           "category": "Web - Server",
           "validationDate": "2016-10-22T23:14:38+00:00",
           "points": 30
@@ -1894,19 +1894,19 @@
           "points": 45
         },
         {
-          "name": "PHP assert()",
+          "name": "PHP - assert()",
           "category": "Web - Server",
           "validationDate": "2016-12-09T00:02:46+00:00",
           "points": 25
         },
         {
-          "name": "PHP register globals",
+          "name": "PHP - register globals",
           "category": "Web - Server",
           "validationDate": "2016-12-09T03:57:17+00:00",
           "points": 25
         },
         {
-          "name": "Server-side Template Injection",
+          "name": "Java - Server-side Template Injection",
           "category": "Web - Server",
           "validationDate": "2016-12-09T04:08:52+00:00",
           "points": 30
@@ -1924,7 +1924,7 @@
           "points": 30
         },
         {
-          "name": "PHP Serialization",
+          "name": "PHP - Serialization",
           "category": "Web - Server",
           "validationDate": "2016-12-15T06:52:16+00:00",
           "points": 35
@@ -2032,7 +2032,7 @@
           "points": 10
         },
         {
-          "name": "Command injection",
+          "name": "PHP - Command injection",
           "category": "Web - Server",
           "validationDate": "2018-10-11T02:28:48+00:00",
           "points": 10
@@ -3041,7 +3041,7 @@
       "points": 2355,
       "challenges": [
         {
-          "name": "HTML",
+          "name": "HTML - source code",
           "category": "Web - Server",
           "validationDate": "2015-10-15T21:25:05+00:00",
           "points": 5
@@ -3065,7 +3065,7 @@
           "points": 10
         },
         {
-          "name": "ELF - 0 protection",
+          "name": "ELF x86 - 0 protection",
           "category": "Cracking",
           "validationDate": "2016-05-01T03:19:04+00:00",
           "points": 5
@@ -3131,7 +3131,7 @@
           "points": 10
         },
         {
-          "name": "User-agent",
+          "name": "HTTP - User-agent",
           "category": "Web - Server",
           "validationDate": "2016-10-23T06:56:03+00:00",
           "points": 10
@@ -3143,25 +3143,25 @@
           "points": 15
         },
         {
-          "name": "HTTP directory indexing",
+          "name": "HTTP - directory indexing",
           "category": "Web - Server",
           "validationDate": "2016-10-23T07:33:54+00:00",
           "points": 15
         },
         {
-          "name": "HTTP Headers",
+          "name": "HTTP - Headers",
           "category": "Web - Server",
           "validationDate": "2016-10-23T07:35:36+00:00",
           "points": 15
         },
         {
-          "name": "HTTP verb tampering",
+          "name": "HTTP - verb tampering",
           "category": "Web - Server",
           "validationDate": "2016-10-23T07:50:18+00:00",
           "points": 15
         },
         {
-          "name": "Improper redirect",
+          "name": "HTTP - Improper redirect",
           "category": "Web - Server",
           "validationDate": "2016-10-23T07:58:20+00:00",
           "points": 15
@@ -3209,7 +3209,7 @@
           "points": 30
         },
         {
-          "name": "HTTP cookies",
+          "name": "HTTP - cookies",
           "category": "Web - Server",
           "validationDate": "2016-10-31T23:35:51+00:00",
           "points": 20
@@ -3251,7 +3251,7 @@
           "points": 25
         },
         {
-          "name": "PHP filters",
+          "name": "PHP - filters",
           "category": "Web - Server",
           "validationDate": "2016-11-02T01:30:23+00:00",
           "points": 25
@@ -3263,7 +3263,7 @@
           "points": 30
         },
         {
-          "name": "PHP register globals",
+          "name": "PHP - register globals",
           "category": "Web - Server",
           "validationDate": "2016-11-04T00:27:37+00:00",
           "points": 25
@@ -3305,7 +3305,7 @@
           "points": 5
         },
         {
-          "name": "ELF - x86 Basic",
+          "name": "ELF x86 - Basic",
           "category": "Cracking",
           "validationDate": "2017-01-30T06:52:42+00:00",
           "points": 5
@@ -3359,7 +3359,7 @@
           "points": 5
         },
         {
-          "name": "PE - 0 protection",
+          "name": "PE x86 - 0 protection",
           "category": "Cracking",
           "validationDate": "2017-02-12T02:48:12+00:00",
           "points": 5
@@ -3395,13 +3395,13 @@
           "points": 5
         },
         {
-          "name": "ELF - Fake Instructions",
+          "name": "ELF x86 - Fake Instructions",
           "category": "Cracking",
           "validationDate": "2017-08-02T01:23:15+00:00",
           "points": 15
         },
         {
-          "name": "ELF - Ptrace",
+          "name": "ELF x86 - Ptrace",
           "category": "Cracking",
           "validationDate": "2017-08-02T01:57:37+00:00",
           "points": 15
@@ -3437,7 +3437,7 @@
           "points": 50
         },
         {
-          "name": "Server-side Template Injection",
+          "name": "Java - Server-side Template Injection",
           "category": "Web - Server",
           "validationDate": "2017-09-03T07:15:16+00:00",
           "points": 30
@@ -3485,25 +3485,25 @@
           "points": 20
         },
         {
-          "name": "Command injection",
+          "name": "PHP - Command injection",
           "category": "Web - Server",
           "validationDate": "2017-09-24T02:04:18+00:00",
           "points": 10
         },
         {
-          "name": "PHP type juggling",
+          "name": "PHP - type juggling",
           "category": "Web - Server",
           "validationDate": "2017-09-24T06:14:17+00:00",
           "points": 30
         },
         {
-          "name": "PHP preg_replace()",
+          "name": "PHP - preg_replace()",
           "category": "Web - Server",
           "validationDate": "2017-09-24T08:30:47+00:00",
           "points": 30
         },
         {
-          "name": "PHP Serialization",
+          "name": "PHP - Serialization",
           "category": "Web - Server",
           "validationDate": "2017-09-25T08:17:52+00:00",
           "points": 35
@@ -3515,7 +3515,7 @@
           "points": 40
         },
         {
-          "name": "PHP assert()",
+          "name": "PHP - assert()",
           "category": "Web - Server",
           "validationDate": "2017-09-26T06:25:17+00:00",
           "points": 25
@@ -3539,7 +3539,7 @@
           "points": 40
         },
         {
-          "name": "Path Truncation",
+          "name": "PHP - Path Truncation",
           "category": "Web - Server",
           "validationDate": "2017-10-01T09:53:37+00:00",
           "points": 35
@@ -6218,7 +6218,7 @@
       "points": 1180,
       "challenges": [
         {
-          "name": "HTML",
+          "name": "HTML - source code",
           "category": "Web - Server",
           "validationDate": "2016-11-02T23:16:53+00:00",
           "points": 5
@@ -6248,7 +6248,7 @@
           "points": 10
         },
         {
-          "name": "HTTP Headers",
+          "name": "HTTP - Headers",
           "category": "Web - Server",
           "validationDate": "2016-11-03T01:09:16+00:00",
           "points": 15
@@ -6266,13 +6266,13 @@
           "points": 10
         },
         {
-          "name": "User-agent",
+          "name": "HTTP - User-agent",
           "category": "Web - Server",
           "validationDate": "2016-12-07T14:35:22+00:00",
           "points": 10
         },
         {
-          "name": "HTTP directory indexing",
+          "name": "HTTP - directory indexing",
           "category": "Web - Server",
           "validationDate": "2016-12-07T14:39:03+00:00",
           "points": 15
@@ -6326,19 +6326,19 @@
           "points": 25
         },
         {
-          "name": "HTTP verb tampering",
+          "name": "HTTP - verb tampering",
           "category": "Web - Server",
           "validationDate": "2016-12-09T22:54:12+00:00",
           "points": 15
         },
         {
-          "name": "HTTP cookies",
+          "name": "HTTP - cookies",
           "category": "Web - Server",
           "validationDate": "2016-12-12T04:52:10+00:00",
           "points": 20
         },
         {
-          "name": "PHP filters",
+          "name": "PHP - filters",
           "category": "Web - Server",
           "validationDate": "2016-12-13T15:39:43+00:00",
           "points": 25
@@ -6350,19 +6350,19 @@
           "points": 30
         },
         {
-          "name": "Improper redirect",
+          "name": "HTTP - Improper redirect",
           "category": "Web - Server",
           "validationDate": "2016-12-14T05:11:42+00:00",
           "points": 15
         },
         {
-          "name": "PHP preg_replace()",
+          "name": "PHP - preg_replace()",
           "category": "Web - Server",
           "validationDate": "2016-12-14T05:54:33+00:00",
           "points": 30
         },
         {
-          "name": "PHP Serialization",
+          "name": "PHP - Serialization",
           "category": "Web - Server",
           "validationDate": "2016-12-15T16:41:14+00:00",
           "points": 35
@@ -6374,7 +6374,7 @@
           "points": 35
         },
         {
-          "name": "PHP type juggling",
+          "name": "PHP - type juggling",
           "category": "Web - Server",
           "validationDate": "2016-12-16T17:15:52+00:00",
           "points": 30
@@ -6410,13 +6410,13 @@
           "points": 5
         },
         {
-          "name": "ELF - 0 protection",
+          "name": "ELF x86 - 0 protection",
           "category": "Cracking",
           "validationDate": "2017-03-15T22:49:46+00:00",
           "points": 5
         },
         {
-          "name": "ELF - x86 Basic",
+          "name": "ELF x86 - Basic",
           "category": "Cracking",
           "validationDate": "2017-03-15T22:55:01+00:00",
           "points": 5
@@ -6584,7 +6584,7 @@
           "points": 30
         },
         {
-          "name": "Command injection",
+          "name": "PHP - Command injection",
           "category": "Web - Server",
           "validationDate": "2018-10-08T14:27:39+00:00",
           "points": 10
@@ -6596,7 +6596,7 @@
           "points": 30
         },
         {
-          "name": "PHP register globals",
+          "name": "PHP - register globals",
           "category": "Web - Server",
           "validationDate": "2018-10-15T04:15:44+00:00",
           "points": 25
@@ -6837,7 +6837,7 @@
           "points": 40
         },
         {
-          "name": "HTML",
+          "name": "HTML - source code",
           "category": "Web - Server",
           "validationDate": "2017-09-16T16:11:41+00:00",
           "points": 5
@@ -6855,7 +6855,7 @@
           "points": 10
         },
         {
-          "name": "User-agent",
+          "name": "HTTP - User-agent",
           "category": "Web - Server",
           "validationDate": "2017-09-16T17:58:43+00:00",
           "points": 10
@@ -6867,19 +6867,19 @@
           "points": 15
         },
         {
-          "name": "HTTP directory indexing",
+          "name": "HTTP - directory indexing",
           "category": "Web - Server",
           "validationDate": "2017-09-16T18:54:59+00:00",
           "points": 15
         },
         {
-          "name": "HTTP Headers",
+          "name": "HTTP - Headers",
           "category": "Web - Server",
           "validationDate": "2017-09-16T19:05:10+00:00",
           "points": 15
         },
         {
-          "name": "HTTP verb tampering",
+          "name": "HTTP - verb tampering",
           "category": "Web - Server",
           "validationDate": "2017-09-16T20:00:22+00:00",
           "points": 15
@@ -6891,7 +6891,7 @@
           "points": 15
         },
         {
-          "name": "Improper redirect",
+          "name": "HTTP - Improper redirect",
           "category": "Web - Server",
           "validationDate": "2017-09-16T20:19:18+00:00",
           "points": 15
@@ -6909,7 +6909,7 @@
           "points": 20
         },
         {
-          "name": "HTTP cookies",
+          "name": "HTTP - cookies",
           "category": "Web - Server",
           "validationDate": "2017-09-16T21:49:49+00:00",
           "points": 20
@@ -6921,7 +6921,7 @@
           "points": 25
         },
         {
-          "name": "PHP assert()",
+          "name": "PHP - assert()",
           "category": "Web - Server",
           "validationDate": "2017-09-16T22:36:12+00:00",
           "points": 25
@@ -6975,7 +6975,7 @@
           "points": 70
         },
         {
-          "name": "Command injection",
+          "name": "PHP - Command injection",
           "category": "Web - Server",
           "validationDate": "2018-10-14T00:34:14+00:00",
           "points": 10
@@ -6993,19 +6993,19 @@
           "points": 30
         },
         {
-          "name": "PHP filters",
+          "name": "PHP - filters",
           "category": "Web - Server",
           "validationDate": "2018-10-14T04:34:38+00:00",
           "points": 25
         },
         {
-          "name": "Path Truncation",
+          "name": "PHP - Path Truncation",
           "category": "Web - Server",
           "validationDate": "2018-10-14T04:48:35+00:00",
           "points": 35
         },
         {
-          "name": "PHP register globals",
+          "name": "PHP - register globals",
           "category": "Web - Server",
           "validationDate": "2018-10-14T20:00:34+00:00",
           "points": 25
@@ -7035,25 +7035,25 @@
           "points": 30
         },
         {
-          "name": "PHP preg_replace()",
+          "name": "PHP - preg_replace()",
           "category": "Web - Server",
           "validationDate": "2018-10-15T04:13:10+00:00",
           "points": 30
         },
         {
-          "name": "PHP type juggling",
+          "name": "PHP - type juggling",
           "category": "Web - Server",
           "validationDate": "2018-10-15T04:26:17+00:00",
           "points": 30
         },
         {
-          "name": "Server-side Template Injection",
+          "name": "Java - Server-side Template Injection",
           "category": "Web - Server",
           "validationDate": "2018-10-15T05:24:23+00:00",
           "points": 30
         },
         {
-          "name": "PHP Serialization",
+          "name": "PHP - Serialization",
           "category": "Web - Server",
           "validationDate": "2018-10-15T06:18:41+00:00",
           "points": 35
@@ -7275,13 +7275,13 @@
           "points": 10
         },
         {
-          "name": "ELF - 0 protection",
+          "name": "ELF x86 - 0 protection",
           "category": "Cracking",
           "validationDate": "2018-11-12T23:34:36+00:00",
           "points": 5
         },
         {
-          "name": "ELF - x86 Basic",
+          "name": "ELF x86 - Basic",
           "category": "Cracking",
           "validationDate": "2018-11-12T23:37:21+00:00",
           "points": 5
@@ -7684,7 +7684,7 @@
           "points": 10
         },
         {
-          "name": "HTML",
+          "name": "HTML - source code",
           "category": "Web - Server",
           "validationDate": "2018-10-04T17:38:00+00:00",
           "points": 5
@@ -8170,7 +8170,7 @@
       "points": 5,
       "challenges": [
         {
-          "name": "HTML",
+          "name": "HTML - source code",
           "category": "Web - Server",
           "validationDate": "2018-10-12T01:13:06+00:00",
           "points": 5
