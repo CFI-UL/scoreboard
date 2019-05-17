@@ -6,8 +6,14 @@
       "id": "5258",
       "username": "Corb3nik",
       "url": "https://ringzer0ctf.com/profile/5258/Corb3nik",
-      "points": 1230,
+      "points": 1238,
       "challenges": [
+        {
+          "name": "WASM Part 2",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-05-16T17:21:18Z",
+          "points": 8
+        },
         {
           "name": "Buggy Bunny",
           "category": "Reverse Engineering",
@@ -7699,8 +7705,20 @@
       "id": "17938",
       "username": "OvermindZ",
       "url": "https://ringzer0ctf.com/profile/17938/OvermindZ",
-      "points": 123,
+      "points": 126,
       "challenges": [
+        {
+          "name": "Dr. Pouce",
+          "category": "Forensics",
+          "validationDate": "2019-05-16T12:12:34Z",
+          "points": 2
+        },
+        {
+          "name": "I made a dd of Agent Smith usb key",
+          "category": "Forensics",
+          "validationDate": "2019-05-16T11:59:26Z",
+          "points": 1
+        },
         {
           "name": "SysAdmin Part 2",
           "category": "SysAdmin Linux",
