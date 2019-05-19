@@ -5151,8 +5151,14 @@
       "id": "12625",
       "username": "Sagold",
       "url": "https://ringzer0ctf.com/profile/12625/Sagold",
-      "points": 39,
+      "points": 41,
       "challenges": [
+        {
+          "name": "ACL rulezzz the world.",
+          "category": "SQL Injection",
+          "validationDate": "2019-05-17T11:26:44Z",
+          "points": 2
+        },
         {
           "name": "Most basic SQLi pattern.",
           "category": "SQL Injection",
