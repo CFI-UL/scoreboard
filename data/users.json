@@ -6,8 +6,14 @@
       "id": "5258",
       "username": "Corb3nik",
       "url": "https://ringzer0ctf.com/profile/5258/Corb3nik",
-      "points": 1238,
+      "points": 1247,
       "challenges": [
+        {
+          "name": "The Matrix",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-05-22T14:07:27Z",
+          "points": 9
+        },
         {
           "name": "WASM Part 2",
           "category": "Reverse Engineering",
@@ -6623,8 +6629,14 @@
       "id": "18835",
       "username": "TwistedSim",
       "url": "https://ringzer0ctf.com/profile/18835/TwistedSim",
-      "points": 47,
+      "points": 48,
       "challenges": [
+        {
+          "name": "Area 51",
+          "category": "Web",
+          "validationDate": "2019-05-22T17:17:23Z",
+          "points": 1
+        },
         {
           "name": "Most basic SQLi pattern.",
           "category": "SQL Injection",
@@ -7314,8 +7326,14 @@
       "id": "14941",
       "username": "xehos",
       "url": "https://ringzer0ctf.com/profile/14941/xehos",
-      "points": 71,
+      "points": 75,
       "challenges": [
+        {
+          "name": "Linux x64 shellcoding level 2",
+          "category": "Shellcoding",
+          "validationDate": "2019-05-21T19:01:39Z",
+          "points": 4
+        },
         {
           "name": "You're lost? Use the map",
           "category": "Steganography",
