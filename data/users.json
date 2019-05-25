@@ -6629,8 +6629,14 @@
       "id": "18835",
       "username": "TwistedSim",
       "url": "https://ringzer0ctf.com/profile/18835/TwistedSim",
-      "points": 48,
+      "points": 50,
       "challenges": [
+        {
+          "name": "Password reset",
+          "category": "Web",
+          "validationDate": "2019-05-23T14:40:12Z",
+          "points": 2
+        },
         {
           "name": "Area 51",
           "category": "Web",
