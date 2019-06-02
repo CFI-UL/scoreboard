@@ -6,8 +6,20 @@
       "id": "5258",
       "username": "Corb3nik",
       "url": "https://ringzer0ctf.com/profile/5258/Corb3nik",
-      "points": 1256,
+      "points": 1261,
       "challenges": [
+        {
+          "name": "I forgot my password",
+          "category": "Exotic Data Storage",
+          "validationDate": "2019-05-31T15:23:54Z",
+          "points": 3
+        },
+        {
+          "name": "DON'T login as admin",
+          "category": "Exotic Data Storage",
+          "validationDate": "2019-05-31T15:17:16Z",
+          "points": 2
+        },
         {
           "name": "JWT pitfall 1",
           "category": "Web",
@@ -16,7 +28,7 @@
         },
         {
           "name": "Inspiration",
-          "category": "Web",
+          "category": "Exotic Data Storage",
           "validationDate": "2019-05-28T20:30:13Z",
           "points": 6
         },
@@ -724,31 +736,31 @@
         },
         {
           "name": "Ask your grandpa again!",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-12-14T16:20:12Z",
           "points": 4
         },
         {
           "name": "Execute me if you can again",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-12-14T12:30:19Z",
           "points": 6
         },
         {
           "name": "Execute me if you can",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-12-14T12:02:08Z",
           "points": 5
         },
         {
           "name": "Hash breaker reloaded",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-12-13T23:02:55Z",
           "points": 5
         },
         {
           "name": "Hash breaker reloaded again",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-12-13T22:08:56Z",
           "points": 6
         },
@@ -772,19 +784,19 @@
         },
         {
           "name": "Ascii Art",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-12-07T15:22:27Z",
           "points": 6
         },
         {
           "name": "Xor me if you can",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-12-07T14:49:55Z",
           "points": 6
         },
         {
           "name": "Read me if you can",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-12-06T02:36:14Z",
           "points": 6
         },
@@ -826,13 +838,13 @@
         },
         {
           "name": "Number game",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-11-09T20:39:36Z",
           "points": 7
         },
         {
           "name": "Classic Sudoku",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-11-09T19:41:33Z",
           "points": 7
         },
@@ -1072,7 +1084,7 @@
         },
         {
           "name": "Ask your grandpa!",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-05-26T23:16:21Z",
           "points": 2
         },
@@ -1216,13 +1228,13 @@
         },
         {
           "name": "Find the right word",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-04-23T21:56:11Z",
           "points": 7
         },
         {
           "name": "I saw a little elf",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-04-23T21:24:13Z",
           "points": 4
         },
@@ -1294,7 +1306,7 @@
         },
         {
           "name": "Hash breaker",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-04-13T06:04:42Z",
           "points": 4
         },
@@ -1348,19 +1360,19 @@
         },
         {
           "name": "I hate mathematics",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-04-07T22:14:52Z",
           "points": 3
         },
         {
           "name": "Hash me reloaded",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-04-07T21:26:36Z",
           "points": 3
         },
         {
           "name": "Hash me please",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-04-07T20:55:31Z",
           "points": 2
         },
@@ -1420,7 +1432,7 @@
         },
         {
           "name": "Just another login form",
-          "category": "SQL Injection",
+          "category": "Exotic Data Storage",
           "validationDate": "2016-03-27T16:17:32Z",
           "points": 2
         },
@@ -2291,19 +2303,19 @@
         },
         {
           "name": "Xor me if you can",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-07-16T12:55:15Z",
           "points": 6
         },
         {
           "name": "Execute me if you can again",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-07-10T01:23:36Z",
           "points": 6
         },
         {
           "name": "Hash breaker reloaded again",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-06-26T03:18:07Z",
           "points": 6
         },
@@ -2351,25 +2363,25 @@
         },
         {
           "name": "Ascii Art",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-04-23T23:50:40Z",
           "points": 6
         },
         {
           "name": "Read me if you can",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-04-03T01:32:55Z",
           "points": 6
         },
         {
           "name": "Execute me if you can",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-03-29T02:58:01Z",
           "points": 5
         },
         {
           "name": "Hash breaker reloaded",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-03-26T22:35:27Z",
           "points": 5
         },
@@ -2435,31 +2447,31 @@
         },
         {
           "name": "Ask your grandpa again!",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-02-13T05:05:13Z",
           "points": 4
         },
         {
           "name": "I saw a little elf",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-02-12T01:09:40Z",
           "points": 4
         },
         {
           "name": "Hash breaker",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-02-11T03:51:57Z",
           "points": 4
         },
         {
           "name": "I hate mathematics",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-02-10T23:09:00Z",
           "points": 3
         },
         {
           "name": "Hash me reloaded",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-02-09T23:59:24Z",
           "points": 3
         },
@@ -2783,13 +2795,13 @@
         },
         {
           "name": "Ask your grandpa!",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2015-12-05T23:04:47Z",
           "points": 2
         },
         {
           "name": "Hash me please",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2015-12-05T18:51:24Z",
           "points": 2
         },
@@ -2813,7 +2825,7 @@
         },
         {
           "name": "Just another login form",
-          "category": "SQL Injection",
+          "category": "Exotic Data Storage",
           "validationDate": "2015-09-12T21:25:15Z",
           "points": 2
         },
@@ -3858,37 +3870,37 @@
         },
         {
           "name": "Hash breaker reloaded",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-12-27T20:22:43Z",
           "points": 5
         },
         {
           "name": "Hash breaker",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-12-27T16:56:37Z",
           "points": 4
         },
         {
           "name": "I hate mathematics",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-12-27T16:27:38Z",
           "points": 3
         },
         {
           "name": "Ask your grandpa!",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-12-27T06:27:45Z",
           "points": 2
         },
         {
           "name": "Hash me reloaded",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-12-27T03:27:06Z",
           "points": 3
         },
         {
           "name": "Hash me please",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-11-05T00:49:10Z",
           "points": 2
         }
@@ -4116,7 +4128,7 @@
         },
         {
           "name": "Just another login form",
-          "category": "SQL Injection",
+          "category": "Exotic Data Storage",
           "validationDate": "2017-08-31T19:16:41Z",
           "points": 2
         },
@@ -4170,31 +4182,31 @@
         },
         {
           "name": "Xor me if you can",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-07-24T14:46:34Z",
           "points": 6
         },
         {
           "name": "Execute me if you can again",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-07-24T10:53:27Z",
           "points": 6
         },
         {
           "name": "Find the right word",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-07-23T00:53:00Z",
           "points": 7
         },
         {
           "name": "Classic Sudoku",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-07-22T22:10:07Z",
           "points": 7
         },
         {
           "name": "Number game",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-07-22T01:51:56Z",
           "points": 7
         },
@@ -4296,7 +4308,7 @@
         },
         {
           "name": "Ascii Art",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-12-31T04:31:45Z",
           "points": 6
         },
@@ -4326,67 +4338,67 @@
         },
         {
           "name": "Read me if you can",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-12-17T15:20:23Z",
           "points": 6
         },
         {
           "name": "Hash breaker reloaded again",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-12-13T22:46:02Z",
           "points": 6
         },
         {
           "name": "Execute me if you can",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-11-28T22:25:03Z",
           "points": 5
         },
         {
           "name": "Hash breaker reloaded",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-11-22T17:52:32Z",
           "points": 5
         },
         {
           "name": "I saw a little elf",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-11-22T08:20:24Z",
           "points": 4
         },
         {
           "name": "Hash breaker",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-11-21T23:18:13Z",
           "points": 4
         },
         {
           "name": "Ask your grandpa again!",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-11-21T22:52:05Z",
           "points": 4
         },
         {
           "name": "I hate mathematics",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-11-21T22:30:09Z",
           "points": 3
         },
         {
           "name": "Hash me reloaded",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-11-21T22:07:50Z",
           "points": 3
         },
         {
           "name": "Ask your grandpa!",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-11-20T09:33:25Z",
           "points": 2
         },
         {
           "name": "Hash me please",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-11-13T01:19:17Z",
           "points": 2
         }
@@ -4543,7 +4555,7 @@
         },
         {
           "name": "Just another login form",
-          "category": "SQL Injection",
+          "category": "Exotic Data Storage",
           "validationDate": "2017-02-09T12:10:22Z",
           "points": 2
         },
@@ -4729,7 +4741,7 @@
         },
         {
           "name": "I saw a little elf",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2014-08-06T01:10:15Z",
           "points": 4
         },
@@ -4753,19 +4765,19 @@
         },
         {
           "name": "Hash breaker",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2014-07-28T22:44:34Z",
           "points": 4
         },
         {
           "name": "I hate mathematics",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2014-07-28T22:26:20Z",
           "points": 3
         },
         {
           "name": "Hash me reloaded",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2014-07-28T22:15:43Z",
           "points": 3
         },
@@ -4777,7 +4789,7 @@
         },
         {
           "name": "Hash me please",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2014-07-28T21:37:46Z",
           "points": 2
         },
@@ -5125,7 +5137,7 @@
         },
         {
           "name": "Just another login form",
-          "category": "SQL Injection",
+          "category": "Exotic Data Storage",
           "validationDate": "2018-06-26T17:20:44Z",
           "points": 2
         },
@@ -5185,31 +5197,31 @@
         },
         {
           "name": "Hash breaker reloaded",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-09-13T23:18:31Z",
           "points": 5
         },
         {
           "name": "Hash breaker",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-09-13T22:56:47Z",
           "points": 4
         },
         {
           "name": "I hate mathematics",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-09-10T04:36:37Z",
           "points": 3
         },
         {
           "name": "Hash me reloaded",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-09-10T00:18:11Z",
           "points": 3
         },
         {
           "name": "Hash me please",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-09-09T23:48:15Z",
           "points": 2
         },
@@ -5522,25 +5534,25 @@
       "challenges": [
         {
           "name": "Hash breaker reloaded",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-07-12T20:13:31Z",
           "points": 5
         },
         {
           "name": "Hash breaker",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-07-11T17:52:08Z",
           "points": 4
         },
         {
           "name": "I hate mathematics",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-07-06T22:58:49Z",
           "points": 3
         },
         {
           "name": "Hash me reloaded",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-07-06T21:59:22Z",
           "points": 3
         },
@@ -5624,13 +5636,13 @@
         },
         {
           "name": "Ask your grandpa!",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2015-06-05T11:48:25Z",
           "points": 2
         },
         {
           "name": "Hash me please",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2015-06-04T18:49:16Z",
           "points": 2
         },
@@ -5816,13 +5828,13 @@
         },
         {
           "name": "Hash breaker",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-10-19T19:54:37Z",
           "points": 4
         },
         {
           "name": "Just another login form",
-          "category": "SQL Injection",
+          "category": "Exotic Data Storage",
           "validationDate": "2018-10-19T16:03:48Z",
           "points": 2
         },
@@ -5888,7 +5900,7 @@
         },
         {
           "name": "Ascii Art",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-09-23T20:24:35Z",
           "points": 6
         },
@@ -6044,7 +6056,7 @@
         },
         {
           "name": "Hash me reloaded",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-05-14T09:11:44Z",
           "points": 3
         },
@@ -6158,7 +6170,7 @@
         },
         {
           "name": "Ask your grandpa!",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2016-10-16T20:38:46Z",
           "points": 2
         },
@@ -6176,7 +6188,7 @@
         },
         {
           "name": "I hate mathematics",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2015-11-09T20:37:00Z",
           "points": 3
         },
@@ -6200,7 +6212,7 @@
         },
         {
           "name": "Hash me please",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2015-11-04T08:11:48Z",
           "points": 2
         },
@@ -6729,7 +6741,7 @@
         },
         {
           "name": "Ask your grandpa!",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-10-08T17:00:52Z",
           "points": 2
         },
@@ -7522,7 +7534,7 @@
         },
         {
           "name": "Execute me if you can",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-01-26T15:07:42Z",
           "points": 5
         },
@@ -7540,25 +7552,25 @@
         },
         {
           "name": "I hate mathematics",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-01-24T10:55:01Z",
           "points": 3
         },
         {
           "name": "Ask your grandpa!",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-01-24T10:40:56Z",
           "points": 2
         },
         {
           "name": "Hash me reloaded",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-01-24T10:40:15Z",
           "points": 3
         },
         {
           "name": "Hash me please",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2017-01-24T09:10:56Z",
           "points": 2
         }
@@ -7811,31 +7823,31 @@
         },
         {
           "name": "Hash breaker",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-08-26T01:21:10Z",
           "points": 4
         },
         {
           "name": "I hate mathematics",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-08-26T00:35:06Z",
           "points": 3
         },
         {
           "name": "Hash me reloaded",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-08-26T00:04:54Z",
           "points": 3
         },
         {
           "name": "Ask your grandpa!",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-08-25T23:46:38Z",
           "points": 2
         },
         {
           "name": "Hash me please",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-08-25T23:18:19Z",
           "points": 2
         },
@@ -8093,7 +8105,7 @@
         },
         {
           "name": "Just another login form",
-          "category": "SQL Injection",
+          "category": "Exotic Data Storage",
           "validationDate": "2017-08-06T22:00:48Z",
           "points": 2
         },
@@ -8351,13 +8363,13 @@
         },
         {
           "name": "I hate mathematics",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-10-13T01:29:23Z",
           "points": 3
         },
         {
           "name": "Hash me reloaded",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-10-13T01:22:13Z",
           "points": 3
         },
@@ -8387,13 +8399,13 @@
         },
         {
           "name": "Ask your grandpa!",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-10-08T17:37:34Z",
           "points": 2
         },
         {
           "name": "Hash me please",
-          "category": "Coding challenges",
+          "category": "Coding Challenges",
           "validationDate": "2018-10-08T16:20:23Z",
           "points": 2
         },
