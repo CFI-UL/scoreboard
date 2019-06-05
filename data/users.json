@@ -6,8 +6,14 @@
       "id": "5258",
       "username": "Corb3nik",
       "url": "https://ringzer0ctf.com/profile/5258/Corb3nik",
-      "points": 1261,
+      "points": 1268,
       "challenges": [
+        {
+          "name": "Brain Teaser 2",
+          "category": "SQL Injection",
+          "validationDate": "2019-06-03T20:52:21Z",
+          "points": 7
+        },
         {
           "name": "I forgot my password",
           "category": "Exotic Data Storage",
