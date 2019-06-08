@@ -6,8 +6,20 @@
       "id": "5258",
       "username": "Corb3nik",
       "url": "https://ringzer0ctf.com/profile/5258/Corb3nik",
-      "points": 1268,
+      "points": 1281,
       "challenges": [
+        {
+          "name": "Brain Teaser 1",
+          "category": "SQL Injection",
+          "validationDate": "2019-06-07T03:06:01Z",
+          "points": 4
+        },
+        {
+          "name": "Doctor Who ?",
+          "category": "SQL Injection",
+          "validationDate": "2019-06-06T22:41:14Z",
+          "points": 9
+        },
         {
           "name": "Brain Teaser 2",
           "category": "SQL Injection",
