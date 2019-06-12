@@ -6,8 +6,20 @@
       "id": "5258",
       "username": "Corb3nik",
       "url": "https://ringzer0ctf.com/profile/5258/Corb3nik",
-      "points": 1281,
+      "points": 1304,
       "challenges": [
+        {
+          "name": "Stop the violence",
+          "category": "Steganography",
+          "validationDate": "2019-06-11T16:54:28Z",
+          "points": 5
+        },
+        {
+          "name": "Mars Reloaded",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-06-10T15:00:58Z",
+          "points": 18
+        },
         {
           "name": "Brain Teaser 1",
           "category": "SQL Injection",
@@ -3932,8 +3944,26 @@
       "id": "13886",
       "username": "aiglebleu",
       "url": "https://ringzer0ctf.com/profile/13886/aiglebleu",
-      "points": 219,
+      "points": 228,
       "challenges": [
+        {
+          "name": "RingZer0 Authenticator",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-06-11T23:18:13Z",
+          "points": 5
+        },
+        {
+          "name": "Windows x86 reversing is cool",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-06-11T20:14:46Z",
+          "points": 3
+        },
+        {
+          "name": "Hacking skill are optional",
+          "category": "Web",
+          "validationDate": "2019-06-11T19:24:57Z",
+          "points": 1
+        },
         {
           "name": "XSS Challenge 1",
           "category": "Web",
@@ -7374,8 +7404,74 @@
       "id": "14941",
       "username": "xehos",
       "url": "https://ringzer0ctf.com/profile/14941/xehos",
-      "points": 75,
+      "points": 120,
       "challenges": [
+        {
+          "name": "Introduction to MIPS",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-06-11T22:54:42Z",
+          "points": 3
+        },
+        {
+          "name": "RingZer0 Authenticator",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-06-11T22:14:00Z",
+          "points": 5
+        },
+        {
+          "name": "Windows x86 reversing is cool",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-06-11T19:54:53Z",
+          "points": 3
+        },
+        {
+          "name": "Intro To Sparc",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-06-11T19:33:04Z",
+          "points": 3
+        },
+        {
+          "name": "Execute me if you can again",
+          "category": "Coding Challenges",
+          "validationDate": "2019-06-10T23:43:54Z",
+          "points": 6
+        },
+        {
+          "name": "Ascii Art",
+          "category": "Coding Challenges",
+          "validationDate": "2019-06-10T23:05:13Z",
+          "points": 6
+        },
+        {
+          "name": "Hey Chuck where is the flag?",
+          "category": "Forensics",
+          "validationDate": "2019-06-09T23:16:51Z",
+          "points": 2
+        },
+        {
+          "name": "Hide my ass in my home!",
+          "category": "Forensics",
+          "validationDate": "2019-06-09T23:09:10Z",
+          "points": 2
+        },
+        {
+          "name": "Read me if you can",
+          "category": "Coding Challenges",
+          "validationDate": "2019-06-09T22:41:08Z",
+          "points": 6
+        },
+        {
+          "name": "Hash breaker reloaded",
+          "category": "Coding Challenges",
+          "validationDate": "2019-06-09T21:11:45Z",
+          "points": 5
+        },
+        {
+          "name": "Hash breaker",
+          "category": "Coding Challenges",
+          "validationDate": "2019-06-09T20:44:27Z",
+          "points": 4
+        },
         {
           "name": "Linux x64 shellcoding level 2",
           "category": "Shellcoding",
