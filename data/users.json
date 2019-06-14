@@ -7404,8 +7404,14 @@
       "id": "14941",
       "username": "xehos",
       "url": "https://ringzer0ctf.com/profile/14941/xehos",
-      "points": 120,
+      "points": 124,
       "challenges": [
+        {
+          "name": "Ask your grandpa again!",
+          "category": "Coding Challenges",
+          "validationDate": "2019-06-13T13:02:24Z",
+          "points": 4
+        },
         {
           "name": "Introduction to MIPS",
           "category": "Reverse Engineering",
