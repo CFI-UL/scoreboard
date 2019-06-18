@@ -7404,8 +7404,20 @@
       "id": "14941",
       "username": "xehos",
       "url": "https://ringzer0ctf.com/profile/14941/xehos",
-      "points": 125,
+      "points": 127,
       "challenges": [
+        {
+          "name": "Words mean something?",
+          "category": "Web",
+          "validationDate": "2019-06-17T19:27:04Z",
+          "points": 1
+        },
+        {
+          "name": "Hacking skill are optional",
+          "category": "Web",
+          "validationDate": "2019-06-17T19:11:00Z",
+          "points": 1
+        },
         {
           "name": "C Jail 1",
           "category": "Jail Escaping",
