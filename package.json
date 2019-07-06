@@ -9,7 +9,7 @@
     "test": "jasmine"
   },
   "dependencies": {
-    "ajv": "^6.10.0",
+    "ajv": "^6.10.1",
     "apexcharts": "^1.4.6",
     "axios": "^0.18.0",
     "commander": "^2.17.1",
