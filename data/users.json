@@ -6,8 +6,20 @@
       "id": "5258",
       "username": "Corb3nik",
       "url": "https://ringzer0ctf.com/profile/5258/Corb3nik",
-      "points": 1304,
+      "points": 1312,
       "challenges": [
+        {
+          "name": "Crypto Leak",
+          "category": "Cryptography",
+          "validationDate": "2019-07-08T11:03:18Z",
+          "points": 4
+        },
+        {
+          "name": "Stay Classy!",
+          "category": "Steganography",
+          "validationDate": "2019-07-08T10:14:59Z",
+          "points": 4
+        },
         {
           "name": "Stop the violence",
           "category": "Steganography",
