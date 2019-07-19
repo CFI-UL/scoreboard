@@ -6713,8 +6713,26 @@
       "id": "18835",
       "username": "TwistedSim",
       "url": "https://ringzer0ctf.com/profile/18835/TwistedSim",
-      "points": 50,
+      "points": 53,
       "challenges": [
+        {
+          "name": "SigID Level 1",
+          "category": "Steganography",
+          "validationDate": "2019-07-18T17:16:50Z",
+          "points": 1
+        },
+        {
+          "name": "Victor you're hidding me something",
+          "category": "Steganography",
+          "validationDate": "2019-07-18T16:43:19Z",
+          "points": 1
+        },
+        {
+          "name": "You're lost? Use the map",
+          "category": "Steganography",
+          "validationDate": "2019-07-18T16:37:59Z",
+          "points": 1
+        },
         {
           "name": "Password reset",
           "category": "Web",
