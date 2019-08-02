@@ -6,8 +6,38 @@
       "id": "5258",
       "username": "Corb3nik",
       "url": "https://ringzer0ctf.com/profile/5258/Corb3nik",
-      "points": 1312,
+      "points": 1328,
       "challenges": [
+        {
+          "name": "See No Evil - Part 5",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-08-01T13:01:38Z",
+          "points": 4
+        },
+        {
+          "name": "See No Evil - Part 4",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-08-01T12:50:32Z",
+          "points": 4
+        },
+        {
+          "name": "See No Evil - Part 3",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-08-01T12:49:38Z",
+          "points": 3
+        },
+        {
+          "name": "See No Evil - Part 2",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-08-01T12:47:07Z",
+          "points": 3
+        },
+        {
+          "name": "See No Evil - Part 1",
+          "category": "Reverse Engineering",
+          "validationDate": "2019-08-01T12:42:50Z",
+          "points": 2
+        },
         {
           "name": "Crypto Leak",
           "category": "Cryptography",
