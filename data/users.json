@@ -6930,7 +6930,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 1890,
+      "points": 1915,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -7453,6 +7453,12 @@
           "category": "Cryptanalysis",
           "validationDate": "2018-11-21T03:57:33+00:00",
           "points": 60
+        },
+        {
+          "name": "AES - ECB",
+          "category": "Cryptanalysis",
+          "validationDate": "2019-08-03T22:01:30+00:00",
+          "points": 25
         }
       ]
     }
