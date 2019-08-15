@@ -1858,7 +1858,7 @@
           "points": 30
         },
         {
-          "name": "HTML - source code",
+          "name": "HTML - Source code",
           "category": "Web - Server",
           "validationDate": "2016-10-22T21:34:12+00:00",
           "points": 5
@@ -1876,7 +1876,7 @@
           "points": 10
         },
         {
-          "name": "HTTP - directory indexing",
+          "name": "HTTP - Directory indexing",
           "category": "Web - Server",
           "validationDate": "2016-10-22T21:41:32+00:00",
           "points": 15
@@ -1888,7 +1888,7 @@
           "points": 15
         },
         {
-          "name": "HTTP - verb tampering",
+          "name": "HTTP - Verb tampering",
           "category": "Web - Server",
           "validationDate": "2016-10-22T21:43:21+00:00",
           "points": 15
@@ -1906,7 +1906,7 @@
           "points": 20
         },
         {
-          "name": "File upload - double extensions",
+          "name": "File upload - Double extensions",
           "category": "Web - Server",
           "validationDate": "2016-10-22T22:17:21+00:00",
           "points": 20
@@ -1918,7 +1918,7 @@
           "points": 20
         },
         {
-          "name": "HTTP - cookies",
+          "name": "HTTP - Cookies",
           "category": "Web - Server",
           "validationDate": "2016-10-22T22:21:01+00:00",
           "points": 20
@@ -1930,13 +1930,13 @@
           "points": 25
         },
         {
-          "name": "File upload - null byte",
+          "name": "File upload - Null byte",
           "category": "Web - Server",
           "validationDate": "2016-10-22T22:48:45+00:00",
           "points": 25
         },
         {
-          "name": "PHP - filters",
+          "name": "PHP - Filters",
           "category": "Web - Server",
           "validationDate": "2016-10-22T22:51:31+00:00",
           "points": 25
@@ -2020,13 +2020,13 @@
           "points": 30
         },
         {
-          "name": "SQL injection - authentication",
+          "name": "SQL injection - Authentication",
           "category": "Web - Server",
           "validationDate": "2016-12-09T04:11:26+00:00",
           "points": 30
         },
         {
-          "name": "SQL injection - string",
+          "name": "SQL injection - String",
           "category": "Web - Server",
           "validationDate": "2016-12-09T04:23:37+00:00",
           "points": 30
@@ -2044,7 +2044,7 @@
           "points": 35
         },
         {
-          "name": "NoSQL injection - authentication",
+          "name": "NoSQL injection - Authentication",
           "category": "Web - Server",
           "validationDate": "2016-12-15T08:21:08+00:00",
           "points": 35
@@ -2182,13 +2182,13 @@
           "points": 30
         },
         {
-          "name": "SQL injection - authentication - GBK",
+          "name": "SQL injection - Authentication - GBK",
           "category": "Web - Server",
           "validationDate": "2018-10-11T02:48:27+00:00",
           "points": 30
         },
         {
-          "name": "SQL injection - numeric",
+          "name": "SQL injection - Numeric",
           "category": "Web - Server",
           "validationDate": "2018-10-11T02:52:29+00:00",
           "points": 35
@@ -2200,7 +2200,7 @@
           "points": 35
         },
         {
-          "name": "SQL injection - filter bypass",
+          "name": "SQL injection - Filter bypass",
           "category": "Web - Server",
           "validationDate": "2018-10-11T03:38:15+00:00",
           "points": 80
@@ -3149,7 +3149,7 @@
       "points": 2355,
       "challenges": [
         {
-          "name": "HTML - source code",
+          "name": "HTML - Source code",
           "category": "Web - Server",
           "validationDate": "2015-10-15T21:25:05+00:00",
           "points": 5
@@ -3251,7 +3251,7 @@
           "points": 15
         },
         {
-          "name": "HTTP - directory indexing",
+          "name": "HTTP - Directory indexing",
           "category": "Web - Server",
           "validationDate": "2016-10-23T07:33:54+00:00",
           "points": 15
@@ -3263,7 +3263,7 @@
           "points": 15
         },
         {
-          "name": "HTTP - verb tampering",
+          "name": "HTTP - Verb tampering",
           "category": "Web - Server",
           "validationDate": "2016-10-23T07:50:18+00:00",
           "points": 15
@@ -3311,19 +3311,19 @@
           "points": 15
         },
         {
-          "name": "SQL injection - authentication",
+          "name": "SQL injection - Authentication",
           "category": "Web - Server",
           "validationDate": "2016-10-31T23:34:13+00:00",
           "points": 30
         },
         {
-          "name": "HTTP - cookies",
+          "name": "HTTP - Cookies",
           "category": "Web - Server",
           "validationDate": "2016-10-31T23:35:51+00:00",
           "points": 20
         },
         {
-          "name": "File upload - double extensions",
+          "name": "File upload - Double extensions",
           "category": "Web - Server",
           "validationDate": "2016-10-31T23:42:43+00:00",
           "points": 20
@@ -3353,19 +3353,19 @@
           "points": 20
         },
         {
-          "name": "File upload - null byte",
+          "name": "File upload - Null byte",
           "category": "Web - Server",
           "validationDate": "2016-11-02T01:09:51+00:00",
           "points": 25
         },
         {
-          "name": "PHP - filters",
+          "name": "PHP - Filters",
           "category": "Web - Server",
           "validationDate": "2016-11-02T01:30:23+00:00",
           "points": 25
         },
         {
-          "name": "SQL injection - string",
+          "name": "SQL injection - String",
           "category": "Web - Server",
           "validationDate": "2016-11-02T03:11:26+00:00",
           "points": 30
@@ -3377,13 +3377,13 @@
           "points": 25
         },
         {
-          "name": "LDAP injection - authentication",
+          "name": "LDAP injection - Authentication",
           "category": "Web - Server",
           "validationDate": "2016-11-04T02:17:46+00:00",
           "points": 35
         },
         {
-          "name": "SQL injection - numeric",
+          "name": "SQL injection - Numeric",
           "category": "Web - Server",
           "validationDate": "2016-11-04T02:53:45+00:00",
           "points": 35
@@ -3395,7 +3395,7 @@
           "points": 30
         },
         {
-          "name": "XPath injection - authentication",
+          "name": "XPath injection - Authentication",
           "category": "Web - Server",
           "validationDate": "2016-11-04T09:59:42+00:00",
           "points": 35
@@ -3473,7 +3473,7 @@
           "points": 5
         },
         {
-          "name": "SQL injection - authentication - GBK",
+          "name": "SQL injection - Authentication - GBK",
           "category": "Web - Server",
           "validationDate": "2017-06-09T19:51:28+00:00",
           "points": 30
@@ -3539,7 +3539,7 @@
           "points": 10
         },
         {
-          "name": "SQL injection - blind",
+          "name": "SQL injection - Blind",
           "category": "Web - Server",
           "validationDate": "2017-09-03T04:51:21+00:00",
           "points": 50
@@ -3629,7 +3629,7 @@
           "points": 25
         },
         {
-          "name": "NoSQL injection - authentication",
+          "name": "NoSQL injection - Authentication",
           "category": "Web - Server",
           "validationDate": "2017-09-26T07:40:38+00:00",
           "points": 35
@@ -3641,7 +3641,7 @@
           "points": 40
         },
         {
-          "name": "XPath injection - string",
+          "name": "XPath injection - String",
           "category": "Web - Server",
           "validationDate": "2017-09-28T09:32:24+00:00",
           "points": 40
@@ -3653,7 +3653,7 @@
           "points": 35
         },
         {
-          "name": "SQL injection - file reading",
+          "name": "SQL injection - File reading",
           "category": "Web - Server",
           "validationDate": "2017-10-02T09:53:23+00:00",
           "points": 40
@@ -3689,7 +3689,7 @@
           "points": 25
         },
         {
-          "name": "LDAP injection - blind",
+          "name": "LDAP injection - Blind",
           "category": "Web - Server",
           "validationDate": "2017-10-27T01:21:21+00:00",
           "points": 55
@@ -6093,7 +6093,7 @@
       "points": 1180,
       "challenges": [
         {
-          "name": "HTML - source code",
+          "name": "HTML - Source code",
           "category": "Web - Server",
           "validationDate": "2016-11-02T23:16:53+00:00",
           "points": 5
@@ -6147,7 +6147,7 @@
           "points": 10
         },
         {
-          "name": "HTTP - directory indexing",
+          "name": "HTTP - Directory indexing",
           "category": "Web - Server",
           "validationDate": "2016-12-07T14:39:03+00:00",
           "points": 15
@@ -6159,7 +6159,7 @@
           "points": 15
         },
         {
-          "name": "File upload - double extensions",
+          "name": "File upload - Double extensions",
           "category": "Web - Server",
           "validationDate": "2016-12-07T15:10:41+00:00",
           "points": 20
@@ -6177,7 +6177,7 @@
           "points": 25
         },
         {
-          "name": "SQL injection - authentication",
+          "name": "SQL injection - Authentication",
           "category": "Web - Server",
           "validationDate": "2016-12-08T18:28:20+00:00",
           "points": 30
@@ -6201,25 +6201,25 @@
           "points": 25
         },
         {
-          "name": "HTTP - verb tampering",
+          "name": "HTTP - Verb tampering",
           "category": "Web - Server",
           "validationDate": "2016-12-09T22:54:12+00:00",
           "points": 15
         },
         {
-          "name": "HTTP - cookies",
+          "name": "HTTP - Cookies",
           "category": "Web - Server",
           "validationDate": "2016-12-12T04:52:10+00:00",
           "points": 20
         },
         {
-          "name": "PHP - filters",
+          "name": "PHP - Filters",
           "category": "Web - Server",
           "validationDate": "2016-12-13T15:39:43+00:00",
           "points": 25
         },
         {
-          "name": "SQL injection - string",
+          "name": "SQL injection - String",
           "category": "Web - Server",
           "validationDate": "2016-12-13T16:36:54+00:00",
           "points": 30
@@ -6243,7 +6243,7 @@
           "points": 35
         },
         {
-          "name": "SQL injection - numeric",
+          "name": "SQL injection - Numeric",
           "category": "Web - Server",
           "validationDate": "2016-12-16T16:05:34+00:00",
           "points": 35
@@ -6381,7 +6381,7 @@
           "points": 5
         },
         {
-          "name": "SQL injection - blind",
+          "name": "SQL injection - Blind",
           "category": "Web - Server",
           "validationDate": "2017-11-14T05:03:47+00:00",
           "points": 50
@@ -6742,7 +6742,7 @@
           "points": 40
         },
         {
-          "name": "HTML - source code",
+          "name": "HTML - Source code",
           "category": "Web - Server",
           "validationDate": "2017-09-16T16:11:41+00:00",
           "points": 5
@@ -6772,7 +6772,7 @@
           "points": 15
         },
         {
-          "name": "HTTP - directory indexing",
+          "name": "HTTP - Directory indexing",
           "category": "Web - Server",
           "validationDate": "2017-09-16T18:54:59+00:00",
           "points": 15
@@ -6784,7 +6784,7 @@
           "points": 15
         },
         {
-          "name": "HTTP - verb tampering",
+          "name": "HTTP - Verb tampering",
           "category": "Web - Server",
           "validationDate": "2017-09-16T20:00:22+00:00",
           "points": 15
@@ -6808,13 +6808,13 @@
           "points": 20
         },
         {
-          "name": "File upload - double extensions",
+          "name": "File upload - Double extensions",
           "category": "Web - Server",
           "validationDate": "2017-09-16T20:58:49+00:00",
           "points": 20
         },
         {
-          "name": "HTTP - cookies",
+          "name": "HTTP - Cookies",
           "category": "Web - Server",
           "validationDate": "2017-09-16T21:49:49+00:00",
           "points": 20
@@ -6892,13 +6892,13 @@
           "points": 15
         },
         {
-          "name": "SQL injection - authentication",
+          "name": "SQL injection - Authentication",
           "category": "Web - Server",
           "validationDate": "2018-10-14T04:04:07+00:00",
           "points": 30
         },
         {
-          "name": "PHP - filters",
+          "name": "PHP - Filters",
           "category": "Web - Server",
           "validationDate": "2018-10-14T04:34:38+00:00",
           "points": 25
@@ -6964,7 +6964,7 @@
           "points": 35
         },
         {
-          "name": "SQL injection - string",
+          "name": "SQL injection - String",
           "category": "Web - Server",
           "validationDate": "2018-10-16T02:27:21+00:00",
           "points": 30
@@ -7691,7 +7691,7 @@
           "points": 10
         },
         {
-          "name": "HTML - source code",
+          "name": "HTML - Source code",
           "category": "Web - Server",
           "validationDate": "2018-10-04T17:38:00+00:00",
           "points": 5
@@ -8189,7 +8189,7 @@
       "points": 5,
       "challenges": [
         {
-          "name": "HTML - source code",
+          "name": "HTML - Source code",
           "category": "Web - Server",
           "validationDate": "2018-10-12T01:13:06+00:00",
           "points": 5
