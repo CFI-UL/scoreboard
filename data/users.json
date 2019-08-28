@@ -3146,7 +3146,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/sushi",
       "username": "sushi",
-      "points": 2355,
+      "points": 2430,
       "challenges": [
         {
           "name": "HTML - Source code",
@@ -3795,6 +3795,24 @@
           "category": "Realist",
           "validationDate": "2019-03-17T07:37:17+00:00",
           "points": 45
+        },
+        {
+          "name": "JSON Web Token (JWT) - Introduction",
+          "category": "Web - Server",
+          "validationDate": "2019-08-26T23:58:55+00:00",
+          "points": 20
+        },
+        {
+          "name": "JSON Web Token (JWT) - Weak secret",
+          "category": "Web - Server",
+          "validationDate": "2019-08-27T00:35:30+00:00",
+          "points": 25
+        },
+        {
+          "name": "JSON Web Token (JWT) - Public key",
+          "category": "Web - Server",
+          "validationDate": "2019-08-27T01:45:34+00:00",
+          "points": 30
         }
       ]
     }
