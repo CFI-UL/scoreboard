@@ -3146,7 +3146,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/sushi",
       "username": "sushi",
-      "points": 2430,
+      "points": 2420,
       "challenges": [
         {
           "name": "HTML - Source code",
@@ -3578,13 +3578,13 @@
           "name": "Audio stegano",
           "category": "Steganography",
           "validationDate": "2017-09-04T08:17:27+00:00",
-          "points": 25
+          "points": 20
         },
         {
           "name": "We need to go deeper",
           "category": "Steganography",
           "validationDate": "2017-09-05T08:43:00+00:00",
-          "points": 25
+          "points": 20
         },
         {
           "name": "Arithmetic progression",
@@ -4515,7 +4515,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/filedesless",
       "username": "filedesless",
-      "points": 185,
+      "points": 180,
       "challenges": [
         {
           "name": "Squared",
@@ -4563,7 +4563,7 @@
           "name": "Audio stegano",
           "category": "Steganography",
           "validationDate": "2018-02-03T06:24:21+00:00",
-          "points": 25
+          "points": 20
         },
         {
           "name": "Encoding - ASCII",
@@ -5512,7 +5512,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/Muemmelmoehre",
       "username": "Muemmelmoehre",
-      "points": 215,
+      "points": 210,
       "challenges": [
         {
           "name": "Gunnm",
@@ -5608,7 +5608,7 @@
           "name": "Audio stegano",
           "category": "Steganography",
           "validationDate": "2018-02-03T06:28:15+00:00",
-          "points": 25
+          "points": 20
         },
         {
           "name": "Dot and next line",
@@ -6108,7 +6108,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/Simon-Thiboutot",
       "username": "lilc4t",
-      "points": 1180,
+      "points": 1170,
       "challenges": [
         {
           "name": "HTML - Source code",
@@ -6330,7 +6330,7 @@
           "name": "Audio stegano",
           "category": "Steganography",
           "validationDate": "2017-08-30T14:12:22+00:00",
-          "points": 25
+          "points": 20
         },
         {
           "name": "Root-We",
@@ -6354,7 +6354,7 @@
           "name": "We need to go deeper",
           "category": "Steganography",
           "validationDate": "2017-10-27T14:47:43+00:00",
-          "points": 25
+          "points": 20
         },
         {
           "name": "HTML - disabled buttons",
@@ -6504,8 +6504,14 @@
       "id": "18835",
       "username": "TwistedSim",
       "url": "https://ringzer0ctf.com/profile/18835/TwistedSim",
-      "points": 53,
+      "points": 54,
       "challenges": [
+        {
+          "name": "SysAdmin Part 1",
+          "category": "SysAdmin Linux",
+          "validationDate": "2019-10-04T18:04:50Z",
+          "points": 1
+        },
         {
           "name": "SigID Level 1",
           "category": "Steganography",
@@ -6691,7 +6697,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/TwistedSim",
       "username": "TwistedSim",
-      "points": 1915,
+      "points": 2015,
       "challenges": [
         {
           "name": "HTML - disabled buttons",
@@ -7220,6 +7226,54 @@
           "category": "Cryptanalysis",
           "validationDate": "2019-08-03T22:01:30+00:00",
           "points": 25
+        },
+        {
+          "name": "FTP - authentication",
+          "category": "Network",
+          "validationDate": "2019-10-02T18:25:04+00:00",
+          "points": 5
+        },
+        {
+          "name": "TELNET - authentication",
+          "category": "Network",
+          "validationDate": "2019-10-02T18:27:48+00:00",
+          "points": 5
+        },
+        {
+          "name": "ETHERNET - frame",
+          "category": "Network",
+          "validationDate": "2019-10-02T18:32:27+00:00",
+          "points": 10
+        },
+        {
+          "name": "Twitter authentication",
+          "category": "Network",
+          "validationDate": "2019-10-02T18:33:57+00:00",
+          "points": 15
+        },
+        {
+          "name": "Bluetooth - Unknown file",
+          "category": "Network",
+          "validationDate": "2019-10-02T18:42:32+00:00",
+          "points": 15
+        },
+        {
+          "name": "CISCO - password",
+          "category": "Network",
+          "validationDate": "2019-10-02T18:46:50+00:00",
+          "points": 15
+        },
+        {
+          "name": "IP - Time To Live",
+          "category": "Network",
+          "validationDate": "2019-10-02T19:17:28+00:00",
+          "points": 15
+        },
+        {
+          "name": "SIP - authentication",
+          "category": "Network",
+          "validationDate": "2019-10-02T19:28:47+00:00",
+          "points": 20
         }
       ]
     }
@@ -7646,7 +7700,7 @@
     "rootMe": {
       "url": "https://www.root-me.org/Vionik",
       "username": "Vionik",
-      "points": 70,
+      "points": 115,
       "challenges": [
         {
           "name": "Encoding - ASCII",
@@ -7713,6 +7767,18 @@
           "category": "Web - Server",
           "validationDate": "2018-10-04T17:38:00+00:00",
           "points": 5
+        },
+        {
+          "name": "Javascript - Native code",
+          "category": "Web - Client",
+          "validationDate": "2019-10-11T03:01:48+00:00",
+          "points": 15
+        },
+        {
+          "name": "Javascript - Obfuscation 3",
+          "category": "Web - Client",
+          "validationDate": "2019-10-11T03:08:22+00:00",
+          "points": 30
         }
       ]
     }
@@ -7724,8 +7790,14 @@
       "id": "17938",
       "username": "OvermindZ",
       "url": "https://ringzer0ctf.com/profile/17938/OvermindZ",
-      "points": 126,
+      "points": 128,
       "challenges": [
+        {
+          "name": "Hide my ass in my home!",
+          "category": "Forensics",
+          "validationDate": "2019-10-15T15:32:27Z",
+          "points": 2
+        },
         {
           "name": "Dr. Pouce",
           "category": "Forensics",
