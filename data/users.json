@@ -7297,8 +7297,38 @@
       "id": "14941",
       "username": "xehos",
       "url": "https://ringzer0ctf.com/profile/14941/xehos",
-      "points": 259,
+      "points": 274,
       "challenges": [
+        {
+          "name": "Don't Stumble in the Process",
+          "category": "SQL Injection",
+          "validationDate": "2019-11-27T22:26:23Z",
+          "points": 4
+        },
+        {
+          "name": "Login portal 2",
+          "category": "SQL Injection",
+          "validationDate": "2019-11-27T18:10:43Z",
+          "points": 3
+        },
+        {
+          "name": "SysAdmin Part 8",
+          "category": "SysAdmin Linux",
+          "validationDate": "2019-11-27T17:48:52Z",
+          "points": 4
+        },
+        {
+          "name": "Don't mess with Noemie; she hates admin!",
+          "category": "SQL Injection",
+          "validationDate": "2019-11-27T14:39:00Z",
+          "points": 3
+        },
+        {
+          "name": "Level1 Pwnage Linux Level Up",
+          "category": "Pwnage Linux",
+          "validationDate": "2019-11-26T20:26:41Z",
+          "points": 1
+        },
         {
           "name": "Po po po po postgresql",
           "category": "SQL Injection",
@@ -7873,8 +7903,26 @@
       "id": "18664",
       "username": "Vionik",
       "url": "https://ringzer0ctf.com/profile/18664/Vionik",
-      "points": 18,
+      "points": 22,
       "challenges": [
+        {
+          "name": "File recovery",
+          "category": "Cryptography",
+          "validationDate": "2019-11-27T10:51:01Z",
+          "points": 1
+        },
+        {
+          "name": "Area 51",
+          "category": "Web",
+          "validationDate": "2019-11-26T17:13:29Z",
+          "points": 1
+        },
+        {
+          "name": "Most Secure Crypto Algo",
+          "category": "JavaScript",
+          "validationDate": "2019-11-26T14:02:44Z",
+          "points": 2
+        },
         {
           "name": "Words mean something?",
           "category": "Web",
