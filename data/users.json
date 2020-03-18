@@ -6,8 +6,14 @@
       "id": "5258",
       "username": "Corb3nik",
       "url": "https://ringzer0ctf.com/profile/5258/Corb3nik",
-      "points": 1328,
+      "points": 1333,
       "challenges": [
+        {
+          "name": "Lost API",
+          "category": "Web",
+          "validationDate": "2020-01-03T08:59:58Z",
+          "points": 5
+        },
         {
           "name": "See No Evil - Part 5",
           "category": "Reverse Engineering",
@@ -1858,7 +1864,7 @@
           "validationDate": "2016-03-15T20:24:42+00:00"
         },
         {
-          "name": "HTML-code-source",
+          "name": "HTML-Code-source",
           "category": "Web-Serveur",
           "points": 5,
           "validationDate": "2016-10-22T21:34:12+00:00"
@@ -1876,7 +1882,7 @@
           "validationDate": "2016-10-22T21:35:28+00:00"
         },
         {
-          "name": "HTTP-directory-indexing",
+          "name": "HTTP-Directory-indexing",
           "category": "Web-Serveur",
           "points": 15,
           "validationDate": "2016-10-22T21:41:32+00:00"
@@ -3149,7 +3155,7 @@
       "points": 2455,
       "challenges": [
         {
-          "name": "HTML-code-source",
+          "name": "HTML-Code-source",
           "category": "Web-Serveur",
           "points": 5,
           "validationDate": "2015-10-15T21:25:05+00:00"
@@ -3251,7 +3257,7 @@
           "validationDate": "2016-10-23T07:29:38+00:00"
         },
         {
-          "name": "HTTP-directory-indexing",
+          "name": "HTTP-Directory-indexing",
           "category": "Web-Serveur",
           "points": 15,
           "validationDate": "2016-10-23T07:33:54+00:00"
@@ -3443,7 +3449,7 @@
           "validationDate": "2017-02-06T07:52:23+00:00"
         },
         {
-          "name": "Retour-au-college",
+          "name": "IRC-Retour-au-college",
           "category": "Programmation",
           "points": 5,
           "validationDate": "2017-02-08T09:39:28+00:00"
@@ -3521,7 +3527,7 @@
           "validationDate": "2017-08-14T05:29:35+00:00"
         },
         {
-          "name": "Chaine-encodee",
+          "name": "IRC-Chaine-encodee",
           "category": "Programmation",
           "points": 10,
           "validationDate": "2017-08-14T05:58:28+00:00"
@@ -3533,7 +3539,7 @@
           "validationDate": "2017-08-27T08:21:50+00:00"
         },
         {
-          "name": "La-Roue-Romaine",
+          "name": "IRC-La-Roue-Romaine",
           "category": "Programmation",
           "points": 10,
           "validationDate": "2017-08-28T08:54:29+00:00"
@@ -3557,7 +3563,7 @@
           "validationDate": "2017-09-04T02:38:10+00:00"
         },
         {
-          "name": "Uncompress-me",
+          "name": "IRC-Uncompress-me",
           "category": "Programmation",
           "points": 10,
           "validationDate": "2017-09-04T06:41:57+00:00"
@@ -6123,7 +6129,7 @@
       "points": 1170,
       "challenges": [
         {
-          "name": "HTML-code-source",
+          "name": "HTML-Code-source",
           "category": "Web-Serveur",
           "points": 5,
           "validationDate": "2016-11-02T23:16:53+00:00"
@@ -6177,7 +6183,7 @@
           "validationDate": "2016-12-07T14:35:22+00:00"
         },
         {
-          "name": "HTTP-directory-indexing",
+          "name": "HTTP-Directory-indexing",
           "category": "Web-Serveur",
           "points": 15,
           "validationDate": "2016-12-07T14:39:03+00:00"
@@ -6778,7 +6784,7 @@
           "validationDate": "2017-09-16T01:16:34+00:00"
         },
         {
-          "name": "HTML-code-source",
+          "name": "HTML-Code-source",
           "category": "Web-Serveur",
           "points": 5,
           "validationDate": "2017-09-16T16:11:41+00:00"
@@ -6808,7 +6814,7 @@
           "validationDate": "2017-09-16T18:44:49+00:00"
         },
         {
-          "name": "HTTP-directory-indexing",
+          "name": "HTTP-Directory-indexing",
           "category": "Web-Serveur",
           "points": 15,
           "validationDate": "2017-09-16T18:54:59+00:00"
@@ -7297,8 +7303,14 @@
       "id": "14941",
       "username": "xehos",
       "url": "https://ringzer0ctf.com/profile/14941/xehos",
-      "points": 274,
+      "points": 280,
       "challenges": [
+        {
+          "name": "Login portal 3",
+          "category": "SQL Injection",
+          "validationDate": "2019-11-29T16:45:41Z",
+          "points": 6
+        },
         {
           "name": "Don't Stumble in the Process",
           "category": "SQL Injection",
@@ -8075,7 +8087,7 @@
           "validationDate": "2018-10-04T17:30:04+00:00"
         },
         {
-          "name": "HTML-code-source",
+          "name": "HTML-Code-source",
           "category": "Web-Serveur",
           "points": 5,
           "validationDate": "2018-10-04T17:38:00+00:00"
@@ -8621,7 +8633,7 @@
       "points": 5,
       "challenges": [
         {
-          "name": "HTML-code-source",
+          "name": "HTML-Code-source",
           "category": "Web-Serveur",
           "points": 5,
           "validationDate": "2018-10-12T01:13:06+00:00"
