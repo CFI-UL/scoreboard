@@ -9,7 +9,7 @@
     "test": "jasmine"
   },
   "dependencies": {
-    "ajv": "^6.10.0",
+    "ajv": "^6.12.2",
     "apexcharts": "^1.4.6",
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.3",
